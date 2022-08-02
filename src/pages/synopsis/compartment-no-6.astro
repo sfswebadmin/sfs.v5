@@ -1,0 +1,13 @@
+---
+import SiteLayout from '../../layouts/Base.astro';
+import synopses from '../../data/synopses.json'
+import Synopsis from '../../components/synopsis.astro';
+const title = "Synopsis for Compartment No. 6";
+---
+
+<SiteLayout title={title}>
+    <div class="container">
+        <Synopsis Synopsis={synopses.synopses[3]}></Synopsis>
+        <!-- {synopses.synopses[0].filmSynopsis} -->
+    </div>
+</SiteLayout>

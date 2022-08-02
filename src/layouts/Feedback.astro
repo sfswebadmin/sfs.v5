@@ -1,13 +1,14 @@
 ---
 import BaseLayout from './Base.astro';
-
+import Reaction from '../components/reaction.astro';
+import reactions from '../data/pastReactions.json';
 import filmData from '../data/films.json';
+
 const films = filmData.films;
-const feedbackTotals = filmData.ratingsTotal;
-import pastReactions from '../data/pastReactions.json';
-import { data } from 'autoprefixer';
+const ratingsTotal = filmData.ratingsTotal;
 
 const { content } = Astro.props;
+const title = "Feedback";
 ---
 
 <BaseLayout title={content.title}>
@@ -15,8 +16,6 @@ const { content } = Astro.props;
         <div class="col-md-12">
 
             <slot />
-
-            {console.log(feedbackTotals)}
 
             <table class="table table-bordered reactions-table">
                 <thead>
@@ -50,22 +49,22 @@ const { content } = Astro.props;
                 <tfoot>
                     <tr>
                         <td><strong>Average</strong></td>
-                        <td>{feedbackTotals.attendance}</td>
-                        <td>{feedbackTotals.returns}</td>
-                        <td>{feedbackTotals.excellent}</td>
-                        <td>{feedbackTotals.good}</td>
-                        <td>{feedbackTotals.average}</td>
-                        <td>{feedbackTotals.disappointing}</td>
-                        <td>{feedbackTotals.awful}</td>
-                        <td>{feedbackTotals.ratingsAverage}</td>
+                        <td>{ratingsTotal.attendance}</td>
+                        <td>{ratingsTotal.returns}</td>
+                        <td>{ratingsTotal.excellent}</td>
+                        <td>{ratingsTotal.good}</td>
+                        <td>{ratingsTotal.average}</td>
+                        <td>{ratingsTotal.disappointing}</td>
+                        <td>{ratingsTotal.awful}</td>
+                        <td>{ratingsTotal.ratingsAverage}</td>
                     </tr>
                 </tfoot>
             </table>
 
             <h2>Audience Feedback To Films In Previous Seasons</h2>
-            {console.log(pastReactions)}
-            {pastReactions.reactions.map((data) => (
-            <h2>{data.title}</h2>
+
+            {reactions.reactions.map((reaction) => (
+            <Reaction Films={reaction.films} SeasonTitle={reaction.title}></Reaction>
             ))}
 
         </div>
