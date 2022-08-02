@@ -1,0 +1,5464 @@
+{
+    "films": [
+        {
+            "Dateshown": 1947,
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 6",
+            "Title": "The Cabinet of Dr Caligari/Our Country/The Three Wicked Sisters",
+            "Director": "Robert Wiene/?/Mary Field",
+            "Year": 1920,
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 3",
+            "Title": "The Lady Vanishes/The Nose Has It/Tough ‘Un",
+            "Director": "",
+            "Year": 1938,
+            "Country": "UK"
+        },
+        {
+            "Dateshown": "May 5",
+            "Title": "Battleship Potemkin/Night Mail/Song of Ceylon",
+            "Director": "",
+            "Year": 1925,
+            "Country": "USSR"
+        },
+        {
+            "Dateshown": "1947/1948",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 11",
+            "Title": "Film & Reality (compilation by Cacalcanti)/Brahms Hungarian Dance/Schuman In der Nacht",
+            "Director": "",
+            "Year": 1942,
+            "Country": "UK"
+        },
+        {
+            "Dateshown": "Oct 16",
+            "Title": "Portrait of Mar ia/Voyage across the impossible/Drawings that walk and talk",
+            "Director": "EmilioFernadez",
+            "Year": 1944,
+            "Country": "Mexico"
+        },
+        {
+            "Dateshown": "Nov 13",
+            "Title": "Visit by Cavalcanti to introduce L’Idee/Man of Aran",
+            "Director": "Bartosch/Flaherty",
+            "Year": "1934/1934",
+            "Country": "France/UK"
+        },
+        {
+            "Dateshown": "Dec 11",
+            "Title": "Birth of a Nation/Papageno (Reiniger)",
+            "Director": "D.W Griffiths",
+            "Year": 1915,
+            "Country": "USA"
+        },
+        {
+            "Dateshown": "Jan 8",
+            "Title": "The Foreman Went To France/The Plow that broke the plains (Lorentz)",
+            "Director": "CharlesFrend",
+            "Year": 1942,
+            "Country": "UK"
+        },
+        {
+            "Dateshown": "Feb 12",
+            "Title": "Day of Wrath/The Seahsell and the Clergyman (Dulac,1927)",
+            "Director": "KarlDreyer",
+            "Year": 1943,
+            "Country": "Denmark"
+        },
+        {
+            "Dateshown": "Mar 11",
+            "Title": "Of Mice and Men/The Champion (Chaplin 1915)",
+            "Director": "Milestone",
+            "Year": 1940,
+            "Country": "USA"
+        },
+        {
+            "Dateshown": "Apr 8",
+            "Title": "Metropolis/Wales-greenmountain,blackmountain",
+            "Director": "FritzLang",
+            "Year": 1927,
+            "Country": "Germany"
+        },
+        {
+            "Dateshown": "May 6",
+            "Title": "Tawny Pipit/Royal Tour of South Africa/two films by the Home Cine Club",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "1948/1949",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 23",
+            "Title": "‘48 Henry V/Carmen (cartoon–Reiniger)",
+            "Director": "",
+            "Year": 1944,
+            "Country": "UK"
+        },
+        {
+            "Dateshown": "Oct 28",
+            "Title": "The Italian Straw Hat/Paintinga Chinese Figure",
+            "Director": "Rene Clair",
+            "Year": 1927,
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 25",
+            "Title": "Frenzy/Instruments of the Orchestra Sjoberg",
+            "Director": "",
+            "Year": 1944,
+            "Country": "Sweden"
+        },
+        {
+            "Dateshown": "Dec 23",
+            "Title": "Mr Deeds Goes To Town/Shoulder Arms (Charlie Chaplin 1918)",
+            "Director": "Frank Capra",
+            "Year": 1936,
+            "Country": "USA"
+        },
+        {
+            "Dateshown": "Jan 27",
+            "Title": "‘49 Kameradschaft/Drifters (Grierson,1929) Pabst",
+            "Director": "Germany",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 24",
+            "Title": "Le Grand Jeu/Latitude & Longitude + a visit by Francis Gysin of Data Films",
+            "Director": "Feyder",
+            "Year": "",
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Mar 24",
+            "Title": "Marie Louise/Berlin (Ruttmann 1927)",
+            "Director": "Lindtberg",
+            "Year": "",
+            "Country": "Switzerland"
+        },
+        {
+            "Dateshown": "Apr 28",
+            "Title": "Brief Encounter/'x + x = 0'",
+            "Director": "David Lean",
+            "Year": 1945,
+            "Country": "UK"
+        },
+        {
+            "Dateshown": "1949/1950",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 24",
+            "Title": "Hamlet (at Regent Cinema)",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 27",
+            "Title": "Four Steps In The Clouds",
+            "Director": "",
+            "Year": 1942,
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 30",
+            "Title": "Farrebique (at Regent Cinema)",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 24",
+            "Title": "Quai Des Brumes",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 27",
+            "Title": "The Stone Flower (at Regent Cinema)",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 22",
+            "Title": "Turkey Time",
+            "Director": "",
+            "Year": 1933,
+            "Country": "UK"
+        },
+        {
+            "Dateshown": "Jan 26",
+            "Title": "Intolerance",
+            "Director": "D.W. Griffith",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 12",
+            "Title": "Barber Of Seville (at Regent Cinema)",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 23",
+            "Title": "A Night At The Opera",
+            "Director": "",
+            "Year": 1935,
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 23",
+            "Title": "Dead Of Night",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "1950/1951",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 28",
+            "Title": "The Overlanders",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 5",
+            "Title": "Le Million (at Regent Cinema)",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 23",
+            "Title": "The General Line",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 21",
+            "Title": "Le Belleet La Bete",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 25",
+            "Title": "Partie De Campagne",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 22",
+            "Title": "White Hell Of Pitz Palu",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 29",
+            "Title": "Marx Brothers Go West",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 22",
+            "Title": "The Bicycle Thieves (at Regent Cinema)",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "1951/1952",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 12-15",
+            "Title": "Film Festival – Jour de Fete/Moor’s Pavane/L’Hippocampe/Two Wagons – Both Covered/Stagecoach/Doctor Syn/Oh Mr Porter",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 16",
+            "Title": "Shortfilms: Scrapbook of 1922/Gay Parisian/Padira/Avalanche Patrol/Paper Chain",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 22",
+            "Title": "Paisa",
+            "Director": "Rosselini",
+            "Year": "",
+            "Country": "Italy"
+        },
+        {
+            "Dateshown": "Dec 20",
+            "Title": "Sylivie Et Le Famtome",
+            "Director": "",
+            "Year": "",
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Jan 24",
+            "Title": "You Can’t Cheat An Honest Man",
+            "Director": "",
+            "Year": "",
+            "Country": "USA"
+        },
+        {
+            "Dateshown": "Feb 21",
+            "Title": "The History Of Mr Polly",
+            "Director": "",
+            "Year": "",
+            "Country": "UK"
+        },
+        {
+            "Dateshown": "1952/1953",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 23",
+            "Title": "The Miracle Angelina M.P.",
+            "Director": "Rosselini/Luigi Zampa",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 2",
+            "Title": "Edouard et Caroline/Triptych (at the Regent Cinema–35mm)",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 20",
+            "Title": "Orphee",
+            "Director": "Jean Cocteau",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 18",
+            "Title": "Adventures in Bokhara",
+            "Director": "",
+            "Year": "",
+            "Country": "Russia"
+        },
+        {
+            "Dateshown": "Jan 21",
+            "Title": "That Others May Live",
+            "Director": "",
+            "Year": "",
+            "Country": "Poland"
+        },
+        {
+            "Dateshown": "Feb 1",
+            "Title": "The Magic Garden/Shadows Over The Snow (at the Regent Cinema–35mm)",
+            "Director": "Sucksdorff",
+            "Year": "",
+            "Country": "Sweden"
+        },
+        {
+            "Dateshown": "Feb 19",
+            "Title": "(visit by Thorold Dickinson)",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 19",
+            "Title": "The Four Horsemen of the Apocalypse",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 23",
+            "Title": "Les Enfants du Paradis",
+            "Director": "Marcel Carne",
+            "Year": "1945",
+            "Country": "France"
+        },
+        {
+            "Dateshown": "1953/1954",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 1",
+            "Title": "Antoine et Antoinette",
+            "Director": "Jacques Baecker",
+            "Year": "",
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Oct 2",
+            "Title": "Citizen Kane",
+            "Director": "Orson Welles",
+            "Year": "",
+            "Country": "USA"
+        },
+        {
+            "Dateshown": "Oct 22",
+            "Title": "L’Eternel Retour",
+            "Director": "Jean Delanney",
+            "Year": 1946,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Nov 19",
+            "Title": "The Queen Of Spades (with talk by the director)",
+            "Director": "Thorell Dickinson",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 12",
+            "Title": "Occupe Toi D’Amelie",
+            "Director": "",
+            "Year": "",
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Jan 21",
+            "Title": "Marius",
+            "Director": "Pgnol",
+            "Year": 1932,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Feb 18",
+            "Title": "Ivan The Terrible (Ivan Groznyy I)",
+            "Director": "Eisenstein",
+            "Year": 1944,
+            "Country": "USSR"
+        },
+        {
+            "Dateshown": "Mar 18",
+            "Title": "The Search",
+            "Director": "",
+            "Year": 1947,
+            "Country": "Switzerland"
+        },
+        {
+            "Dateshown": "Apr 22",
+            "Title": "Dominia D’Agosto",
+            "Director": "Lucian Emmer",
+            "Year": "",
+            "Country": "Italy"
+        },
+        {
+            "Dateshown": "1954/1955",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 23",
+            "Title": "Le Plaisir",
+            "Director": "Max Opuls",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 21",
+            "Title": "Miracle In Milan",
+            "Director": "Vittorio de Sica",
+            "Year": 1951,
+            "Country": "Italy"
+        },
+        {
+            "Dateshown": "Nov 18",
+            "Title": "Rashoman",
+            "Director": "Kurosawa",
+            "Year": 1951,
+            "Country": "Japan"
+        },
+        {
+            "Dateshown": "Dec 16",
+            "Title": "The Magic Seed",
+            "Director": "Eisenstein (supervisor)",
+            "Year": 1941,
+            "Country": "USSR"
+        },
+        {
+            "Dateshown": "Jan 20",
+            "Title": "Fanny",
+            "Director": "Pagnol",
+            "Year": 1933,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Feb 17",
+            "Title": "Isle Of Sinners",
+            "Director": "Jean Delannoy",
+            "Year": 1950,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Mar 17",
+            "Title": "Les Belle De Nuit",
+            "Director": "ReneClair",
+            "Year": 1953,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Apr 21",
+            "Title": "Lecture by Marie Seton, biographer of Eisenstein",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "1955/1956",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 9",
+            "Title": "The Little World of Don Camillo",
+            "Director": "Julian Duvivier",
+            "Year": 1952,
+            "Country": "France/Italy"
+        },
+        {
+            "Dateshown": "Sep 22",
+            "Title": "The General",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 6",
+            "Title": "A Day At The Races",
+            "Director": "",
+            "Year": 1937,
+            "Country": "USA"
+        },
+        {
+            "Dateshown": "Nov 24",
+            "Title": "Les Jeux Inderdits",
+            "Director": "ReneClement",
+            "Year": 1952,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Dec 8",
+            "Title": "The Ghost goes West",
+            "Director": "Rene Clair",
+            "Year": 1935,
+            "Country": "UK"
+        },
+        {
+            "Dateshown": "Jan 19",
+            "Title": "Cesar",
+            "Director": "Pagnol",
+            "Year": 1932,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Feb 9",
+            "Title": "Shichinn No Samurai (Seven Samurai)",
+            "Director": "Kurosawa",
+            "Year": 1954,
+            "Country": "Japan"
+        },
+        {
+            "Dateshown": "Mar 8",
+            "Title": "Froken Julie",
+            "Director": "Alf Sjoberg",
+            "Year": 1950,
+            "Country": "Sweden"
+        },
+        {
+            "Dateshown": "Apr 19",
+            "Title": "Back of Beyond/The Great Adventure",
+            "Director": "John Heyer/Anne Sucksdorff",
+            "Year": "1954/1953",
+            "Country": "Australia/Sweden"
+        },
+        {
+            "Dateshown": "1956/1957",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 5",
+            "Title": "La Ronde",
+            "Director": "Max Ophuls",
+            "Year": 1950,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Sep 6",
+            "Title": "Adventures in Bokhara",
+            "Director": "",
+            "Year": 1943,
+            "Country": "USSR"
+        },
+        {
+            "Dateshown": "Oct 3-4",
+            "Title": "Le Jourse Leve",
+            "Director": "Marcel Carne",
+            "Year": 1939,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Nov 7-8",
+            "Title": "No Resting Place",
+            "Director": "Paul Rothu",
+            "Year": 1951,
+            "Country": "UK"
+        },
+        {
+            "Dateshown": "Dec 5-6",
+            "Title": "Munna (The Lost Child)",
+            "Director": "Khwaja Ahmad Abbas",
+            "Year": 1954,
+            "Country": "India"
+        },
+        {
+            "Dateshown": "Jan 9-10",
+            "Title": "Member Of The Wedding",
+            "Director": "Fred Zimmerman",
+            "Year": 1953,
+            "Country": "USA"
+        },
+        {
+            "Dateshown": "Jan 15",
+            "Title": "Peter The Great Part 1 & 2 (Pyotrpervyy)",
+            "Director": "Vladimir Petrov",
+            "Year": "1937-8",
+            "Country": "USSR"
+        },
+        {
+            "Dateshown": "Feb 6-7",
+            "Title": "Umbertou D",
+            "Director": "Vittorio de Sica",
+            "Year": 1952,
+            "Country": "Italy"
+        },
+        {
+            "Dateshown": "Mar 6-7",
+            "Title": "Les Grandes Manoevres",
+            "Director": "Rene Clair",
+            "Year": 1955,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Apr 3-4",
+            "Title": "Alexander Nevski",
+            "Director": "Eisenstein",
+            "Year": 1932,
+            "Country": "USSR"
+        },
+        {
+            "Dateshown": "1957/1958",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 3-4",
+            "Title": "The Grasshopper",
+            "Director": "",
+            "Year": 1955,
+            "Country": "USSR"
+        },
+        {
+            "Dateshown": "Sep 5",
+            "Title": "Odd Man Out",
+            "Director": "",
+            "Year": 1947,
+            "Country": "UK"
+        },
+        {
+            "Dateshown": "Oct 9-10",
+            "Title": "La Fete A Henriette",
+            "Director": "",
+            "Year": 1952,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Nov 6-7",
+            "Title": "Hill 24 Doesn’t Answer",
+            "Director": "Thorold Dickinson",
+            "Year": 1954,
+            "Country": "Israel"
+        },
+        {
+            "Dateshown": "Dec 4-5",
+            "Title": "The Italian Straw Hat",
+            "Director": "ReneClair",
+            "Year": 1927,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Jan 8-9",
+            "Title": "La Strada",
+            "Director": "",
+            "Year": 1954,
+            "Country": "Italy"
+        },
+        {
+            "Dateshown": "Feb 5-6",
+            "Title": "Marcelino",
+            "Director": "",
+            "Year": 1955,
+            "Country": "Spain"
+        },
+        {
+            "Dateshown": "Mar 5-6",
+            "Title": "La Symphonie Pastorale",
+            "Director": "Delannoy",
+            "Year": 1946,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Apr 9-10",
+            "Title": "Death Of A Cyclist",
+            "Director": "Bardem",
+            "Year": 1955,
+            "Country": "Spain-Italy"
+        },
+        {
+            "Dateshown": "1958/1959",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 2",
+            "Title": "The Sheep Has Five Legs",
+            "Director": "",
+            "Year": 1954,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Sep 4",
+            "Title": "Mr Deeds Goes To Town",
+            "Director": "",
+            "Year": 1936,
+            "Country": "USA"
+        },
+        {
+            "Dateshown": "Oct 8-9",
+            "Title": "A Girl In Black",
+            "Director": "",
+            "Year": 1955,
+            "Country": "Greece"
+        },
+        {
+            "Dateshown": "Nov 5-6",
+            "Title": "The Red Inn",
+            "Director": "",
+            "Year": 1951,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Dec 3-4",
+            "Title": "Whisky Galore",
+            "Director": "",
+            "Year": "",
+            "Country": "UK"
+        },
+        {
+            "Dateshown": "Jan 7-8",
+            "Title": "Portes Des Lilas",
+            "Director": "Rene Clair",
+            "Year": 1957,
+            "Country": "France/Italy"
+        },
+        {
+            "Dateshown": "Feb 4-5",
+            "Title": "The Seventh Seal",
+            "Director": "Ingmar Bergman",
+            "Year": 1957,
+            "Country": "Sweden"
+        },
+        {
+            "Dateshown": "Mar 4-5",
+            "Title": "Death Of A Salesman",
+            "Director": "",
+            "Year": 1952,
+            "Country": "US"
+        },
+        {
+            "Dateshown": "Apr 8-9",
+            "Title": "Jan Hus",
+            "Director": "",
+            "Year": 1955,
+            "Country": "Czechoslovakia"
+        },
+        {
+            "Dateshown": "1959/1960",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 8",
+            "Title": "Clochmerle",
+            "Director": "",
+            "Year": 1948,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Sep 10",
+            "Title": "Kind Hearts & Coronets",
+            "Director": "Robert Hamer",
+            "Year": 1949,
+            "Country": "UK"
+        },
+        {
+            "Dateshown": "Oct 7-8",
+            "Title": "Summer With Monika",
+            "Director": "Ingmar Bergman",
+            "Year": 1952,
+            "Country": "Sweden"
+        },
+        {
+            "Dateshown": "Nov 4-5",
+            "Title": "Letter With The Feathers",
+            "Director": "Hui Shi",
+            "Year": 1953,
+            "Country": "China"
+        },
+        {
+            "Dateshown": "Dec 2-3",
+            "Title": "De Pokkers Unger",
+            "Director": "",
+            "Year": 1947,
+            "Country": "Denmark"
+        },
+        {
+            "Dateshown": "Jan 6-7",
+            "Title": "Eve Wants To Sleep",
+            "Director": "",
+            "Year": 1958,
+            "Country": "Poland"
+        },
+        {
+            "Dateshown": "Feb 3-4",
+            "Title": "The Living Desert",
+            "Director": "James Algar (Disney)",
+            "Year": 1953,
+            "Country": "USA"
+        },
+        {
+            "Dateshown": "Mar 9-10",
+            "Title": "Wild Strawberries",
+            "Director": "Ingmar Bergman",
+            "Year": 1957,
+            "Country": "Sweden"
+        },
+        {
+            "Dateshown": "Apr 6-7",
+            "Title": "Pather Panchali",
+            "Director": "Satyajit Ray",
+            "Year": 1955,
+            "Country": "India"
+        },
+        {
+            "Dateshown": "1960/1961",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 6",
+            "Title": "Du Rififi Chez Les Hommes",
+            "Director": "Jul eDassin",
+            "Year": 1955,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Sep 8",
+            "Title": "The Wages Of Fear",
+            "Director": "",
+            "Year": 1953,
+            "Country": "France/Italy"
+        },
+        {
+            "Dateshown": "Oct 5-6",
+            "Title": "Jour de Fete",
+            "Director": "",
+            "Year": 1949,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Nov 2-3",
+            "Title": "Hiroshima Mon Amour",
+            "Director": "",
+            "Year": 1958,
+            "Country": "France-Japan"
+        },
+        {
+            "Dateshown": "Dec 7-8",
+            "Title": "Due Soldi Di Spreranza",
+            "Director": "Renato Castellani",
+            "Year": 1952,
+            "Country": "Italy"
+        },
+        {
+            "Dateshown": "Jan 4-5",
+            "Title": "Jan Ziska",
+            "Director": "",
+            "Year": "",
+            "Country": "Czechoslov."
+        },
+        {
+            "Dateshown": "Feb 1-2",
+            "Title": "To Telefteo Psemma",
+            "Director": "Cacoyannis",
+            "Year": 1957,
+            "Country": "Greece"
+        },
+        {
+            "Dateshown": "Mar 1-2",
+            "Title": "Power Among Men",
+            "Director": "Thorold Dickinson",
+            "Year": 1958,
+            "Country": "United Nations"
+        },
+        {
+            "Dateshown": "Mar 8",
+            "Title": "Les Enfants Terrible",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 12-13",
+            "Title": "La Grande Illusion",
+            "Director": "Renoir",
+            "Year": 1937,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "1961/1962",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 7",
+            "Title": "The Magnificent Ambersons",
+            "Director": "Orson Welles",
+            "Year": 1942,
+            "Country": "USA"
+        },
+        {
+            "Dateshown": "Oct 4-5",
+            "Title": "Edouard Et Caroline",
+            "Director": "Jacques Becker",
+            "Year": 1950,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Oct 26",
+            "Title": "Shorts:How to Marry A princess/The Visit/Two men & a wardrobe/Himalayan Tapestry",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 1-2",
+            "Title": "Celui Qui Don’t Mourir",
+            "Director": "Jules Dassin",
+            "Year": 1956,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Dec 6-7",
+            "Title": "Night At The Opera",
+            "Director": "Sam Wood",
+            "Year": 1935,
+            "Country": "USA"
+        },
+        {
+            "Dateshown": "Jan 3-4",
+            "Title": "Pote Tin Kyriaki (Never On Sunday)",
+            "Director": "",
+            "Year": 1959,
+            "Country": "Greece"
+        },
+        {
+            "Dateshown": "Feb 7-8",
+            "Title": "Les Quatre Cents Coups",
+            "Director": "Francois Truffaut",
+            "Year": 1959,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Mar 7-8",
+            "Title": "Summer Interlude",
+            "Director": "Ingmar Bergman",
+            "Year": 1951,
+            "Country": "Sweden"
+        },
+        {
+            "Dateshown": "Apr 4-5",
+            "Title": "Out Of Reach Of The Devlil",
+            "Director": "",
+            "Year": 1958,
+            "Country": "Czechoslovakia"
+        },
+        {
+            "Dateshown": "1962/1963",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 5",
+            "Title": "Blackboard Jungle",
+            "Director": "",
+            "Year": 1955,
+            "Country": "US"
+        },
+        {
+            "Dateshown": "Oct 3-4",
+            "Title": "Le Dejeuner Sur L’Herbe",
+            "Director": "Renoir",
+            "Year": 1959,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Nov 1",
+            "Title": "The World Of Apu",
+            "Director": "Satyijit Ray",
+            "Year": 1959,
+            "Country": "India"
+        },
+        {
+            "Dateshown": "Nov 7-8",
+            "Title": "Lady With A Little Dog",
+            "Director": "",
+            "Year": 1960,
+            "Country": "USSR"
+        },
+        {
+            "Dateshown": "Dec 5-6",
+            "Title": "Man In The Raincoat",
+            "Director": "Jul ienDuvivier",
+            "Year": 1958,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Jan 2-3",
+            "Title": "Grapes Of Wrath",
+            "Director": "",
+            "Year": 1940,
+            "Country": "USA"
+        },
+        {
+            "Dateshown": "Feb 6-7",
+            "Title": "Volcano",
+            "Director": "",
+            "Year": 1950,
+            "Country": "Italy"
+        },
+        {
+            "Dateshown": "Mar 6-7",
+            "Title": "Ikuru",
+            "Director": "",
+            "Year": 1952,
+            "Country": "Japan"
+        },
+        {
+            "Dateshown": "Apr 3-4",
+            "Title": "I Solito Ignoti",
+            "Director": "",
+            "Year": 1958,
+            "Country": "Italy"
+        },
+        {
+            "Dateshown": "1963/1978",
+            "Title": "Missing information from Autumn 1963 to Spring 1978",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "1978/1979",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 14",
+            "Title": "The Lacemaker",
+            "Director": "Claude Goretta",
+            "Year": 1977,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Nov 18",
+            "Title": "The Silence",
+            "Director": "Ingmar Berman",
+            "Year": 1962,
+            "Country": "Sweden"
+        },
+        {
+            "Dateshown": "Jan 30",
+            "Title": "Portrait of the Artist as a Young Man",
+            "Director": "Joseph Strick",
+            "Year": 1977,
+            "Country": "UK"
+        },
+        {
+            "Dateshown": "Mar 1",
+            "Title": "Alice in the Cities",
+            "Director": "Wim Wenders",
+            "Year": 1974,
+            "Country": "West Germany"
+        },
+        {
+            "Dateshown": "Apr 20",
+            "Title": "Hearts of the World",
+            "Director": "D.W. Griffith",
+            "Year": 1917,
+            "Country": "USA"
+        },
+        {
+            "Dateshown": "May 24",
+            "Title": "The Devil Probably",
+            "Director": "Robert Bresson",
+            "Year": 1977,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "1979/1981",
+            "Title": "Missing information Autumn 1979 to Spring 1981",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "1982/1983",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 17",
+            "Title": "Lola",
+            "Director": "Fassbinder",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 22",
+            "Title": "Quartet",
+            "Director": "JamesIvory",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 19",
+            "Title": "The Electric Horseman",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 10",
+            "Title": "City of Women",
+            "Director": "Fellini",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 21",
+            "Title": "The Aviator’s Wife",
+            "Director": "Eric Rohmer",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 18",
+            "Title": "Christ Stopped At Eboli",
+            "Director": "Francesco Rosi",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 18",
+            "Title": "The Last Metro",
+            "Director": "Francois Truffaut",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 22",
+            "Title": "From The Life Of The Marionettes",
+            "Director": "Ingmar Bergman",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "May 20",
+            "Title": "Atlantic City",
+            "Director": "Louis Malle",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "1983/1984",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 9",
+            "Title": "Looks And Smiles",
+            "Director": "Ken Loach",
+            "Year": 1981,
+            "Country": "UK"
+        },
+        {
+            "Dateshown": "Sep 23",
+            "Title": "Fitzcarraldo",
+            "Director": "Werner Herzog",
+            "Year": 1982,
+            "Country": "West Germany"
+        },
+        {
+            "Dateshown": "Oct 7",
+            "Title": "Gallipoli",
+            "Director": "Peter Weir",
+            "Year": 1981,
+            "Country": "Australia"
+        },
+        {
+            "Dateshown": "Oct 21",
+            "Title": "Veronica Voss",
+            "Director": "Fassbinder",
+            "Year": 1981,
+            "Country": "West Germany"
+        },
+        {
+            "Dateshown": "Nov 4",
+            "Title": "Illumination/Bezhin Meadow (Yutkevitch 1967)",
+            "Director": "Zanussi",
+            "Year": 1972,
+            "Country": "Poland"
+        },
+        {
+            "Dateshown": "Nov 18",
+            "Title": "Belle De Jour/Un Chien andalou (Bunuel 1929)",
+            "Director": "Luis Bunuel",
+            "Year": 1967,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Dec 2",
+            "Title": "Get Out Your Hankerchiefs",
+            "Director": "Bertrand Blier",
+            "Year": 1977,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Dec 16",
+            "Title": "Reds",
+            "Director": "WarrenBeatty",
+            "Year": 1981,
+            "Country": "USA"
+        },
+        {
+            "Dateshown": "Jan 6",
+            "Title": "Playtime",
+            "Director": "Jacques Tati",
+            "Year": 1967,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Jan 20",
+            "Title": "Identification of a Woman",
+            "Director": "Antonioni",
+            "Year": 1982,
+            "Country": "Italy/France"
+        },
+        {
+            "Dateshown": "Feb 3",
+            "Title": "Heat and Dust",
+            "Director": "James Ivory",
+            "Year": 1982,
+            "Country": "UK"
+        },
+        {
+            "Dateshown": "Feb 17",
+            "Title": "The Seventh Seal",
+            "Director": "Ingmar Bergman",
+            "Year": 1957,
+            "Country": "Sweden"
+        },
+        {
+            "Dateshown": "Mar 23",
+            "Title": "A Midsummer Night’s Sex Comedy",
+            "Director": "Woody Allen",
+            "Year": 1982,
+            "Country": "USA"
+        },
+        {
+            "Dateshown": "Apr 6",
+            "Title": "L’Avventura",
+            "Director": "Antonioni",
+            "Year": 1960,
+            "Country": "Italy"
+        },
+        {
+            "Dateshown": "Apr 27",
+            "Title": "Hammett",
+            "Director": "WimWenders",
+            "Year": 1982,
+            "Country": "USA"
+        },
+        {
+            "Dateshown": "1984/1985",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 21",
+            "Title": "Eating Raoul",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 5",
+            "Title": "Forget Venice",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 19",
+            "Title": "French Lieutenant’s Woman",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 9",
+            "Title": "Diva",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 23",
+            "Title": "First Name Carmen",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 7",
+            "Title": "Can She Bake A Cherry Pie",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 4",
+            "Title": "Swann In Love",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 18",
+            "Title": "Betrayal",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 1-2",
+            "Title": "Festival: La Collectioneuse, A Good Marriage, Love In The Afternoon, Pauline At The Beach",
+            "Director": "Eric Rohmer",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 22",
+            "Title": "Merry Xmas Mr Lawrence",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 22",
+            "Title": "Nostalgia",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 12",
+            "Title": "Sunday In The Country",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 26",
+            "Title": "One Man’s War",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "1985/1986",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 20",
+            "Title": "Full Moon In Paris",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 4",
+            "Title": "Paris, Texas",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 18",
+            "Title": "The Bostonians",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 1",
+            "Title": "Our Story",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 8",
+            "Title": "Gandhi",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 22",
+            "Title": "1984 (with guest Michael Radford)",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 20",
+            "Title": "Local Hero (with guest David Puttnam)",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 10",
+            "Title": "Wetherby",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 31",
+            "Title": "‘86 Carmen",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 14",
+            "Title": "Annie Hall/Broadway Danny Rose",
+            "Director": "Woody Allen",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 15",
+            "Title": "Manhattan/Zelig",
+            "Director": "Woody Allen",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 28",
+            "Title": "The Dresser",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 14",
+            "Title": "Rumblefish",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 4",
+            "Title": "Favourites of the Moon",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 18",
+            "Title": "Another Country",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "1986/1987",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 19",
+            "Title": "Man Of Flowers",
+            "Director": "Paul Cox",
+            "Year": 1984,
+            "Country": "Australia"
+        },
+        {
+            "Dateshown": "Oct 3",
+            "Title": "The Official Version",
+            "Director": "LuisPuenza",
+            "Year": 1984,
+            "Country": "Argentina"
+        },
+        {
+            "Dateshown": "Oct 17",
+            "Title": "Birdy Birdy",
+            "Director": "",
+            "Year": 1985,
+            "Country": "USA"
+        },
+        {
+            "Dateshown": "Oct 31",
+            "Title": "Le Cop Claude Zidi",
+            "Director": "",
+            "Year": 1984,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Nov 14",
+            "Title": "Kiss Of The Spiderwoman",
+            "Director": "Hector Babenco",
+            "Year": 1985,
+            "Country": "USA"
+        },
+        {
+            "Dateshown": "Nov 15",
+            "Title": "The Big Chill",
+            "Director": "Lawrence Kasdan",
+            "Year": 1983,
+            "Country": "USA"
+        },
+        {
+            "Dateshown": "Nov 21",
+            "Title": "Death In A French Garden",
+            "Director": "Michel Deville",
+            "Year": 1985,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Dec 19",
+            "Title": "My Beautiful Laundrette (with guest Stephen Frears",
+            "Director": "Stephen Frears",
+            "Year": 1985,
+            "Country": "UK"
+        },
+        {
+            "Dateshown": "Jan 9",
+            "Title": "When Father Was Away On Business",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 23",
+            "Title": "1919 (with guest Hugh Brody)",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 6",
+            "Title": "Hail Mary/Book Of Mary",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 20",
+            "Title": "Insignificance",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 21",
+            "Title": "Eureka",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 13",
+            "Title": "Maria’s Lovers",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 27",
+            "Title": "Colonel Redl",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 3",
+            "Title": "A Zed And Two Noughts",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 24",
+            "Title": "La Balance",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "1987/1988",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 18",
+            "Title": "After Hours",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 2",
+            "Title": "A Love Bewitched",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 16",
+            "Title": "Turtle Diary",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 30",
+            "Title": "The Sacrifice",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 19",
+            "Title": "Desert Hearts",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 20",
+            "Title": "Vagabonde",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 18",
+            "Title": "Round Midnight",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 8",
+            "Title": "‘88 Men",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 22",
+            "Title": "Inspector Lavardin",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 5",
+            "Title": "Dim Sum",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 18",
+            "Title": "Rosa Luxembourg",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 19",
+            "Title": "Dreamchild",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 11",
+            "Title": "Yellow Earth",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 25",
+            "Title": "The Good Father",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 8",
+            "Title": "The Green Ray",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 22",
+            "Title": "Room With A View",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "1988/1989",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 9",
+            "Title": "Moonstruck",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 23",
+            "Title": "Blue Velvet",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 7",
+            "Title": "Hope and Glory",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 3",
+            "Title": "Aria",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 4",
+            "Title": "Wish You Were Here",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 25",
+            "Title": "Jean de Florette",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 16",
+            "Title": "Radio Days",
+            "Director": "Woody Allen",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 6",
+            "Title": "Babette’s Feast",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 20",
+            "Title": "Cotton Club",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 3",
+            "Title": "Good Morning, Bablylon",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 17",
+            "Title": "Salvador",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 3",
+            "Title": "Let’s Hope It’s A Girl",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 17",
+            "Title": "Betty Blue",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 31",
+            "Title": "Manon des Sources",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 7",
+            "Title": "Adventures of Reinette & Mirabelle",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 28",
+            "Title": "Prick Up Your Ears",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "1989/1990",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 8",
+            "Title": "High Hopes",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 29",
+            "Title": "Lonely Passion of Judith Hearne",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 13",
+            "Title": "Tampopo",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 27",
+            "Title": "The Dead",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 10",
+            "Title": "Au Revoir Les Enfants",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 24",
+            "Title": "A World Apart",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 15",
+            "Title": "My Life As A Dog",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 5",
+            "Title": "‘90 Pathfinder",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 19",
+            "Title": "Angel Heart",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 2",
+            "Title": "Chronicle of Death Foretold",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 16",
+            "Title": "House of Games",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 2",
+            "Title": "Yeelen",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 16",
+            "Title": "Bird",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 6",
+            "Title": "Long Live the Lady",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 20",
+            "Title": "Tucker",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "1990/1991",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 7",
+            "Title": "A Chorus of Disapproval",
+            "Director": "Michael Winner",
+            "Year": 1989,
+            "Country": "UK"
+        },
+        {
+            "Dateshown": "Sep 21",
+            "Title": "Jesus of Montreal",
+            "Director": "Denys Arcand",
+            "Year": 1989,
+            "Country": "Canada"
+        },
+        {
+            "Dateshown": "Oct 5",
+            "Title": "Fellow Traveller",
+            "Director": "Philip Saville",
+            "Year": 1989,
+            "Country": "UK/USA"
+        },
+        {
+            "Dateshown": "Oct 19",
+            "Title": "Salaam Bombay",
+            "Director": "Mira Nair",
+            "Year": 1988,
+            "Country": "India"
+        },
+        {
+            "Dateshown": "Nov 9",
+            "Title": "Eat A Bowl Of Tea",
+            "Director": "Wayne Wang",
+            "Year": 1989,
+            "Country": "USA"
+        },
+        {
+            "Dateshown": "Nov 23",
+            "Title": "Rosalie Goes Shopping",
+            "Director": "Percy Adlon",
+            "Year": 1989,
+            "Country": "Germany"
+        },
+        {
+            "Dateshown": "Dec 14",
+            "Title": "Trop Belle Pour Toi",
+            "Director": "Bernard Blier",
+            "Year": 1989,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Jan 11",
+            "Title": "Married to the Mob",
+            "Director": "Jonathon Demme",
+            "Year": 1988,
+            "Country": "USA"
+        },
+        {
+            "Dateshown": "Jan 25",
+            "Title": "Yeelen Souleymane Cisse",
+            "Director": "",
+            "Year": 1987,
+            "Country": "Mali"
+        },
+        {
+            "Dateshown": "Feb ",
+            "Title": "A Dry White Season",
+            "Director": "Euzhan Palcy",
+            "Year": 1989,
+            "Country": "USA"
+        },
+        {
+            "Dateshown": "Feb 22",
+            "Title": "Cinema Paradiso",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 8",
+            "Title": "Baghdad Café",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 22",
+            "Title": "Life & Nothing But",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 5",
+            "Title": "Field of Dreams",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 12",
+            "Title": "Leningrad Cowboys Go America",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "1991/1992",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 6",
+            "Title": "An Angel At My Table",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 20",
+            "Title": "Hidden Agenda",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 4",
+            "Title": "Vincent & Theo",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 11",
+            "Title": "Tie Me Up! Tie Me Down!",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 1",
+            "Title": "The Big Picture",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 15",
+            "Title": "Dreams",
+            "Director": "Akira Kurosawa",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 29",
+            "Title": "A Tale Of Springtime",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 20",
+            "Title": "Golden Braid",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 17",
+            "Title": "The Sheltering Sky",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 31",
+            "Title": "A City of Sadness",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 7",
+            "Title": "Mr & Mrs Bridges",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 21",
+            "Title": "Frankenstein Unbound",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 6",
+            "Title": "The Grifters",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 20",
+            "Title": "Monsieur Hire",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "1992/1993",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 2",
+            "Title": "Proof",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 16",
+            "Title": "Mississippi Masala",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 7",
+            "Title": "Romauld et Juliette",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 25",
+            "Title": "Sheltering Sky",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 11",
+            "Title": "Raise the Red Lantern (substituted?)",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 2",
+            "Title": "Riff Raff",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 6",
+            "Title": "Mountains of the Moon",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 17",
+            "Title": "Milouen Mai",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 3",
+            "Title": "Throne of Blood",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 17",
+            "Title": "Paths of Glory",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 3",
+            "Title": "Everybody’s Fine",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 24",
+            "Title": "Return of Martin Guerre",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "1993/1994",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 19",
+            "Title": "Orlando",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 3",
+            "Title": "Tout Les Matins Du Monde",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 27",
+            "Title": "Bob Roberts",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 10",
+            "Title": "High Heels",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 1",
+            "Title": "Homicide",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 15",
+            "Title": "Flirting",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 5",
+            "Title": "Les Amants Du Pont Neuf",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 19",
+            "Title": "Black Robe",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 9",
+            "Title": "Schtonk",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 27",
+            "Title": "Raise the Red Lantern",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 16",
+            "Title": "Husbands and Wives",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 30",
+            "Title": "Into The West",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 13",
+            "Title": "Gas, Food, Lodging",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "1994/1995",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 21",
+            "Title": "Raining Stones",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 5",
+            "Title": "Un Couer En Hiver",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 16",
+            "Title": "A Midnight Clear",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 30",
+            "Title": "Manhattan Murder Mystery",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 16",
+            "Title": "Story of Qiu Jou",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 30",
+            "Title": "Like Water For Chocolate",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 14",
+            "Title": "Belle Epoque",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 4",
+            "Title": "A River Runs Through It",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 18",
+            "Title": "The Stolen Children",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 2",
+            "Title": "House of Angels",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 26",
+            "Title": "Short Cuts",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 3",
+            "Title": "Germinal",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 29",
+            "Title": "The Wedding Banquet",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "1995/1996",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 20",
+            "Title": "Nobody’s Fool",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 4",
+            "Title": "3 Colours Red",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 22",
+            "Title": "Hoop Dreams",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 8",
+            "Title": "To Live",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 26",
+            "Title": "Geronimo",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 6",
+            "Title": "Bandit Queen",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 20",
+            "Title": "The Slingshot",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 3",
+            "Title": "Le Colonel Chabert",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 17",
+            "Title": "I Love A Man In Uniform",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 31",
+            "Title": "The Silences Of The Palace",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 14",
+            "Title": "Once We Were Warriors",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 28",
+            "Title": "We Don’t Want to Talk About It",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 17",
+            "Title": "Cronos",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 3",
+            "Title": "Second Best",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "1996/1997",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 11-18",
+            "Title": "100 Years of Cinema Festival – Ossessione/Seven Samurai/Les Diaboliques",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 2",
+            "Title": "Land and Freedom",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 16",
+            "Title": "Il Postino",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 30",
+            "Title": "Small Faces",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 10",
+            "Title": "Richard III",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 4",
+            "Title": "Burnt By The Sun",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 18",
+            "Title": "Ermo",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 8",
+            "Title": "Nelly & Mr Arnaud",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 29",
+            "Title": "Devil In A Blue Dress",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 12",
+            "Title": "The Promise",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 2",
+            "Title": "Shanghai Triad",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 12",
+            "Title": "L’Amoro Molesto",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 26",
+            "Title": "Farinelli Il Castrato",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 16",
+            "Title": "La Ceremonie",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "1997/1998",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 17",
+            "Title": "Fargo",
+            "Director": "",
+            "Year": "",
+            "Country": "USA"
+        },
+        {
+            "Dateshown": "Oct 8",
+            "Title": "Ridicule",
+            "Director": "",
+            "Year": "",
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Oct 22",
+            "Title": "Kolya",
+            "Director": "",
+            "Year": "",
+            "Country": "Czech Rep"
+        },
+        {
+            "Dateshown": "Oct 29",
+            "Title": "The Day The Sun Turned Cold",
+            "Director": "",
+            "Year": "",
+            "Country": "China"
+        },
+        {
+            "Dateshown": "Nov 5",
+            "Title": "The Star Maker",
+            "Director": "",
+            "Year": "",
+            "Country": "Italy"
+        },
+        {
+            "Dateshown": "Dec 17",
+            "Title": "Big Night",
+            "Director": "",
+            "Year": "",
+            "Country": "USA"
+        },
+        {
+            "Dateshown": "Jan 7",
+            "Title": "Carla’s Song",
+            "Director": "",
+            "Year": "",
+            "Country": "UK/Nicaragua"
+        },
+        {
+            "Dateshown": "Jan 21",
+            "Title": "The Eighth Day",
+            "Director": "",
+            "Year": "",
+            "Country": "Belgium"
+        },
+        {
+            "Dateshown": "Feb 4",
+            "Title": "Lone Star",
+            "Director": "",
+            "Year": "",
+            "Country": "USA"
+        },
+        {
+            "Dateshown": "Feb 18",
+            "Title": "Through The Olive Trees",
+            "Director": "",
+            "Year": "",
+            "Country": "Iran"
+        },
+        {
+            "Dateshown": "Mar 11",
+            "Title": "Bits and Pieces",
+            "Director": "",
+            "Year": "",
+            "Country": "Italy"
+        },
+        {
+            "Dateshown": "Mar 18",
+            "Title": "A Self-Made Hero",
+            "Director": "",
+            "Year": "",
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Mar 18",
+            "Title": "Antonia’s Line",
+            "Director": "",
+            "Year": "",
+            "Country": "Holland"
+        },
+        {
+            "Dateshown": "1998/1999",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 16",
+            "Title": "The Sweet Hereafter",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 30",
+            "Title": "Lucie Aubrac",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 14",
+            "Title": "The Woodlanders",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 21",
+            "Title": "Prisoner Of The Mountain",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 28",
+            "Title": "The End Of Violence",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 11",
+            "Title": "Temptress Moon",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 2",
+            "Title": "Love And Death On Long Island",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 16",
+            "Title": "Ma Vie En Rose",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 6",
+            "Title": "I Went Down",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 20",
+            "Title": "Unhook The Stars",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 3",
+            "Title": "L’Appartment",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 10",
+            "Title": "Pretty Village, Pretty Flame",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 17",
+            "Title": "Kitchen",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 3",
+            "Title": "Swingers",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 10",
+            "Title": "Un Aire De Famille",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 31",
+            "Title": "My Name Is Joe",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "1999/2000",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 8",
+            "Title": "Live Flesh",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 15",
+            "Title": "An Autumn Tale",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 29",
+            "Title": "Central Station",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 20",
+            "Title": "The Red Violin",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 27",
+            "Title": "Hana Bi",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 3",
+            "Title": "The Thief",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 17",
+            "Title": "The Day Trippers",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 24",
+            "Title": "Hamam–The Turkish Bath",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 22",
+            "Title": "Shall We Dance",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 5",
+            "Title": "The Spanish Prisoner",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 19",
+            "Title": "Festen",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 5",
+            "Title": "Fire",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 27",
+            "Title": "Slingblade",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 15",
+            "Title": "The Eel",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 22",
+            "Title": "The Dream Life Of Angels",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 19",
+            "Title": "Character",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "2000/2001",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 13",
+            "Title": "Afterlife",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 20",
+            "Title": "Buena Vista Social Club",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 4",
+            "Title": "Show Me Love",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 25",
+            "Title": "Solomon & Gaenor",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 15",
+            "Title": "All About My Mother",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 22",
+            "Title": "Les Convoyeurs",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 29",
+            "Title": "Limbo",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 20",
+            "Title": "Happy, Texas",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 3",
+            "Title": "Ratcatcher",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 13",
+            "Title": "Mifune",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 31",
+            "Title": "Ghost Dog",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 14",
+            "Title": "Lover Of The Arctic Circle",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 28",
+            "Title": "Le Temps Retrouve",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 14",
+            "Title": "Xiao Wu",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 21",
+            "Title": "Kissed",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 11",
+            "Title": "The Cup",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "2001/2002",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 17",
+            "Title": "Harry He’s Here To Help",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 24",
+            "Title": "Butterfly’s Tongue",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 31",
+            "Title": "In The Mood For Love",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 7",
+            "Title": "State And Main",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 21",
+            "Title": "Ugetsu Monogatari",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 28",
+            "Title": "Croupier",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 5",
+            "Title": "The Colour Of Paradise",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 19",
+            "Title": "Best In Show",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 9",
+            "Title": "La Veuve De St.Pierre",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 16",
+            "Title": "Requiem For A Dream",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 30",
+            "Title": "Before Night Falls",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 13",
+            "Title": "Earth",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 27",
+            "Title": "Amores Perros",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 6",
+            "Title": "A One And A Two",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 27",
+            "Title": "Amelie",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 3",
+            "Title": "Nurse Betty",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "2002/2003",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 15",
+            "Title": "Me You Them",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 29",
+            "Title": "Kandahar",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 12",
+            "Title": "Sex & Lucia",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 19",
+            "Title": "Cool & Crazy",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 9",
+            "Title": "Dinner Rush",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 12",
+            "Title": "The Deep End",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 26",
+            "Title": "The Warrior",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 16",
+            "Title": "A Taste Of Others",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 23",
+            "Title": "No Man’s Land",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "May 4",
+            "Title": "The Officers’ Ward",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "May 14",
+            "Title": "The Devil’s Backbone",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "May 28",
+            "Title": "Italian For Beginners",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jun 4",
+            "Title": "Lantana",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jun 11",
+            "Title": "Monsoon Wedding",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "2003/2004",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 15",
+            "Title": "Son Of The Bride",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 22",
+            "Title": "L’Homme Du Train",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 12",
+            "Title": "The Man Without A Past",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 26",
+            "Title": "Dirty Pretty Things",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 3",
+            "Title": "Balzac And The Little Chinese Seamstress",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 17",
+            "Title": "Etre Et Avoir",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 7",
+            "Title": "Morvern Callar",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 21",
+            "Title": "Russian Ark",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 4",
+            "Title": "Elling",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 18",
+            "Title": "Dark Water",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 3",
+            "Title": "Adaptation",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 17",
+            "Title": "GoodBye, Lenin!",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 7",
+            "Title": "Max",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 28",
+            "Title": "The Clay Bird",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "2004/2005",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 14",
+            "Title": "Spring, Summer, Autumn, Winter…and Spring",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 29",
+            "Title": "GoodBye, Lenin!",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 13",
+            "Title": "The Station Agent",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 27",
+            "Title": "Osama",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 3",
+            "Title": "Blind Shaft",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 1",
+            "Title": "Noi The Albino",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 22",
+            "Title": "American Splendour",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 5",
+            "Title": "Wondrous Oblivion",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 19",
+            "Title": "Usak",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 2",
+            "Title": "The Miracle Of Bern",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 16",
+            "Title": "The Return",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 23",
+            "Title": "Initimate Strangers",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 23",
+            "Title": "Man Of The Year",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 30",
+            "Title": "The Cuckoo",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 13",
+            "Title": "I’m Not Scared",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "2005/2006",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 14",
+            "Title": "My Summer Of Love",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 28",
+            "Title": "Memories Of Murder",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 12",
+            "Title": "The Edukators",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 26",
+            "Title": "Look At Me",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 9",
+            "Title": "Life Is A Miracle",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 23",
+            "Title": "Turtles Can Fly",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 14",
+            "Title": "Only Human",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 11",
+            "Title": "Twin Sisters",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 18",
+            "Title": "The Holy Girl",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 1",
+            "Title": "Downfall",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 15",
+            "Title": "A Very Long Engagement",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 8",
+            "Title": "Moolaade",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 29",
+            "Title": "Koktebel",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 12",
+            "Title": "Maria Full Of Grace",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 19",
+            "Title": "A Thousand Months",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "2006/2007",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 20",
+            "Title": "The Squid & The Whale",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 4",
+            "Title": "Cache (Hidden)",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 18",
+            "Title": "Tsotsi",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 1",
+            "Title": "Bombon El Perro",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 15",
+            "Title": "Tickets",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 29",
+            "Title": "Paradise Now",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 6",
+            "Title": "Merry Christmas",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 20",
+            "Title": "Seducing Dr Lewis",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 10",
+            "Title": "Offside",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 17",
+            "Title": "Child",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 7",
+            "Title": "Bread & Tulips",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 21",
+            "Title": "Fateless",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 7",
+            "Title": "The Lady Vanishes",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 28",
+            "Title": "Le Grand Voyage",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 14",
+            "Title": "The Wind That Shakes The Barley",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 18",
+            "Title": "Familia Rodante",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "2007/2008",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 19",
+            "Title": "Ten Canoes",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 26",
+            "Title": "Volver",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 17",
+            "Title": "The Page Turner",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 31",
+            "Title": "Live Of Others",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 14",
+            "Title": "The Blossoming Of Maximo Oliveros",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 5",
+            "Title": "A Prairie Home Companion",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 9",
+            "Title": "Away From Her",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 30",
+            "Title": "After The Wedding",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 6",
+            "Title": "Pan’s Labyrinth",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 20",
+            "Title": "Mon Oncle",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 5",
+            "Title": "Water",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 19",
+            "Title": "Esma’s Secret",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 2",
+            "Title": "Petites Vacances",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 16",
+            "Title": "Red Road",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "2008/2009",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 17",
+            "Title": "Caramel",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 1",
+            "Title": "The Counterfeiters",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 22",
+            "Title": "Mountain Patrol",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 5",
+            "Title": "My Brother Is An Only Child",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 19",
+            "Title": "The Orphanage",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 3",
+            "Title": "Persepolis",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 17",
+            "Title": "Happy-Go-Lucky",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 7",
+            "Title": "The Golden Door",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 21",
+            "Title": "The Marriage of Maria Braun",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 4",
+            "Title": "Couscous",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 18",
+            "Title": "Still Life",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 4",
+            "Title": "I Served The King Of England",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 18",
+            "Title": "The Diving Bell And The Butterfly",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 8",
+            "Title": "The Edge Of Heaven",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 15",
+            "Title": "The Band’s Visit",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "2009/2010",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 16",
+            "Title": "Emma’s Bliss",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 30",
+            "Title": "I’ve Loved You So Long",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 21",
+            "Title": "Small Engine Repair",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 4",
+            "Title": "Jar City",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 18",
+            "Title": "Lemon Tree",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 2",
+            "Title": "Gomorrah",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 16",
+            "Title": "Bienvenue Chez Les Ch’tis",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 6",
+            "Title": "The Visitor",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 20",
+            "Title": "The Class",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 10",
+            "Title": "Cherry Blossoms",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 17",
+            "Title": "The Hide",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 3",
+            "Title": "Katyn",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 17",
+            "Title": "Let The Right One In",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 31",
+            "Title": "Broken Embraces",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 14",
+            "Title": "King’s Game",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "2010/2011",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 15",
+            "Title": "Conversations With My Gardener",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 29",
+            "Title": "I Am Love",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 6",
+            "Title": "London River",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 27",
+            "Title": "A Prophet",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 3",
+            "Title": "Machan",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 17",
+            "Title": "Fish Tank",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 1",
+            "Title": "Still Walking",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 15",
+            "Title": "Mid-August Lunch",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 5",
+            "Title": "The White Ribbon",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 19",
+            "Title": "Welcome",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 2",
+            "Title": "Katalin Varga",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 16",
+            "Title": "Tulpan",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 9",
+            "Title": "Seraphine",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 23",
+            "Title": "Mother",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 6",
+            "Title": "Everlasting Moments",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "2011/2012",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 21",
+            "Title": "Mary And Max",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 5",
+            "Title": "Pomegranates And Myrhh",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 19",
+            "Title": "My Afternoons With Margeuritte",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 26",
+            "Title": "Restrepo",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 9",
+            "Title": "Of Gods And Men",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 30",
+            "Title": "Oranges And Sunshine",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 7",
+            "Title": "Loose Cannons",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 4",
+            "Title": "Aftershock",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 18",
+            "Title": "Incendies",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 1",
+            "Title": "Life, Above All",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 15",
+            "Title": "How I Ended This Summer",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 29",
+            "Title": "Submarine",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 14",
+            "Title": "Sarah’s Key",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 28",
+            "Title": "A Separation",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 4",
+            "Title": "Tricks",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "2012/2013",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 19",
+            "Title": "The Kid With A Bike",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 3",
+            "Title": "Coriolanus",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 10",
+            "Title": "Las Acacias",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 31",
+            "Title": "Poetry",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 7",
+            "Title": "Mlle Chambon",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 5",
+            "Title": "In Darkness",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 19",
+            "Title": "The Salt Of Life",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 9",
+            "Title": "A Royal Affair",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 16",
+            "Title": "Breathing",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 30",
+            "Title": "Headhunters",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 13",
+            "Title": "The Source",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 20",
+            "Title": "Even The Rain",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 6",
+            "Title": "Wild Bill",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 13",
+            "Title": "A Screaming Man",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 27",
+            "Title": "Monsieur Lazhar",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "2013/2014",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 18",
+            "Title": "Barbara",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 2",
+            "Title": "Amour",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 16",
+            "Title": "A Hijacking",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 30",
+            "Title": "The Hunter",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 6",
+            "Title": "I Wish",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 20",
+            "Title": "In The House",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 4",
+            "Title": "A Late Quartet",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 18",
+            "Title": "Wadjda",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 15",
+            "Title": "Lore",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 29",
+            "Title": "Elena",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 5",
+            "Title": "About Elly",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 12",
+            "Title": "Blancanieves",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 19",
+            "Title": "A Simple Life",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 12",
+            "Title": "Sister",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 19",
+            "Title": "Reality",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 2",
+            "Title": "Cinema Paradiso",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "2014/2015",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 1",
+            "Title": "Calvary",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 15",
+            "Title": "The Past",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 22",
+            "Title": "Tracks",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 12",
+            "Title": "Like Father, Like Son",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 19",
+            "Title": "We Are The Best!",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 3",
+            "Title": "The Great Beauty",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 17",
+            "Title": "The Lunchbox",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 7",
+            "Title": "Nebraska",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 21",
+            "Title": "Suzanne",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 4",
+            "Title": "The Golden Dream",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 11",
+            "Title": "The Invisible Woman",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 18",
+            "Title": "The Selfish Giant",
+            "Director": "Ken Loach",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 4",
+            "Title": "Cycling With Moliere",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 11",
+            "Title": "Ida",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 18",
+            "Title": "Omar",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 1",
+            "Title": "Jimmy’s Hall",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "2015/2016",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 30",
+            "Title": "Two Days, One Night",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 14",
+            "Title": "Timbuktu",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 28",
+            "Title": "Of Horse And Men",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 18",
+            "Title": "Lilting",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 25",
+            "Title": "Leviathan",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 2",
+            "Title": "Before The Winter Chill",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 9",
+            "Title": "The 100-Year Old Man Who Climbed Out The Window And Disappeared",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 6",
+            "Title": "Phoenix",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 20",
+            "Title": "Kumiko, The Treasure Hunter",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 3",
+            "Title": "Force Majeure",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 10",
+            "Title": "When I Saw You",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 24",
+            "Title": "The Priest’s Children",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 2",
+            "Title": "Love Is Strange",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 23",
+            "Title": "Still Life",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "2016/2017",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 14",
+            "Title": "Tangerine",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 5",
+            "Title": "Mustang",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 19",
+            "Title": "The Way He Looks",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 26",
+            "Title": "Theeb",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 2",
+            "Title": "Irrational Man",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 9",
+            "Title": "The Broken Circle Breakdown",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 7",
+            "Title": "Babette’s Feast",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 18",
+            "Title": "Marshland",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 1",
+            "Title": "Our Little Sister",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 8",
+            "Title": "The Crow’s Egg",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 22",
+            "Title": "I, Daniel Blake",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 1",
+            "Title": "Rams",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 8",
+            "Title": "The Second Mother",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 15",
+            "Title": "Queen of Katwe",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 22",
+            "Title": "Son of Saul",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Apr 12",
+            "Title": "Marguerite",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "2017/2018",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 13",
+            "Title": "The Olive Tree",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 20",
+            "Title": "Frantz",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 4",
+            "Title": "Clash",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Oct 18",
+            "Title": "The Ghost And Mrs Muir",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 1",
+            "Title": "The Castle",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Nov 22",
+            "Title": "Neruda",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Dec 6",
+            "Title": "The Young Offenders",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 10",
+            "Title": "A Man Called Ove",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 17",
+            "Title": "The Black Hen",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Jan 31",
+            "Title": "The Salesman",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 7",
+            "Title": "Burn, Burn, Burn",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 21",
+            "Title": "Julieta",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Feb 28",
+            "Title": "Tanna",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 14",
+            "Title": "After The Storm",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Mar 28",
+            "Title": "Train To Busan",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "2018/2019",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 5",
+            "Title": "Loving Vincent",
+            "Director": "Dorota Kobiela, Hugh Welchman",
+            "Year": 2016,
+            "Country": "Poland,UK"
+        },
+        {
+            "Dateshown": "Sep 19",
+            "Title": "Dheepan",
+            "Director": "Jacques Audiard",
+            "Year": 2016,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Oct 3",
+            "Title": "Hotel Salvation",
+            "Director": "Shubhashish Bhutiani",
+            "Year": 2016,
+            "Country": "India"
+        },
+        {
+            "Dateshown": "Oct 17",
+            "Title": "In Between",
+            "Director": "Maysaloun Hamoud",
+            "Year": 2016,
+            "Country": "Palestine"
+        },
+        {
+            "Dateshown": "Nov 7",
+            "Title": "All Quiet On The Western Front",
+            "Director": "Lewis Milestone",
+            "Year": 1930,
+            "Country": "USA"
+        },
+        {
+            "Dateshown": "Nov 21",
+            "Title": "I Am Not A Witch",
+            "Director": "Rungano Nyoni",
+            "Year": 2017,
+            "Country": "UK,France,Germany"
+        },
+        {
+            "Dateshown": "Dec 12",
+            "Title": "Sanctuary",
+            "Director": "Len Collin",
+            "Year": 2016,
+            "Country": "Ireland"
+        },
+        {
+            "Dateshown": "Jan 9",
+            "Title": "Youth",
+            "Director": "Paolo Sorrentino",
+            "Year": 2015,
+            "Country": "Italy,France,UK,Switzerland"
+        },
+        {
+            "Dateshown": "Feb 16",
+            "Title": "The Nile Hilton Incident",
+            "Director": "Tarik Saleh",
+            "Year": 2017,
+            "Country": "Morrocco, Denmark"
+        },
+        {
+            "Dateshown": "Jan 30",
+            "Title": "The Party",
+            "Director": "Sally Potter",
+            "Year": 2017,
+            "Country": "UK"
+        },
+        {
+            "Dateshown": "Feb 13",
+            "Title": "Mountians May Depart",
+            "Director": "Jia Zhangke",
+            "Year": 2015,
+            "Country": "China"
+        },
+        {
+            "Dateshown": "Mar 6",
+            "Title": "The School Of Life",
+            "Director": "Nicolas Vanier",
+            "Year": 2017,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Mar 20",
+            "Title": "Land Of Mine",
+            "Director": "Martin Zandvliet",
+            "Year": 2015,
+            "Country": "Denmark, Germany"
+        },
+        {
+            "Dateshown": "Apr 3",
+            "Title": "Phantom Thread",
+            "Director": "Paul Thomas Anderson",
+            "Year": 2017,
+            "Country": "UK"
+        },
+        {
+            "Dateshown": "2019/2020",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 4",
+            "Title": "Leave No Trace",
+            "Director": "",
+            "Year": 2018,
+            "Country": "USA"
+        },
+        {
+            "Dateshown": "Sep 11",
+            "Title": "A Fantastic Woman",
+            "Director": "",
+            "Year": 2017,
+            "Country": "Chile"
+        },
+        {
+            "Dateshown": "Oct 2",
+            "Title": "Wajib",
+            "Director": "",
+            "Year": 2017,
+            "Country": "Palenstine"
+        },
+        {
+            "Dateshown": "Oct 23",
+            "Title": "Summer 1993",
+            "Director": "",
+            "Year": 2017,
+            "Country": "Spain"
+        },
+        {
+            "Dateshown": "Nov 6",
+            "Title": "Cold War",
+            "Director": "",
+            "Year": 2018,
+            "Country": "Poland"
+        },
+        {
+            "Dateshown": "Nov 20",
+            "Title": "The Guardians",
+            "Director": "",
+            "Year": 2017,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Dec 11",
+            "Title": "Faces Places",
+            "Director": "",
+            "Year": 2017,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Jan 8",
+            "Title": "Shoplifters",
+            "Director": "",
+            "Year": 2018,
+            "Country": "Japan"
+        },
+        {
+            "Dateshown": "Jan 22",
+            "Title": "Foxtrot",
+            "Director": "",
+            "Year": 2018,
+            "Country": "Israel"
+        },
+        {
+            "Dateshown": "Feb 5",
+            "Title": "The Divine Order",
+            "Director": "",
+            "Year": 2017,
+            "Country": "Switzerland"
+        },
+        {
+            "Dateshown": "Feb 12",
+            "Title": "The Guilty",
+            "Director": "",
+            "Year": 2018,
+            "Country": "Denmark"
+        },
+        {
+            "Dateshown": "Mar 4",
+            "Title": "Woman at War",
+            "Director": "",
+            "Year": 2017,
+            "Country": "Iceland"
+        },
+        {
+            "Dateshown": "Mar 18",
+            "Title": "1945 (not shown)",
+            "Director": "",
+            "Year": 2017,
+            "Country": "Hungary"
+        },
+        {
+            "Dateshown": "Apr 1",
+            "Title": "The Wife (not shown)",
+            "Director": "",
+            "Year": 2017,
+            "Country": "USA"
+        },
+        {
+            "Dateshown": "2020/2021",
+            "Title": "No films shown due to the pandemic",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "2021/2022",
+            "Title": "",
+            "Director": "",
+            "Year": "",
+            "Country": ""
+        },
+        {
+            "Dateshown": "Sep 1",
+            "Title": "Bait",
+            "Director": "",
+            "Year": 2019,
+            "Country": "UK"
+        },
+        {
+            "Dateshown": "Sep 8",
+            "Title": "The Cakemaker",
+            "Director": "",
+            "Year": 2017,
+            "Country": "Isreal"
+        },
+        {
+            "Dateshown": "Oct 8",
+            "Title": "A Season in France",
+            "Director": "",
+            "Year": 2017,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Oct 13",
+            "Title": "The Farewell",
+            "Director": "",
+            "Year": 2019,
+            "Country": "China"
+        },
+        {
+            "Dateshown": "Nov 3",
+            "Title": "Permission",
+            "Director": "",
+            "Year": 2018,
+            "Country": "Iran"
+        },
+        {
+            "Dateshown": "Nov 17",
+            "Title": "Transit",
+            "Director": "",
+            "Year": 2018,
+            "Country": "Germany/France"
+        },
+        {
+            "Dateshown": "Dec 8",
+            "Title": "The Chambermaid",
+            "Director": "",
+            "Year": 2018,
+            "Country": "Mexico"
+        },
+        {
+            "Dateshown": "Dec 15",
+            "Title": "The Peanut Butter Falcon",
+            "Director": "",
+            "Year": 2019,
+            "Country": "USA"
+        },
+        {
+            "Dateshown": "Jan 5",
+            "Title": "The Keeper",
+            "Director": "",
+            "Year": 2018,
+            "Country": "UK/Germany"
+        },
+        {
+            "Dateshown": "Jan 19",
+            "Title": "Capernaum",
+            "Director": "",
+            "Year": 2018,
+            "Country": "Lebanon"
+        },
+        {
+            "Dateshown": "Feb 9",
+            "Title": "An Impossible Love",
+            "Director": "",
+            "Year": 2018,
+            "Country": "France"
+        },
+        {
+            "Dateshown": "Feb 23",
+            "Title": "1945",
+            "Director": "",
+            "Year": 2017,
+            "Country": "Hungary"
+        },
+        {
+            "Dateshown": "Mar 2",
+            "Title": "System Crasher",
+            "Director": "",
+            "Year": 2019,
+            "Country": "Germany"
+        },
+        {
+            "Dateshown": "Mar 30",
+            "Title": "A Beautiful Day in the Neighbourhood",
+            "Director": "",
+            "Year": 2019,
+            "Country": "USA"
+        }
+    ]
+}

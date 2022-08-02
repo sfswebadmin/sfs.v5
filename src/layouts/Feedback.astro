@@ -1,0 +1,75 @@
+---
+import BaseLayout from './Base.astro';
+
+import filmData from '../data/films.json';
+const films = filmData.films;
+const feedbackTotals = filmData.ratingsTotal;
+import pastReactions from '../data/pastReactions.json';
+import { data } from 'autoprefixer';
+
+const { content } = Astro.props;
+---
+
+<BaseLayout title={content.title}>
+    <div class="row">
+        <div class="col-md-12">
+
+            <slot />
+
+            {console.log(feedbackTotals)}
+
+            <table class="table table-bordered reactions-table">
+                <thead>
+                    <tr>
+                        <th>Film</th>
+                        <th>Attendance</th>
+                        <th>Reactions Returned</th>
+                        <th>5 Star</th>
+                        <th>4 Star</th>
+                        <th>3 Star</th>
+                        <th>2 Star</th>
+                        <th>1 Star</th>
+                        <th>%</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {films.map((film) => (
+                    <tr>
+                        <td>{film.title}</td>
+                        <td>{film.attendance === 0 ? '' : film.attendance}</td>
+                        <td>{film.returns === 0 ? '' : film.returns}</td>
+                        <td>{film.excellent === 0 ? '' : film.excellent}</td>
+                        <td>{film.good === 0 ? '' : film.good}</td>
+                        <td>{film.average === 0 ? '' : film.average}</td>
+                        <td>{film.disappointing === 0 ? '' : film.disappointing}</td>
+                        <td>{film.awful === 0 ? '' : film.awful} </td>
+                        <td>{film.ratingsAverage === 0 ? '' : film.ratingsAverage + '%'}</td>
+                    </tr>
+                    ))}
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td><strong>Average</strong></td>
+                        <td>{feedbackTotals.attendance}</td>
+                        <td>{feedbackTotals.returns}</td>
+                        <td>{feedbackTotals.excellent}</td>
+                        <td>{feedbackTotals.good}</td>
+                        <td>{feedbackTotals.average}</td>
+                        <td>{feedbackTotals.disappointing}</td>
+                        <td>{feedbackTotals.awful}</td>
+                        <td>{feedbackTotals.ratingsAverage}</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <h2>Audience Feedback To Films In Previous Seasons</h2>
+            {console.log(pastReactions)}
+            {pastReactions.reactions.map((data) => (
+            <h2>{data.title}</h2>
+            ))}
+
+        </div>
+
+    </div>
+
+</BaseLayout>

@@ -1,0 +1,321 @@
+@import '_reset.scss';
+@import '_color.scss';
+
+/* original color #3C76AD */
+table {
+  border: 1px solid $black;
+}
+
+table thead tr th,
+table tbody tr td {
+  padding: 7px;
+  border: 1px solid $black;
+}
+
+footer {
+  background-color: $base-color;
+  color: $white;
+  font-size: 1em;
+  font-weight: lighter;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-left: 12px;
+}
+
+footer>i {
+  padding-right: 5px;
+}
+
+footer a,
+footer a:link,
+footer a:active,
+footer a:visited,
+footer a:hover {
+  color: $white;
+  text-decoration: underline;
+}
+
+.film-screenshot-front-page {
+  margin-top: 6px;
+}
+
+.film-info-line {
+  color: $film-info-line;
+  font-weight: bold;
+}
+
+.film-article {
+  padding-bottom: 20px;
+
+  h3 {
+    margin-top: 6px;
+  }
+
+}
+
+.film-snippet {
+  padding-bottom: 15px;
+}
+
+.image-right {
+  float: right;
+}
+
+.community-logo {
+  padding-top: 65px;
+}
+
+/* synopsis */
+.synopsis-headings {
+  border-top: 2px solid $grey;
+  border-bottom: 2px solid $grey;
+  margin-top: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.synopsis-review-heading {
+  border-top: 2px solid $grey;
+  border-bottom: 2px solid $grey;
+  margin-top: 5px;
+  padding-top: 3px;
+}
+
+.synopsis-screening-date {
+  text-align: center;
+  font-style: italic;
+}
+
+.synopsis-sfs-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.synopsis-image-full-page {
+  margin-bottom: 15px;
+}
+
+.main-programme>div>img {
+  margin-top: 10px;
+}
+
+/* table stylying*/
+
+table {
+  margin-bottom: 10px;
+}
+
+table th {
+  background-color: $base-color;
+  color: $black;
+}
+
+table.reactions-table thead th {
+  vertical-align: top;
+}
+
+/* Top bar menu */
+.navbar {
+  background-color: $base-color;
+  border-color: darken($base-color, 10%);
+  border-radius: 0;
+}
+
+/* original color #3C76AD */
+.navbar-default .navbar-collapse {
+  background-color: $base-color;
+}
+
+/* original color #3C76AD */
+.navbar-header {
+  background-color: $base-color;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: $white;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+  background-color: $nav-bar-active;
+  color: $white;
+}
+
+/* original color #1e4b75 */
+.navbar-default .navbar-nav>.active>a {
+  background: $nav-bar-active;
+  color: $white;
+}
+
+/* original color #073158 */
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+  background-color: $nav-bar-hover;
+  color: $white;
+
+}
+
+/* original color #284c6f */
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.open>a {
+  background-color: $nav-bar;
+  background-image: none;
+}
+
+/* original color #073158 */
+.navbar-default .navbar-nav .dropdown-menu>li>a:focus,
+.navbar-default .navbar-nav .dropdown-menu>li>a:hover {
+  background-color: $nav-bar;
+  color: $white;
+  background-image: none;
+}
+
+blockquote {
+  border-left: none;
+  font-size: 1.2em;
+}
+
+.doors-notice-front-page {
+  padding-top: 25px;
+}
+
+.sfsorigin-article {
+  margin-bottom: 20px;
+}
+
+.front-page-text {
+  font-size: 1.1em;
+  line-height: 165%;
+}
+
+.date-venue-paragraph {
+  margin: 0 0 .5em 0;
+}
+
+.new-venue {
+  display: inline-block;
+  padding: 4px;
+  background-color: $red;
+  color: $white;
+  font-size: 0.8em;
+  border-radius: 4px;
+  box-shadow: 3px 3px 3px $new-venue-boxshadow;
+}
+
+.membership-box {
+  height: 100%;
+  width: 100%;
+  background-color: lighten($base-color, 15%);
+  color: $white;
+  padding: 10px;
+  -webkit-box-shadow: 3px 3px 13px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 13px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 13px -1px rgba(0, 0, 0, 0.75);
+  margin-top: 71px;
+}
+
+.membership-box h3 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.membership-box-button {
+  padding-bottom: 10px;
+}
+
+.btn-membership {
+  background-color: darken($base-color, 15%);
+  border: darken($base-color, 30%);
+}
+
+.btn-membership:hover {
+  background-color: lighten($base-color, 25%);
+}
+
+.membership-box-button a:focus,
+.membership-box-button a:hover {
+  text-decoration: none;
+}
+
+.button-bar a {
+  width: 85px;
+}
+
+.button-bar a:hover {
+  text-decoration: none;
+}
+
+.aboutus-sidemenu {
+  margin-top: 30px;
+  background-color: $aboutus-background;
+  border-color: $aboutus-border;
+  border-radius: 4px;
+}
+
+.anniversary-logo {
+  padding-top: 20px;
+}
+
+.poster-box {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 20px 0 0 0;
+  height: 400px;
+  background-color: $poster-box-bg;
+  border-radius: 5px;
+  color: $poster-box-text;
+  font-weight: bold;
+}
+
+.poster-box-date {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.poster-box-link {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.poster-box img {
+  margin: 0 auto;
+}
+
+.reactions-table {
+  margin-top: 10px;
+  border-color: $table-border;
+}
+
+.reactions-table thead tr th,
+table tbody tr td {
+  border: 1px solid $table-border;
+}
+
+.reactions-table thead tr th {
+  background-color: $base-color;
+  color: $white;
+}
+
+.btn-feedback {
+  background-color: $button-feedback;
+}
+
+.btn-film-listing {
+  margin-top: 5px;
+}
+
+.btn-tickets {
+  background-color: $base-color;
+  border-color: $button-tickets;
+  color: $white;
+}
+
+.btn-tickets:hover {
+  background-color: $button-tickes-hover;
+  color: $white;
+}
+
+.front-page-buttons {
+  padding-bottom: 5px;
+}

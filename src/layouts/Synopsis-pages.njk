@@ -1,0 +1,80 @@
+---
+
+title: Synopsis
+pagination:
+    data: synopses.synopses
+    size: 1
+    alias: synopsis
+permalink: "synopsis/{{ synopsis.title | slug }}/"
+
+---
+
+    <main class="row">
+        <div class="col-md-9">
+            <section>
+                <div class="row">
+                    <div class="col-xs-12 col-md-10">
+                        <h2>{{ synopsis.title | upper }}</h2>
+                    </div>
+                    <div class="col-xs-12 col-md-2 text-center">
+                        <a href="{{synopsis.synopsisPDFLink}}" target="_blank">
+                            <i class="fa fa-file-pdf-o fa-3x" aria-hidden="true"></i><br />
+                            <span class="text-center"> Download PDF</span>
+                        </a>
+                    </div>
+                </div>
+                <p>
+                    {% if synopsis.filmOriginalTitle %}<strong>({{ synopsis.filmOriginalTitle}})</strong><br />{% endif %}
+                    <strong>{{ synopsis.country }} ({{ synopsis.releaseDate }})</strong> {{ synopsis.duration }}.<br
+                    />
+                    <strong>Genre: </strong>{{ synopsis.genreName }}<br />
+                    <strong>Directors/writers:</strong> 
+                    {% if synopsis.directorsLnk %}
+                        <a href="{{synopsis.directorsLink}}" target="_blank">{{ synopsis.DirectorsWriters }}</a>
+                    {% else %}
+                        {{ synopsis.directorsWriters }}
+                    {% endif %}<br />
+                    <strong>Cast:</strong> {{ synopsis.cast }}
+                </p>
+            </section>
+            <section>
+                <div class="text-center">
+                    <h4>Screening {{ synopsis.dateShowing }} {{ synopsis.yearShowing }} at {{ synopsis.locationShowing }}</h4>
+                </div>
+                <h3 class="synopsis-headings">Synopsis</h3>
+                <p>
+                    {{ synopsis.filmSynopsis }}
+                </p>
+            </section>
+            <section>
+                <h3 class="synopsis-headings">Reviews</h3>
+            </section>
+            <section class="row">
+                <div class="col-xs-12 col-md-5">
+                    <img src="{{ synopsis.filmImageLink }}" class="synopsis-image-full-page" title="{{ synopsis.title }}" alt="{{ synopsis.title }} film screenshot" width="340" />
+                    {% for para1 in synopsis.review1Paragraphs %}
+                    <p>{{ para1 }}</p>
+                    {% endfor %}
+                    <p>
+                        <i class="pull-right">{{ synopsis.review1Author }}</i>
+                    </p>
+                </div>
+                <div class="col-xs-12 col-md-7">
+                    {% for para2 in synopsis.review2Paragraphs %}
+                    <p>{{ para2 }}</p>
+                    {% endfor %}
+                    <p>
+                        <i class="pull-right">{{ synopsis.review2Author }}</i>
+                    </p>
+                    <br />
+                    <h4 class="synopsis-review-heading">Film Facts</h4>
+                    <ul>
+                        {% for filmFact in synopsis.filmFactsParagraphs %}
+                        <li>{{ filmFact }}</li>
+                        {% endfor %}
+                    </ul>
+                    <p class="pull-right"><strong>swindonfilm.org.uk</strong></p>
+                </div>
+            </section>
+        </div>
+    </main>

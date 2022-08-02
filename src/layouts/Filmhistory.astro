@@ -1,0 +1,42 @@
+---
+import BaseLayout from './Base.astro';
+import Sidenav from '../components/Sidebar.astro';
+import filmsHistory from '../data/filmhistory.json';
+const { content } = Astro.props;
+---
+
+<BaseLayout title={content.title}>
+    <div class="row">
+        <div class="col-md-3 col-md-push-9">
+            <Sidenav></Sidenav>
+        </div>
+        <div class="col-md-9 col-md-pull-3">
+            <slot />
+
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Season/Date Shown</th>
+                            <th>Film Title</th>
+                            <th>Director</th>
+                            <th>Released</th>
+                            <th>Country</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {filmsHistory.films.map((film) => (
+                        <tr>
+                            <td>{film.Dateshown}</td>
+                            <td>{film.Title}</td>
+                            <td>{film.Director}</td>
+                            <td>{film.Year}</td>
+                            <td>{film.Country}</td>
+                        </tr>
+                        ))}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</BaseLayout>

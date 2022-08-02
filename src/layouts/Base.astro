@@ -1,0 +1,57 @@
+---
+import Header from '../components/Header.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+
+import '../styles/styles.scss';
+
+const { title } = Astro.props;
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>SFS - {title}</title>
+
+  <meta name="description" content="swindon film society">
+  <meta name="author" content="Swindon Film Society">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <style lang="scss"></style>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <Header></Header>
+  </div>
+
+  <Nav></Nav>
+
+  <div class="container">
+    <slot />
+  </div>
+
+  <div class="container-fluid">
+    <Footer></Footer>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <!-- <script src="/js/index.js"></script> -->
+</body>
+
+</html>
