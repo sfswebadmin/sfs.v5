@@ -9,6 +9,19 @@ const bannerFilms = filmData.bannerFilms;
 const bannerTitle = filmData.bannerFilmsTitle;
 const ratingsTotal = filmData.ratingsTotal;
 
+function hasRating(attendance, taglink, ratingsAverage) {
+    let btn = "";
+
+    if (attendance !== 0) {
+        btn = `<button type="button" class="btn btn-default btn-warning btn-film-listing"
+                title="${taglink}"" data-toggle="collapse" data-target="${"#collapse" + taglink}" 
+                aria-expanded="false" aria-controls="${"collapse" + taglink}">
+                Approval ${ratingsAverage}% <span class="caret"></span></button>`
+    }
+
+    return btn;
+}
+
 ---
 
 <BaseLayout title={content.title}>
@@ -80,10 +93,7 @@ const ratingsTotal = filmData.ratingsTotal;
                                 target="_blank">Reviews</a>
                             <a href={film.synopsisLink} class="btn btn-warning btn-film-listing">Synopsis</a>
 
-                            <button type="button" class="btn btn-default btn-warning btn-film-listing"
-                                title="{ film.taglink }" data-toggle="collapse" data-target="#collapse{ film.taglink }"
-                                aria-expanded="false" aria-controls="collapse{ film.tagLink }">Approval {
-                                film.ratingsAverage }% <span class="caret"></span></button>
+                            <Fragment set:html={hasRating(film.attendance, film.taglink, film.ratingsAverage)} />
 
                             <a href="/membership/" class="btn btn-default btn-film-listing btn-tickets">Tickets</a>
 
@@ -91,7 +101,7 @@ const ratingsTotal = filmData.ratingsTotal;
                     </div>
                 </div>
                 <div class="col-xs-12 col-md-offset-4 col-md-8">
-                    <div class="collapse" id="collapse{ film.taglink }">
+                    <div class="collapse" id={ 'collapse' + film.taglink }>
                         <table class="table reactions-table">
                             <thead>
                                 <tr>
