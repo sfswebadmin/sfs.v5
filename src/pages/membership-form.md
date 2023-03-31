@@ -16,7 +16,7 @@ title: Membership Form
 ****
 > E-mail address
 ****
-> Type of membership	Season Ticket Member (£58)  /  Pay As You Go Member (£4) - circle as appropriate
+> Type of membership	Season Ticket Member (£70)  /  Pay As You Go Member (£5) - circle as appropriate
 ****
 > How did you find out about SFS?
 ****
