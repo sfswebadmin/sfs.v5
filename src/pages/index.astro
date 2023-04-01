@@ -127,10 +127,10 @@ const ratingsTotal = filmData.ratingsTotal;
                                         <a href={film.synopsisLink} class="btn btn-warning">
                                             Synopsis
                                         </a>
-                                        <a href="/membership/" class="btn btn-default btn-tickets">
+                                        <a href="/membership/" class:list={["btn", "btn-default", "btn-tickets", { "d-none": film.attendance !== 0 }]}>
                                             Tickets
                                         </a>
-                                        <button class="btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target={"#collapse" + film.taglink} aria-expanded="false" aria-controls={"collapse" + film.taglink}>
+                                        <button class:list={["btn", "btn-warning", { "d-none": film.attendance === 0 }]} type="button" data-bs-toggle="collapse" data-bs-target={"#collapse" + film.taglink} aria-expanded="false" aria-controls={"collapse" + film.taglink}>
                                             Approval ({film.ratingsAverage}%)
                                         </button>
                                     </div>
