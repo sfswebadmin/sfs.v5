@@ -5,7 +5,7 @@ main {
 }
 
 a {
-  color: $white;
+  color: blue;
 }
 
 /* original color #3C76AD */
@@ -202,20 +202,18 @@ blockquote {
 }
 
 .membership-box {
-  height: 100%;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 55px;
+  padding: 10px;
   background-color: lighten($base-color, 15%);
   color: $white;
-  padding: 10px;
-  -webkit-box-shadow: 3px 3px 13px -1px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 3px 3px 13px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 3px 3px 13px -1px rgba(0, 0, 0, 0.75);
-  margin-top: 71px;
 }
 
 .membership-box h3 {
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 1.4rem;
 }
 
 .membership-box-button {
@@ -224,6 +222,7 @@ blockquote {
 
 .btn-membership {
   background-color: darken($base-color, 15%);
+  color: $white;
   border: darken($base-color, 30%);
 }
 
