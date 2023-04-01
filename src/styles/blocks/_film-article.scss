@@ -4,12 +4,12 @@
         margin-top: 0;
     }
 
-    & .film-info-line {
+    & .film-article__info {
         color: $film-info-line;
         font-weight: bold;
     }
 
-    & .film-snippet {
+    & .film-article__snippet {
         padding-bottom: 15px;
     }
 }

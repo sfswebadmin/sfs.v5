@@ -96,27 +96,23 @@ const ratingsTotal = filmData.ratingsTotal;
                         <article class="row mb-4 film-article">
                             <a id={film.taglink} />
                             <div class="col-lg-4">
-                                <img
-                                    class="img-responsive film-screenshot-front-page"
-                                    src={film.filmImage}
-                                    title="{ film.title } film screenshot"
-                                    alt="{ film.title } film screenshot"
-                                />
+                                <img class="img-fluid" src={film.filmImage} title="{ film.title } film screenshot"
+                                    alt="{ film.title } film screenshot" />
                             </div>
                             <div class="col-lg-8">
                                 <h3>{film.title.toUpperCase()}</h3>
-                                <p class="date-venue-paragraph">
+                                <p>
                                     <strong>
                                         {film.dayShowing} {film.dateShowing},{" "}
                                         {film.timeShowing}, {film.locationShowing}
                                     </strong>
                                 </p>
-                                <p class="film-info-line">
+                                <p class="film-article__info">
                                     {film.releaseDate} | {film.country} |{" "}
                                     {film.duration} | {film.certificate} |{" "}
                                     {film.genreName}
                                 </p>
-                                <div class="film-snippet">
+                                <div class="film-article__snippet">
                                     {" "}
                                     {film.frontPageSnippet}
                                 </div>
