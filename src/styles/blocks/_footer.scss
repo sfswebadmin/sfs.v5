@@ -1,0 +1,20 @@
+footer {
+  background-color: $base-color;
+  color: $white;
+  font-size: 0.9rem;
+  font-weight: lighter;
+  padding-block: 2rem;
+
+  a {
+    text-decoration: underline;
+    color: $white;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: $white;
+      font-weight: 600;
+    }
+  }
+}
+
