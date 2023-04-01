@@ -1,0 +1,32 @@
+.film-screenshot-front-page {
+    margin-top: 6px;
+}
+
+.film-info-line {
+    color: $film-info-line;
+    font-weight: bold;
+}
+
+.film-article {
+    padding-bottom: 20px;
+
+    h3 {
+        margin-top: 6px;
+    }
+}
+
+.film-snippet {
+    padding-bottom: 15px;
+}
+
+.button-bar a {
+    width: 85px;
+}
+
+.button-bar a:hover {
+    text-decoration: none;
+}
+
+.date-venue-paragraph {
+    margin: 0 0 .5em 0;
+}

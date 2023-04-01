@@ -1,0 +1,33 @@
+/* synopsis */
+.synopsis-headings {
+    border-top: 2px solid $grey;
+    border-bottom: 2px solid $grey;
+    margin-top: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  
+  .synopsis-review-heading {
+    border-top: 2px solid $grey;
+    border-bottom: 2px solid $grey;
+    margin-top: 5px;
+    padding-top: 3px;
+  }
+  
+  .synopsis-screening-date {
+    text-align: center;
+    font-style: italic;
+  }
+  
+  .synopsis-sfs-title {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .synopsis-image-full-page {
+    margin-bottom: 15px;
+  }
+  
+  .main-programme>div>img {
+    margin-top: 10px;
+  }

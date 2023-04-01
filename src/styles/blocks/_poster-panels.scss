@@ -1,0 +1,26 @@
+
+.poster-box {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 20px 0 0 0;
+    height: 400px;
+    background-color: $poster-box-bg;
+    border-radius: 5px;
+    color: $poster-box-text;
+    font-weight: bold;
+  }
+  
+  .poster-box-date {
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  
+  .poster-box-link {
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  
+  .poster-box img {
+    margin: 0 auto;
+  }
+  

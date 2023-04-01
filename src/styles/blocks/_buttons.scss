@@ -1,0 +1,23 @@
+
+.btn-feedback {
+    background-color: $button-feedback;
+  }
+  
+  .btn-film-listing {
+    margin-top: 5px;
+  }
+  
+  .btn-tickets {
+    background-color: $base-color;
+    border-color: $button-tickets;
+    color: $white;
+  }
+  
+  .btn-tickets:hover {
+    background-color: $button-tickes-hover;
+    color: $white;
+  }
+  
+  .front-page-buttons {
+    padding-bottom: 5px;
+  }

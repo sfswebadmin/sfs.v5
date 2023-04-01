@@ -1,0 +1,51 @@
+/* Top bar menu */
+.navbar {
+    background-color: $base-color;
+    border-color: darken($base-color, 10%);
+    border-radius: 0;
+  }
+
+  .navbar-toggler {
+    border-color: $white;
+  }
+  
+  /* original color #3C76AD */
+  .navbar-default .navbar-collapse {
+    background-color: $base-color;
+  }
+  
+  /* original color #3C76AD */
+  .navbar-header {
+    background-color: $base-color;
+  }
+  
+  .navbar-nav .nav-link {
+    color: $white;
+  }
+  
+  .navbar-nav>.active>a,
+  .navbar-nav>.active>a:focus,
+  .navbar-nav>.active>a:hover {
+    background-color: $nav-bar-active;
+    color: $white;
+  }
+  
+  .navbar-nav>.active>a {
+    background: $nav-bar-active;
+    color: $white;
+  }
+  
+  .navbar-nav>li>a:focus,
+  .navbar-nav>li>a:hover {
+    background-color: $nav-bar-hover;
+    color: $white;
+  
+  }
+  
+  /* original color #284c6f */
+  .navbar-nav>.active>a,
+  .navbar-nav>.open>a {
+    background-color: $nav-bar;
+    background-image: none;
+  }
+  

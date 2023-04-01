@@ -1,0 +1,36 @@
+/* #TABLES =============================== */
+
+table {
+    border: 1px solid $black;
+    margin-bottom: 10px;
+
+    thead tr th,
+    tbody tr td {
+        padding: 7px;
+        border: 1px solid $black;
+    }
+
+    thead th {
+        background-color: $base-color;
+        color: $white;
+    }
+}
+
+.reactions-table {
+    margin-top: 10px;
+    border-color: $table-border;
+}
+
+table.reactions-table thead th {
+    vertical-align: top;
+}
+
+.reactions-table thead tr th,
+table tbody tr td {
+  border: 1px solid $table-border;
+}
+
+.reactions-table thead tr th {
+  background-color: $base-color;
+  color: $white;
+}

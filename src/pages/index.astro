@@ -29,7 +29,7 @@ function hasRating(attendance, taglink, ratingsAverage) {
 <BaseLayout title={title}>
     <div class="container">
         <div class="row">
-            <div class="col-sm-9">
+            <div class="col-lg-9">
                 <h1>Welcome to the Swindon Film Society</h1>
                 <p>
                     The <a href="/about-sfs/sfs-origins/)">Swindon Film Society</a> was established
@@ -50,7 +50,7 @@ function hasRating(attendance, taglink, ratingsAverage) {
                     nights.
                 </p>
             </div>
-            <div class="col-sm-3">
+            <div class="col-lg-3">
                 <div class="membership-box">
                     <h3 class="text-center">Become a member</h3>
                     <div class="membership-box-button">
@@ -64,15 +64,15 @@ function hasRating(attendance, taglink, ratingsAverage) {
         
             
         <div class="row">
-            <section class="col-sm-12">
+            <section class="col-lg-12">
                 <h3>{bannerTitle}</h3>
                 <div class="row">
                     {
                         bannerFilms.map((film) => (
-                            <div class="col-md-4">
+                            <div class="col-lg-4">
                                 <div class="poster-box">
                                     <div class="row poster-box-date">
-                                        <div class="col-md-12 text-center">
+                                        <div class="col-lg-12 text-center">
                                             Showing: {film.dateShowing}
                                         </div>
                                     </div>
@@ -82,7 +82,7 @@ function hasRating(attendance, taglink, ratingsAverage) {
                                         class="img-responsive"
                                     />
                                     <div class="row poster-box-link">
-                                        <div class="col-md-12 text-center">
+                                        <div class="col-lg-12 text-center">
                                             <a href={"#" + film.taglink}>
                                                 More Info...
                                             </a>
@@ -97,7 +97,7 @@ function hasRating(attendance, taglink, ratingsAverage) {
             <!-- end of banner section -->
         </div>
         <div class="row">
-            <section class="col-md-12">
+            <section class="col-lg-12">
                 <a id="sfsfilms"></a>
                 <h3>Our Film Season {season}</h3>
                 <p>
@@ -109,7 +109,7 @@ function hasRating(attendance, taglink, ratingsAverage) {
                     films.map((film) => (
                         <article class="row film-article">
                             <a id={film.taglink} />
-                            <div class="col-xs-12 col-md-4">
+                            <div class="col-lg-4">
                                 <img
                                     class="img-responsive film-screenshot-front-page"
                                     src={film.filmImage}
@@ -117,7 +117,7 @@ function hasRating(attendance, taglink, ratingsAverage) {
                                     alt="{ film.title } film screenshot"
                                 />
                             </div>
-                            <div class="col-xs-12 col-md-8">
+                            <div class="col-lg-8">
                                 <h3>{film.title.toUpperCase()}</h3>
                                 <p class="date-venue-paragraph">
                                     <strong>
@@ -135,7 +135,7 @@ function hasRating(attendance, taglink, ratingsAverage) {
                                     {film.frontPageSnippet}
                                 </div>
                                 <div class="row button-bar">
-                                    <div class="col-md-8 front-page-buttons">
+                                    <div class="col-lg-12 front-page-buttons">
                                         <a
                                             href={film.trailerLink}
                                             class="btn btn-warning btn-film-listing"
@@ -172,9 +172,8 @@ function hasRating(attendance, taglink, ratingsAverage) {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-md-offset-4 col-md-8">
-                                <div
-                                    class="collapse"
+                            <div class="col-lg-8 offset-lg-4 ">
+                                <div class="collapse"
                                     id={"collapse" + film.taglink}
                                 >
                                     <table class="table reactions-table">
@@ -243,7 +242,7 @@ function hasRating(attendance, taglink, ratingsAverage) {
         </div>
         <!-- row end -->
         <div class="row">
-            <section class="col-md-offset-4 col-md-8">
+            <section class="col-lg-8 offset-lg-4 ">
                 <h3>Overall Audience Feedback</h3>
                 <p>
                     The table below represents the audience feedback, for all films
