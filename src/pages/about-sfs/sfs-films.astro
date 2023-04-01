@@ -1,0 +1,53 @@
+---
+import BaseLayout from "../../layouts/Base.astro";
+import Sidenav from "../../components/Sidebar.astro";
+import filmsHistory from "../../data/filmhistory.json";
+const { content } = Astro.props;
+const title = "Film History";
+---
+
+<BaseLayout title={title}>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <Sidenav />
+            </div>
+            <div class="col-sm-9">
+                <h1>FILM PROGRAMME HISTORY 1947 - 2020</h1>
+                <p>
+                    This is a list of films shown by the society, from 1947 to
+                    2016. It's an incomplete list as there are a number of
+                    years, where there were no records kept, or the records have
+                    been lost. This list doesn't include audience reactions,
+                    just the films and the date shown.
+                </p>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Season/Date Shown</th>
+                                <th>Film Title</th>
+                                <th>Director</th>
+                                <th>Released</th>
+                                <th>Country</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {
+                                filmsHistory.films.map((film) => (
+                                    <tr>
+                                        <td>{film.Dateshown}</td>
+                                        <td>{film.Title}</td>
+                                        <td>{film.Director}</td>
+                                        <td>{film.Year}</td>
+                                        <td>{film.Country}</td>
+                                    </tr>
+                                ))
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</BaseLayout>
