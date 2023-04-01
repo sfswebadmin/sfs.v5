@@ -1,5 +1,12 @@
-@import '_reset.scss';
 @import '_color.scss';
+
+main {
+  margin-top: 3rem;
+}
+
+a {
+  color: $white;
+}
 
 /* original color #3C76AD */
 table {
@@ -131,45 +138,36 @@ table.reactions-table thead th {
   background-color: $base-color;
 }
 
-.navbar-default .navbar-nav>li>a {
+.navbar-nav .nav-link {
   color: $white;
 }
 
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:focus,
-.navbar-default .navbar-nav>.active>a:hover {
+.navbar-nav>.active>a,
+.navbar-nav>.active>a:focus,
+.navbar-nav>.active>a:hover {
   background-color: $nav-bar-active;
   color: $white;
 }
 
-/* original color #1e4b75 */
-.navbar-default .navbar-nav>.active>a {
+.navbar-nav>.active>a {
   background: $nav-bar-active;
   color: $white;
 }
 
-/* original color #073158 */
-.navbar-default .navbar-nav>li>a:focus,
-.navbar-default .navbar-nav>li>a:hover {
+.navbar-nav>li>a:focus,
+.navbar-nav>li>a:hover {
   background-color: $nav-bar-hover;
   color: $white;
 
 }
 
 /* original color #284c6f */
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.open>a {
+.navbar-nav>.active>a,
+.navbar-nav>.open>a {
   background-color: $nav-bar;
   background-image: none;
 }
 
-/* original color #073158 */
-.navbar-default .navbar-nav .dropdown-menu>li>a:focus,
-.navbar-default .navbar-nav .dropdown-menu>li>a:hover {
-  background-color: $nav-bar;
-  color: $white;
-  background-image: none;
-}
 
 blockquote {
   border-left: none;
