@@ -1,32 +1,22 @@
 [
     {
-        "key": "Home",
         "title": "Home",
-        "order": 1,
         "url": "/"
     },
     {
-        "key": "Films",
         "title": "Films",
-        "order": 2,
         "url": "/#sfsfilms"
     },
     {
-        "key": "Membership",
         "title": "Membership",
-        "order": 3,
         "url": "/membership/"
     },
     {
-        "key": "AboutUs",
         "title": "About Us",
-        "order": 4,
         "url": "/about-sfs/sfs-organisation/"
     },
     {
-        "key": "ContactUs",
         "title": "Contact Us",
-        "order": 5,
         "url": "/contact-us/"
     }
 ]

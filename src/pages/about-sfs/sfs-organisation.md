@@ -36,7 +36,6 @@ To Be Confirmed
 __Front of House__  
 Roger Griffin  
 Patrick Aynie  
-Ben Szulc  
 Diane Miles  
 Lizzie Brown 
  
@@ -50,14 +49,62 @@ The committee meets about once a month or less throughout the year. If you are i
 
 <a id="reports"></a>
 ## Annual Reports and Accounts
-|Year	|Report	|File|
-|-------|------------|--------|
-|2019-20	|Annual Report	|[PDF](/documents/SFS_Annual_Report_2019-20.pdf)|
-|2019-20	|Accounts Income and Expenditure	|[PDF](/documents/SFS_Accounts_2019-20.pdf)|
-|2020-21	|Annual Report - Finance Only |[PDF](/documents/SFS_Annual_Report_2020-21-Finance_Only.pdf)|
-|2020-21	|Accounts Income and Expenditure	|[PDF](/documents/SFS_Financial_Report_2020-21.pdf)|
-|2020    |AGM Minutes |[PDF](/documents/SFS_AGM_Minutes_2020-11-18.pdf)|
-|2021    |AGM Minutes |[PDF](/documents/SFS_AGM_Minutes_2021-11-17.pdf)|
+<table>
+    <thead>
+        <tr>
+            <th>Year</th>
+            <th>Report</th>
+            <th>File</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>2019-20</td>
+            <td>Annual Report</td>
+            <td><a href="/documents/SFS_Annual_Report_2019-20.pdf">PDF</a></td>
+        </tr>
+        <tr>
+            <td>2019-20</td>
+            <td>Accounts Income and Expenditure</td>
+            <td><a href="/documents/SFS_Financial_Report_2019-20.pdf">PDF</a></td>
+        </tr>
+        <tr>
+            <td>2020-21</td>
+            <td>Annual Report - Finance Only</td>
+            <td><a href="/documents/SFS_Annual_Report_2020-21-Finance_Only.pdf">PDF</a></td>
+        </tr>
+        <tr>
+            <td>2020-21</td>
+            <td>Accounts Income and Expenditure</td>
+            <td><a href="/documents/SFS_Financial_Report_2020-21.pdf">PDF</a></td>
+        </tr>
+        <tr>
+            <td>2021-22</td>
+            <td>Annual Report</td>
+            <td><a href="/documents/SFS_Annual_Report_2021-22.pdf">PDF</a></td>
+        </tr>
+        <tr>
+            <td>2021-22</td>
+            <td>Accounts Income and Expenditure</td>
+            <td><a href="/documents/SFS_Financial_Report_2021-22.pdf">PDF</a></td>
+        </tr>
+        <tr>
+            <td>2020</td>
+            <td>AGM Minutes</td>
+            <td><a href="/documents/SFS_AGM_Minutes_2020-11-18.pdf">PDF</a></td>
+        </tr>
+        <tr>
+            <td>2021</td>
+            <td>AGM Minutes</td>
+            <td><a href="/documents/SFS_AGM_Minutes_2021-11-17.pdf">PDF</a></td>
+        </tr>
+        <tr>
+            <td>2022</td>
+            <td>AGM Minutes</td>
+            <td><a href="/documents/SFS_AGM_Minutes_2022-11-16.pdf">PDF</a></td>
+        </tr>
+    </tbody>
+</table>
 
 ## Our Season
 Our season runs from September to April of the following year. Our main programme of 14 to 15 films is shown at the Swindon Arts Centre, using their digital projector, which has been available since 2008. The Arts Centre was also equipped with a new screen in 2016.Films are usually shown on alternate Wednesday evenings, depending on availability in the Arts Centre schedule.
