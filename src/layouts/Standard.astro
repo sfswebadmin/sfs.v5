@@ -4,9 +4,11 @@ const { content } = Astro.props;
 ---
 
 <BaseLayout title={content.title}>
-    <div class="row">
-        <div class="col-md-12">
-            <slot />
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <slot />
+            </div>
         </div>
     </div>
 </BaseLayout>
