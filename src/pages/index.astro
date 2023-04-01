@@ -4,6 +4,7 @@ const { content } = Astro.props;
 const season = "2022-2023";
 const title = 'Home'
 
+import siteData from '../data/siteData.json';
 import filmData from "../data/films.json";
 const films = filmData.films;
 const bannerFilms = filmData.bannerFilms;
@@ -16,8 +17,7 @@ function hasRating(attendance, taglink, ratingsAverage) {
     if (attendance !== 0) {
         btn = `<button type="button" class="btn btn-default btn-warning btn-film-listing"
                 title="${taglink}"" data-toggle="collapse" data-target="${
-            "#collapse" + taglink
-        }" 
+            "#collapse" + taglink}" 
                 aria-expanded="false" aria-controls="${"collapse" + taglink}">
                 Approval ${ratingsAverage}% <span class="caret"></span></button>`;
     }
@@ -99,7 +99,7 @@ function hasRating(attendance, taglink, ratingsAverage) {
         <div class="row">
             <section class="col-lg-12">
                 <a id="sfsfilms"></a>
-                <h3>Our Film Season {season}</h3>
+                <h3>Our Film Season {siteData.filmseason}</h3>
                 <p>
                     <strong>Doors open 30 minutes before a show.</strong>
                     We don’t show any adverts, so please make sure to arrive in good
@@ -107,7 +107,7 @@ function hasRating(attendance, taglink, ratingsAverage) {
                 </p>
                 {
                     films.map((film) => (
-                        <article class="row film-article">
+                        <article class="row mb-4 film-article">
                             <a id={film.taglink} />
                             <div class="col-lg-4">
                                 <img
@@ -153,69 +153,32 @@ function hasRating(attendance, taglink, ratingsAverage) {
                                         <a
                                             href={film.synopsisLink}
                                             class="btn btn-warning btn-film-listing"
-                                        >
-                                            Synopsis
-                                        </a>
-                                        <Fragment
-                                            set:html={hasRating(
-                                                film.attendance,
-                                                film.taglink,
-                                                film.ratingsAverage
-                                            )}
-                                        />
+                                        >Synopsis</a>
                                         <a
                                             href="/membership/"
-                                            class="btn btn-default btn-film-listing btn-tickets"
-                                        >
+                                            class="btn btn-default btn-film-listing btn-tickets">
                                             Tickets
                                         </a>
+                                        <button type="button" class="btn btn-default btn-warning btn-film-listing" 
+                                        title={film.taglink} data-toggle="collapse" data-target={"#collapse" + film.taglink} 
+                                        aria-expanded="false" aria-controls={"collapse" + film.taglink}>
+                                        Approval {film.ratingsAverage}% <span class="caret"></span>
+                                        </button>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-8 offset-lg-4 ">
-                                <div class="collapse"
-                                    id={"collapse" + film.taglink}
-                                >
+                                <div class="collapse" id={"collapse" + film.taglink}>
                                     <table class="table reactions-table">
                                         <thead>
                                             <tr>
                                                 <th>Attendance</th>
                                                 <th>Returns</th>
-                                                <th>
-                                                    5{" "}
-                                                    <span
-                                                        class="glyphicon glyphicon-star"
-                                                        aria-hidden="true"
-                                                    />
-                                                </th>
-                                                <th>
-                                                    4{" "}
-                                                    <span
-                                                        class="glyphicon glyphicon-star"
-                                                        aria-hidden="true"
-                                                    />
-                                                </th>
-                                                <th>
-                                                    3{" "}
-                                                    <span
-                                                        class="glyphicon glyphicon-star"
-                                                        aria-hidden="true"
-                                                    />
-                                                </th>
-                                                <th>
-                                                    2{" "}
-                                                    <span
-                                                        class="glyphicon glyphicon-star"
-                                                        aria-hidden="true"
-                                                    />
-                                                </th>
-                                                <th>
-                                                    1{" "}
-                                                    <span
-                                                        class="glyphicon glyphicon-star"
-                                                        aria-hidden="true"
-                                                    />
-                                                </th>
+                                                <th>5*</th>
+                                                <th>4*</th>
+                                                <th>3*</th>
+                                                <th>2*</th>
+                                                <th>1*</th>
                                                 <th>Average</th>
                                             </tr>
                                         </thead>
