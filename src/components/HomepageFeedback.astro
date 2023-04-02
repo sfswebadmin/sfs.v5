@@ -1,0 +1,40 @@
+---
+const { ratingsTotal} = Astro.props;
+---
+    <div class="row">
+    <section class="col-lg-8 offset-lg-4 ">
+        <h3>Overall Audience Feedback</h3>
+        <p>
+            The table below represents the audience feedback, for all films
+            shown to date.
+        </p>
+        <div class="table-responsive">
+            <table class="table reactions-table">
+                <thead>
+                    <tr>
+                        <th>Attendance</th>
+                        <th>Returns</th>
+                        <th>5 <i class="fa fa-star" aria-hidden="true"></i></th>
+                        <th>4 <i class="fa fa-star" aria-hidden="true"></i></th>
+                        <th>3 <i class="fa fa-star" aria-hidden="true"></i></th>
+                        <th>2 <i class="fa fa-star" aria-hidden="true"></i></th>
+                        <th>1 <i class="fa fa-star" aria-hidden="true"></i></th>
+                        <th>Average</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>{ratingsTotal.attendance}</td>
+                        <td>{ratingsTotal.returns}</td>
+                        <td>{ratingsTotal.excellent}</td>
+                        <td>{ratingsTotal.good}</td>
+                        <td>{ratingsTotal.average}</td>
+                        <td>{ratingsTotal.disappointing}</td>
+                        <td>{ratingsTotal.awful}</td>
+                        <td>{ratingsTotal.ratingsAverage}%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</div>

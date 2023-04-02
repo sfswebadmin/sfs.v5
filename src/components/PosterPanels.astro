@@ -1,0 +1,38 @@
+---
+const {bannerTitle, bannerFilms} = Astro.props;
+const heading = bannerTitle.length < 2 ? 'No title' : bannerTitle;
+const hasHeading = bannerTitle.length < 2 ? true : false;
+---
+    <div class="row">
+        <section class="col-lg-12">
+            <h3 class:list={[{ "d-none" : hasHeading }]}>{heading}</h3>
+            <div class="row">
+                {
+                    bannerFilms.map((film) => (
+                        <div class="col-lg-4">
+                            <div class="poster-box">
+                                <div class="row poster-box-date">
+                                    <div class="col-lg-12 text-center">
+                                        Showing: {film.dateShowing}
+                                    </div>
+                                </div>
+                                <img
+                                    src={film.posterImage}
+                                    alt={film.title + " film poster"}
+                                    class="img-responsive"
+                                />
+                                <div class="row poster-box-link">
+                                    <div class="col-lg-12 text-center">
+                                        <a href={"#" + film.taglink}>
+                                            More Info...
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    ))
+                }
+            </div>
+        </section>
+        <!-- end of banner section -->
+    </div>
