@@ -1,17 +1,19 @@
 ---
 import BaseLayout from '../layouts/Base.astro';
 import Reaction from '../components/Reaction.astro';
+
 import reactions from '../data/pastReactions.json';
 import filmData from '../data/films.json';
 
 const films = filmData.films;
 const ratingsTotal = filmData.ratingsTotal;
 
-const { content } = Astro.props;
 const title = "Audience Reactions";
+const description = "";
+const keywords = "";
 ---
 
-<BaseLayout title={title}>
+<BaseLayout title={title} description={description} keywords={keywords}>
     <div class="container">
         <div class="row">
             <div class="col-md-12">

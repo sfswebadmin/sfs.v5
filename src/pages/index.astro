@@ -1,18 +1,20 @@
 ---
 import BaseLayout from "../layouts/Base.astro";
-const { content } = Astro.props;
-const season = "2022-2023";
-const title = 'Home'
 
 import siteData from '../data/siteData.json';
 import filmData from "../data/films.json";
+
 const films = filmData.films;
 const bannerFilms = filmData.bannerFilms;
 const bannerTitle = filmData.bannerFilmsTitle;
 const ratingsTotal = filmData.ratingsTotal;
+
+const title = 'Home'
+const description = "For the best in world cinema and UK independent cinema";
+const keywords = "films,movies,foreign,uk,independent";
 ---
 
-<BaseLayout title={title}>
+<BaseLayout title={title} description={description} keywords={keywords}>
     <div class="container">
         <div class="row">
             <div class="col-lg-9">
