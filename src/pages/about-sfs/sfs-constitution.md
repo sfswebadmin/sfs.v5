@@ -4,9 +4,7 @@ title: Swindon Film Society Constitution
 
 ---
 
-# Swindon Film Society
-
-## Constitution
+# Constitution
 
 1. __Name__  
 1.1. The Society shall be known as Swindon Film Society, referred to here as “The Society”.

@@ -4,7 +4,7 @@ title: Community Cinema
 
 ---
 
-# Swindon Film Society Community Cinema
+# Community Cinema
 
 ## Highworth Community Cinema
 

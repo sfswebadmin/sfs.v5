@@ -4,8 +4,7 @@ title: Swindon Film Society Data Protection Policy
 
 ---
 
-# Swindon Film Society
-## Data Protection Policy
+# Data Protection Policy
 1. __General Statement of Swindon Film Society’s Duties and Scope__
 In order to operate, Swindon Film Society, referred to below as ‘The Society’, needs to
 gather, store and use certain information about it members and will take all reasonable

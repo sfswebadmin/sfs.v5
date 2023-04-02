@@ -4,7 +4,7 @@ title: Swindon Film Society Data Protection Procedure
 
 ---
 
-# Swindon Film Society Data Protection Procedure
+# Data Protection Procedure
 
 ## Introduction
 
