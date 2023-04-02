@@ -3,33 +3,35 @@ const {SeasonTitle, Films} = Astro.props;
 ---
 
 <h3>{SeasonTitle}</h3>
-<table class="table table-bordered reactions-table">
-    <thead>
-        <tr>
-            <th class="col-md-3">Film</th>
-            <th class="col-md-1">Attendance</th>
-            <th class="col-md-2">Reactions Returned</th>
-            <th class="col-md-1">5 stars</th>
-            <th class="col-md-1">4 stars</th>
-            <th class="col-md-1">3 stars</th>
-            <th class="col-md-1">2 stars</th>
-            <th class="col-md-1">1 star</th>
-            <th class="col-md-1">%</th>
-        </tr>
-    </thead>
-    <tbody>
-        {Films.map((film) => (
+<div class="table-responsive">
+    <table class="table table-bordered reactions-table">
+        <thead>
             <tr>
-                <td>{film.title}</td>
-                <td>{film.attendance}</td>
-                <td>{film.reactionsReturned}</td>
-                <td>{film.fiveStars}</td>
-                <td>{film.fourStars}</td>
-                <td>{film.threeStars}</td>
-                <td>{film.twoStars}</td>
-                <td>{film.oneStars}</td>
-                <td>{film.percentageTotal}%</td>
+                <th class="col-md-3">Film</th>
+                <th class="col-md-1">Attendance</th>
+                <th class="col-md-2">Reactions Returned</th>
+                <th class="col-md-1">5 stars</th>
+                <th class="col-md-1">4 stars</th>
+                <th class="col-md-1">3 stars</th>
+                <th class="col-md-1">2 stars</th>
+                <th class="col-md-1">1 star</th>
+                <th class="col-md-1">%</th>
             </tr>
-        ))}
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            {Films.map((film) => (
+                <tr>
+                    <td>{film.title}</td>
+                    <td>{film.attendance}</td>
+                    <td>{film.reactionsReturned}</td>
+                    <td>{film.fiveStars}</td>
+                    <td>{film.fourStars}</td>
+                    <td>{film.threeStars}</td>
+                    <td>{film.twoStars}</td>
+                    <td>{film.oneStars}</td>
+                    <td>{film.percentageTotal}%</td>
+                </tr>
+            ))}
+        </tbody>
+    </table>
+</div>
