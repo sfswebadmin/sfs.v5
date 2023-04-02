@@ -121,17 +121,17 @@ const ratingsTotal = filmData.ratingsTotal;
                                     {film.frontPageSnippet}
                                 </div>
                                 <div class="row button-bar">
-                                    <div class="col-lg-12 front-page-buttons">
-                                        <a href={film.trailerLink} class="btn btn-warning" target="_blank">
+                                    <div class="col-lg-12 mt-2 front-page-buttons">
+                                        <a href={film.trailerLink} role="button" class="btn btn-warning" target="_blank">
                                             Trailer
                                         </a>
-                                        <a href={film.reviewsLink} class="btn btn-warning" target="_blank">
+                                        <a href={film.reviewsLink} role="button" class="btn btn-warning" target="_blank">
                                             Reviews
                                         </a>
-                                        <a href={film.synopsisLink} class="btn btn-warning">
+                                        <a href={film.synopsisLink} role="button" class="btn btn-warning">
                                             Synopsis
                                         </a>
-                                        <a href="/membership/" class:list={["btn", "btn-default", "btn-tickets", { "d-none": film.attendance !== 0 }]}>
+                                        <a href="/membership/" role="button" class:list={["btn", "btn-default", "btn-tickets", { "d-none": film.attendance !== 0 }]}>
                                             Tickets
                                         </a>
                                         <button class:list={["btn", "btn-warning", { "d-none": film.attendance === 0 }]} type="button" data-bs-toggle="collapse" data-bs-target={"#collapse" + film.taglink} aria-expanded="false" aria-controls={"collapse" + film.taglink}>
@@ -140,32 +140,34 @@ const ratingsTotal = filmData.ratingsTotal;
                                     </div>
                                 </div>
                                 <div class="collapse" id={"collapse" + film.taglink}>
-                                    <table class="table reactions-table">
-                                        <thead>
-                                            <tr>
-                                                <th>Attendance</th>
-                                                <th>Returns</th>
-                                                <th>5 <i class="fa fa-star" aria-hidden="true"></i></th>
-                                                <th>4 <i class="fa fa-star" aria-hidden="true"></i></th>
-                                                <th>3 <i class="fa fa-star" aria-hidden="true"></i></th>
-                                                <th>2 <i class="fa fa-star" aria-hidden="true"></i></th>
-                                                <th>1 <i class="fa fa-star" aria-hidden="true"></i></th>
-                                                <th>Average</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>{film.attendance}</td>
-                                                <td>{film.returns}</td>
-                                                <td>{film.excellent}</td>
-                                                <td>{film.good}</td>
-                                                <td>{film.average}</td>
-                                                <td>{film.disappointing}</td>
-                                                <td>{film.awful} </td>
-                                                <td>{film.ratingsAverage}%</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                    <div class="table-responsive">
+                                        <table class="table reactions-table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Attendance</th>
+                                                    <th>Returns</th>
+                                                    <th>5 <i class="fa fa-star" aria-hidden="true"></i></th>
+                                                    <th>4 <i class="fa fa-star" aria-hidden="true"></i></th>
+                                                    <th>3 <i class="fa fa-star" aria-hidden="true"></i></th>
+                                                    <th>2 <i class="fa fa-star" aria-hidden="true"></i></th>
+                                                    <th>1 <i class="fa fa-star" aria-hidden="true"></i></th>
+                                                    <th>Average</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>{film.attendance}</td>
+                                                    <td>{film.returns}</td>
+                                                    <td>{film.excellent}</td>
+                                                    <td>{film.good}</td>
+                                                    <td>{film.average}</td>
+                                                    <td>{film.disappointing}</td>
+                                                    <td>{film.awful} </td>
+                                                    <td>{film.ratingsAverage}%</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
                             </div>
                         </article>
@@ -182,32 +184,34 @@ const ratingsTotal = filmData.ratingsTotal;
                     The table below represents the audience feedback, for all films
                     shown to date.
                 </p>
-                <table class="table reactions-table">
-                    <thead>
-                        <tr>
-                            <th>Attendance</th>
-                            <th>Returns</th>
-                            <th>5 <i class="fa fa-star" aria-hidden="true"></i></th>
-                            <th>4 <i class="fa fa-star" aria-hidden="true"></i></th>
-                            <th>3 <i class="fa fa-star" aria-hidden="true"></i></th>
-                            <th>2 <i class="fa fa-star" aria-hidden="true"></i></th>
-                            <th>1 <i class="fa fa-star" aria-hidden="true"></i></th>
-                            <th>Average</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>{ratingsTotal.attendance}</td>
-                            <td>{ratingsTotal.returns}</td>
-                            <td>{ratingsTotal.excellent}</td>
-                            <td>{ratingsTotal.good}</td>
-                            <td>{ratingsTotal.average}</td>
-                            <td>{ratingsTotal.disappointing}</td>
-                            <td>{ratingsTotal.awful}</td>
-                            <td>{ratingsTotal.ratingsAverage}%</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="table-responsive">
+                    <table class="table reactions-table">
+                        <thead>
+                            <tr>
+                                <th>Attendance</th>
+                                <th>Returns</th>
+                                <th>5 <i class="fa fa-star" aria-hidden="true"></i></th>
+                                <th>4 <i class="fa fa-star" aria-hidden="true"></i></th>
+                                <th>3 <i class="fa fa-star" aria-hidden="true"></i></th>
+                                <th>2 <i class="fa fa-star" aria-hidden="true"></i></th>
+                                <th>1 <i class="fa fa-star" aria-hidden="true"></i></th>
+                                <th>Average</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>{ratingsTotal.attendance}</td>
+                                <td>{ratingsTotal.returns}</td>
+                                <td>{ratingsTotal.excellent}</td>
+                                <td>{ratingsTotal.good}</td>
+                                <td>{ratingsTotal.average}</td>
+                                <td>{ratingsTotal.disappointing}</td>
+                                <td>{ratingsTotal.awful}</td>
+                                <td>{ratingsTotal.ratingsAverage}%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </section>
         </div>
     </div>
