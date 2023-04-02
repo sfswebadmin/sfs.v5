@@ -4,9 +4,11 @@ import Sidenav from "../../components/Sidebar.astro";
 import filmsHistory from "../../data/filmhistory.json";
 const { content } = Astro.props;
 const title = "Film History";
+const description = "";
+const keywords = "";
 ---
 
-<BaseLayout title={title}>
+<BaseLayout title={title} description={description} keywords={keywords}>
     <div class="container">
         <div class="row">
             <div class="col-sm-9">

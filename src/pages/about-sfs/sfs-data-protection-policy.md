@@ -1,7 +1,8 @@
 ---
 layout: '../../layouts/Sidenav.astro'
-title: Swindon Film Society Data Protection Policy
-
+title: SFS Data Protection Policy
+description: Swindon Film Society data protection policy
+keywords:
 ---
 
 # Data Protection Policy

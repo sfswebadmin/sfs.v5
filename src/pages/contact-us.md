@@ -1,7 +1,8 @@
 ---
 layout: '../layouts/Standard.astro'
 title: "Contact Us"
-    
+description: How to contact the Swindon Film Society
+keywords:
 ---
 
 # Contacting the Swindon Film Society

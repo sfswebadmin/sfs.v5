@@ -1,7 +1,8 @@
 ---
 layout: '../layouts/Standard.astro'
 title: Membership Form
-
+description: 
+keywords:
 ---
 
 # Membership Application Form

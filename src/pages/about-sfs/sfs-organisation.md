@@ -1,14 +1,15 @@
 ---
 layout: '../../layouts/Sidenav.astro'
 title: About Us
-
+description: About the Swindon Film Society's organisation
+keywords:
 ---
 
 #  Swindon Film Society Organisation
 ## About Us
-Swindon Film Society, founded in February 1947 (see our [Origins](/about-sfs/sfs-origins/) page for more detail), aims to show a wide-ranging programme of international films which would not otherwise be seen locally.
+Swindon Film Society, founded in February 1947 ([see our Origins](/about-sfs/sfs-origins/) page for more detail), aims to show a wide-ranging programme of international films which would not otherwise be seen locally.
 
-We are a voluntary organisation, run by a committee elected by the Society's members at our Annual General Meeting, generally held in October/November. Our constitution clearly states our aims and objectives, and can be viewed [here](/about-sfs/sfs-constitution).
+We are a voluntary organisation, run by a committee elected by the Society's members at our Annual General Meeting, generally held in October/November. Our constitution clearly states our aims and objectives, and [can be viewed here](/about-sfs/sfs-constitution).
 
 We usually hold our AGM in October/November - two or three films into new season. See the table below for a copy of our most recent annual report in PDF format.
 

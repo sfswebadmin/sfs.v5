@@ -1,7 +1,8 @@
 ---
 layout: '../../layouts/Sidenav.astro'
-title: Swindon Film Society Data Protection Procedure
-
+title: SFS Data Protection Procedure
+description: Swindon Film Society's data protectin procedure
+keywords:
 ---
 
 # Data Protection Procedure

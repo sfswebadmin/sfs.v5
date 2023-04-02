@@ -1,7 +1,8 @@
 ---
 layout: '../../layouts/Sidenav.astro'
 title: Community Cinema
-
+description: 
+keywords:
 ---
 
 # Community Cinema

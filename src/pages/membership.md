@@ -1,7 +1,8 @@
 ---
 layout: '../layouts/Standard.astro'
 title: Membership
-
+description: 
+keywords:
 ---
 
 # Swindon Film Society Membership and Film Admission

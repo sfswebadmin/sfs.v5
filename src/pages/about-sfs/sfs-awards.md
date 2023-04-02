@@ -1,7 +1,8 @@
 ---
 layout: '../../layouts/Sidenav.astro'
 title: SFS Awards
-
+description: 
+keywords:
 ---
 
 # Swindon Film Society Awards

@@ -1,7 +1,8 @@
 ---
 layout: '../../layouts/Sidenav.astro'
 title: SFS Society Origins
-
+description: The origins of the Swindon Film Society
+keywords:
 ---
 
 # Swindon Film Society Origins

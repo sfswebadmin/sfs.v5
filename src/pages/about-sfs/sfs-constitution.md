@@ -1,7 +1,8 @@
 ---
 layout: '../../layouts/Sidenav.astro'
 title: Swindon Film Society Constitution
-
+description: 
+keywords:
 ---
 
 # Constitution
