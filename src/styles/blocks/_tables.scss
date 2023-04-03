@@ -1,41 +1,26 @@
 /* #TABLES =============================== */
 
-table {
+.table {
     border: 1px solid $clr-neutral-900;
     margin-bottom: 10px;
 
-    thead tr th,
-    tbody tr td {
+    & > :not(caption) > * > * {
+        background-color: $primary-bg;   
+    }
+
+    & thead tr th,
+    & tbody tr td {
         padding: 7px;
         border: 1px solid $clr-neutral-900;
     }
-
-    thead th {
-        background-color: $primary-bg;
+    
+    & thead tr th {
+        background-color: $primary-clr;
         color: $clr-neutral-100;
     }
-}
 
-.reactions-table {
-    margin-top: 10px;
-    border-color: $clr-neutral-600;
-}
-
-table.reactions-table thead th {
-    vertical-align: top;
-}
-
-.reactions-table thead tr th,
-table tbody tr td {
-  border: 1px solid $clr-neutral-600;
-}
-
-.reactions-table thead tr th {
-  background-color: $primary-bg;
-  color: $clr-neutral-100;
-}
-
-table.film-history__table thead tr th {
-    background-color: $primary-bg;
-    color: $clr-neutral-100;
+    & tbody tr td {
+        background-color: $clr-neutral-100;
+        color: $clr-neutral-900;
+    }
 }

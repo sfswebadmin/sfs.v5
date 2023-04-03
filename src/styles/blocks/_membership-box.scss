@@ -4,7 +4,7 @@
   align-items: center;
   margin-bottom: 1rem;
   padding: 10px;
-  background-color: lighten($primary-bg, 15%);
+  background-color: $membership-box-bg;
   color: $clr-neutral-100;
   box-shadow: 3px 3px 13px -1px rgba(0, 0, 0, 0.75);
 }

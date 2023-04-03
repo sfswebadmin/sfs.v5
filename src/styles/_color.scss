@@ -13,8 +13,11 @@ $clr-neutral-900: #000000;
 
 $poster-box-bg: #ebf9fa;
 
+$membership-box-bg: lighten($primary-bg, 15%);
+
 $navbar-hover: #5779e7;
 $navbar-active: #263566;
+$navbar-border-clr: darken($primary-bg, 10%);
 
 /* all main buttons */
 $btn-primary-bg: #ffc107;

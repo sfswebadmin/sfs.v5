@@ -2,7 +2,7 @@ footer {
   background-color: $primary-bg;
   color: $clr-neutral-100;
   font-size: 0.9rem;
-  font-weight: lighter;
+  font-weight: $fw-200;
   padding-block: 2rem;
 
   a {
@@ -13,7 +13,7 @@ footer {
     &:focus,
     &:active {
       color: $clr-neutral-100;
-      font-weight: 600;
+      font-weight: $fw-600;
     }
   }
 }

@@ -11,7 +11,7 @@ Membership is open to anyone aged 16 or over. You can join before the showing of
 
 We offer two types of membership: Season Ticket and Pay As You Go (see below)
 
-<table>
+<table class="table">
     <thead>
         <tr>
             <th>Type</th>

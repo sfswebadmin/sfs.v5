@@ -1,7 +1,7 @@
 /* Top bar menu */
 .navbar {
     background-color: $primary-bg;
-    border-color: darken($primary-bg, 10%);
+    border-color: $navbar-border-clr;
     border-radius: 0;
   }
 

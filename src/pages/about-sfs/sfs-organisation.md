@@ -50,7 +50,7 @@ The committee meets about once a month or less throughout the year. If you are i
 
 <a id="reports"></a>
 ## Annual Reports and Accounts
-<table>
+<table class="table">
     <thead>
         <tr>
             <th>Year</th>
