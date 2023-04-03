@@ -1,24 +1,42 @@
+.btn-normal {
+  background-color: $btn-primary-bg;
+  color: $btn-primary-clr;
+}
 
-.btn-feedback {
-    background-color: $button-feedback;
-  }
-  
-  .btn-tickets {
-    background-color: $base-color;
-    border-color: $button-tickets;
-    color: $white;
-  }
-  
-  .btn-tickets:hover {
-    background-color: $button-tickes-hover;
-    color: $white;
-  }
-  
-  .front-page-buttons {
-    padding-bottom: 5px;
-  }
+.btn-normal:hover,
+.btn-normal:focus,
+.btn-normal:active {
+  background-color: $btn-primary-bg-hover;
+  color: $btn-primary-clr-hover;
+}
 
-  .front-page-buttons a,
-  .front-page-buttons button {
-    margin-top: 0.25rem;
-  }
+.btn-tickets {
+  background-color: $btn-secondary-bg;
+  border-color: $btn-secondary-bg;
+  color: $btn-secondary-clr;
+}
+
+.btn-tickets:hover,
+.btn-tickets:focus,
+.btn-tickets:active {
+  background-color: $btn-secondary-bg-hover;
+  color: $btn-secondary-clr-hover;
+}
+
+.btn-membership {
+  background-color: $btn-tertiary-bg;
+  color: $btn-tertiary-clr;
+  transition: all 0.4s ease;
+}
+
+.btn-membership:hover,
+.btn-membership:focus,
+.btn-membership:active {
+  background-color: $btn-tertiary-bg-hover;
+  color: $btn-tertiary-clr-hover;
+}
+
+.membership-box-button a:focus,
+.membership-box-button a:hover {
+  text-decoration: none;
+}

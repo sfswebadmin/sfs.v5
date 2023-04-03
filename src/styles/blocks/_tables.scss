@@ -1,24 +1,24 @@
 /* #TABLES =============================== */
 
 table {
-    border: 1px solid $black;
+    border: 1px solid $clr-neutral-900;
     margin-bottom: 10px;
 
     thead tr th,
     tbody tr td {
         padding: 7px;
-        border: 1px solid $black;
+        border: 1px solid $clr-neutral-900;
     }
 
     thead th {
-        background-color: $base-color;
-        color: $white;
+        background-color: $primary-bg;
+        color: $clr-neutral-100;
     }
 }
 
 .reactions-table {
     margin-top: 10px;
-    border-color: $table-border;
+    border-color: $clr-neutral-600;
 }
 
 table.reactions-table thead th {
@@ -27,15 +27,15 @@ table.reactions-table thead th {
 
 .reactions-table thead tr th,
 table tbody tr td {
-  border: 1px solid $table-border;
+  border: 1px solid $clr-neutral-600;
 }
 
 .reactions-table thead tr th {
-  background-color: $base-color;
-  color: $white;
+  background-color: $primary-bg;
+  color: $clr-neutral-100;
 }
 
 table.film-history__table thead tr th {
-    background-color: $base-color;
-    color: $white;
+    background-color: $primary-bg;
+    color: $clr-neutral-100;
 }

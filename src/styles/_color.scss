@@ -1,19 +1,35 @@
 $base-color: #3b52a0;
-$white: #fff;
-$black: #000;
-$grey: grey;
-$red: red;
-$base-border: grey;
+
+$primary-bg: $base-color;
+$primary-clr: $base-color;
+
+$clr-neutral-100: #ffffff;
+$clr-neutral-200: #f8f8f8;
+$clr-neutral-300: #e7e7e7;
+$clr-neutral-400: #808080;
+$clr-neutral-600: #595959;
+$clr-neutral-800: #282727;
+$clr-neutral-900: #000000;
+
 $poster-box-bg: #ebf9fa;
-$poster-box-text: #282727;
-$film-info-line: #3b52a0;
-$nav-bar-hover: #5779e7;
-$nav-bar-active: #263566;
-$nav-bar: #263566;
-$table-border: #595959;
-$new-venue-boxshadow: #888888;
-$aboutus-border: #e7e7e7;
-$aboutus-background: #f8f8f8;
-$button-feedback: red;
-$button-tickets: #3b52a0;
-$button-tickes-hover: #607ee0;
+
+$navbar-hover: #5779e7;
+$navbar-active: #263566;
+
+/* all main buttons */
+$btn-primary-bg: #ffc107;
+$btn-primary-clr: $clr-neutral-900;
+$btn-primary-bg-hover: #f8ce52;
+$btn-primary-clr-hover: $clr-neutral-900;
+
+/* ticket buttons */
+$btn-secondary-bg: $primary-bg;
+$btn-secondary-clr: $clr-neutral-100;
+$btn-secondary-bg-hover: lighten($primary-bg, 25%);
+$btn-secondary-clr-hover: $clr-neutral-100;
+
+/* membership homepage cta button */
+$btn-tertiary-bg: darken($primary-bg, 15%);
+$btn-tertiary-clr: $clr-neutral-100;
+$btn-tertiary-bg-hover: lighten($primary-bg, 35%);
+$btn-tertiary-clr-hover: $clr-neutral-900;

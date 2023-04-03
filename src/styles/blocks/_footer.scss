@@ -1,18 +1,18 @@
 footer {
-  background-color: $base-color;
-  color: $white;
+  background-color: $primary-bg;
+  color: $clr-neutral-100;
   font-size: 0.9rem;
   font-weight: lighter;
   padding-block: 2rem;
 
   a {
     text-decoration: underline;
-    color: $white;
+    color: $clr-neutral-100;
 
     &:hover,
     &:focus,
     &:active {
-      color: $white;
+      color: $clr-neutral-100;
       font-weight: 600;
     }
   }

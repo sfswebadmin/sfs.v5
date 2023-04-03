@@ -27,19 +27,19 @@ const {film} = Astro.props;
                 </div>
                 <div class="row button-bar">
                     <div class="col-lg-12 mt-2 front-page-buttons">
-                        <a href={film.trailerLink} role="button" class="btn btn-warning" target="_blank">
+                        <a href={film.trailerLink} role="button" class="btn btn-normal" target="_blank">
                             Trailer
                         </a>
-                        <a href={film.reviewsLink} role="button" class="btn btn-warning" target="_blank">
+                        <a href={film.reviewsLink} role="button" class="btn btn-normal" target="_blank">
                             Reviews
                         </a>
-                        <a href={film.synopsisLink} role="button" class="btn btn-warning">
+                        <a href={film.synopsisLink} role="button" class="btn btn-normal">
                             Synopsis
                         </a>
                         <a href="/membership/" role="button" class:list={["btn", "btn-default", "btn-tickets", { "d-none": film.attendance !== 0 }]}>
                             Tickets
                         </a>
-                        <button class:list={["btn", "btn-warning", { "d-none": film.attendance === 0 }]} type="button" data-bs-toggle="collapse" data-bs-target={"#collapse" + film.taglink} aria-expanded="false" aria-controls={"collapse" + film.taglink}>
+                        <button class:list={["btn", "btn-normal", { "d-none": film.attendance === 0 }]} type="button" data-bs-toggle="collapse" data-bs-target={"#collapse" + film.taglink} aria-expanded="false" aria-controls={"collapse" + film.taglink}>
                             Approval ({film.ratingsAverage}%)
                         </button>
                     </div>
