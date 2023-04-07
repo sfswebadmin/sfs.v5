@@ -1,0 +1,61 @@
+---
+import BaseLayout from "./Base.astro";
+const { frontmatter } = Astro.props;
+
+const {
+    title,
+    filmOriginalTitle,
+    country,
+    releaseDate,
+    duration,
+    genreName,
+    cast,
+    locationShowing,
+    dateShowing,
+    pdfLink,
+    synopsis,
+} = frontmatter;
+---
+
+<BaseLayout title={title}>
+    <div class="col-md-9">
+        <section>
+            <div class="row">
+                <div class="col-xs-12 col-md-10">
+                    <h1>{title.toUpperCase()}</h1>
+                </div>
+                <div class="col-xs-12 col-md-2 text-center">
+                    <a href={pdfLink} target="_blank">
+                        <i class="fa fa-file-pdf-o fa-3x" aria-hidden="true"
+                        ></i><br />
+                        <span class="text-center"> Download PDF</span>
+                    </a>
+                </div>
+            </div>
+            <p>
+                <strong class:list={[{ "d-none": filmOriginalTitle === null }]}
+                    >{"(" + filmOriginalTitle + ")"}</strong
+                ><br />
+                <strong>{country} ({releaseDate})</strong>
+                {duration}.<br />
+                <strong>Genre:</strong>{genreName}<br />
+                <strong>Directors/writers:</strong>
+                <strong>Cast:</strong>
+                {cast}
+            </p>
+            <h4 class="text-center">
+                Screening {dateShowing} at {locationShowing}
+            </h4>
+        </section>
+        <section class="review">
+            <h2>Synopsis</h2>
+            <p>
+                {synopsis}
+            </p>
+            <h2>Reviews</h2>
+            <div class="review__content">
+                <slot />
+            </div>
+        </section>
+    </div>
+</BaseLayout>
