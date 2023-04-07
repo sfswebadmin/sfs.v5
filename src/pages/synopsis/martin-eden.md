@@ -6,8 +6,7 @@ country: Italy/France
 releaseDate: 2019
 duration: 129 mins
 certificate: Cert 15
-viewingDate: 2022-09-14T00:00:00
-timeShowing: "7:45PM"
+viewingDate: 2022-09-14T19:45:00
 locationShowing: Swindon Arts Centre
 trailerLink: https://www.youtube.com/watch?v=BSciAozpnTA
 reviewsLink: https://www.rottentomatoes.com/m/martin_eden
@@ -25,11 +24,7 @@ newVenue:
 genreId: 15
 genreName: Romance/Drama
 taglink: 02
-dayShowing: Wednesday
-yearShowing: 2022
-dateShowing: 14 September 2022
 pdfLink: /documents/films/SFS_MARTINEDEN.pdf
-filmImageLink: /img/films/martineden.png
 directorsWriters: Pietro Marcello
 directorsLink:
 cast: Luca Marinelli (Martin Eden) Jessica Cressy (Elena Orsini) Carlo Cecchi (Russ Brissenden)

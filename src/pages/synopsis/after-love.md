@@ -6,17 +6,14 @@ country: UK
 releaseDate: 2020
 duration: 89 mins
 certificate: Cert 12A
-viewingDate: 2022-09-07
-timeShowing: "7:45PM"
+viewingDate: 2022-09-07T19:45:00
 locationShowing: Swindon Arts Centre
-pdf: SFS_AFTERLOVE.pdf
 pdfLink: /documents/films/SFS_AFTERLOVE.pdf
 filmImageLink: /img/films/afterlove.png
 directorsWriters: Aleem Khan
 directorsLink:
 cast: Joanna Scanlan (Mary), Nathalie Richard (Geneviève), Talid Ariss (Solomen)
 genreName: Drama
-dateShowing: 7 September 2022
 trailerLink: https://www.youtube.com/watch?v=itL_GpBalA4
 reviewsLink: https://www.rottentomatoes.com/m/compartment_no_6
 filmImage: /img/films/afterlove.png
@@ -30,7 +27,6 @@ disappointing: 1
 awful: 0
 ratingsAverage: 77
 taglink: 01
-dayShowing: Wednesday
 frontPageSnippet: "A woman living in Dover suddenly finds herself a widow, but soon discovers her late husband had a secret just across the English Channel in Calais which she visits."
 synopsis: "Set in the port town of Dover in the South-East of England, Mary Hussain suddenly finds herself a widow following the unexpected death of her husband.  A day after the burial, she discovers he has a secret family just twenty-one miles across the English Channel in Calais."
 ---

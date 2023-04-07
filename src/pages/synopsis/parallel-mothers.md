@@ -6,12 +6,10 @@ country: Spain
 releaseDate: 2021
 duration: 123 mins
 certificate: Cert 15
-viewingDate: 2022-10-12T00:00:00
-timeShowing: "7:45PM"
+viewingDate: 2022-10-12T19:45:00
 locationShowing: Swindon Arts Centre
 trailerLink: https://www.youtube.com/watch?v=cL6JDYkRa2g
 reviewsLink: https://www.rottentomatoes.com/m/parallel_mothers
-synopsisLink: /synopsis/parallel-mothers
 filmImage: /img/films/parallelmothers.png
 posterImage: /img/films/parallelmothersposter.jpg
 attendance: 105
@@ -22,13 +20,8 @@ average: 11
 disappointing: 1
 awful: 0
 ratingsAverage: 83
-newVenue: null
-genreId: 1
 genreName: Drama
 taglink: 03
-dayShowing: Wednesday
-yearShowing: 2022
-dateShowing: 12 October 2022
 directorsWriters: Pedro Almodóvar
 pdfLink: /documents/films/SFS_PARALLELMOTHERS.pdf
 cast: "Janis (Penélope Cruz) Ana (Milena Smit) Arturo (Israel Elejalde) Teresa (Aitana Sanchez-Gijón)"
