@@ -12,7 +12,6 @@ const filmsMD = await Astro.glob("./synopsis/*.md");
 
 const films = filmData.films;
 const bannerFilms = filmData.bannerFilms;
-const bannerTitle = filmData.bannerFilmsTitle;
 const ratingsTotal = filmData.ratingsTotal;
 
 const title = 'Home'
@@ -43,10 +42,6 @@ const keywords = "films,movies,foreign,uk,independent";
                     Wyvern Box Office or directly at the door of the Arts Centre on film
                     nights.
                 </p>
-                
-                <h2>Our Current Film Season Has Concluded</h2>
-
-                <h3>Our new season starts in September</h3>
             </div>
             <div class="col-lg-3">
                 <div class="membership-box">
@@ -60,7 +55,7 @@ const keywords = "films,movies,foreign,uk,independent";
             </div>
         </div>
         
-        <PosterPanels bannerTitle={bannerTitle} bannerFilms={bannerFilms} />
+        <PosterPanels bannerFilms={bannerFilms} />
 
         <Films films={filmsMD} siteData={siteData} />
 

@@ -1,11 +1,16 @@
 ---
-const {bannerTitle, bannerFilms} = Astro.props;
-const heading = bannerTitle.length < 2 ? 'No title' : bannerTitle;
-const hasHeading = bannerTitle.length < 2 ? true : false;
+const {bannerFilms} = Astro.props;
+
+const hasSubHeading = bannerFilms.length === 0 ? false : true;
+
+let bannerTitle = bannerFilms.length === 0 ? 'Our current film season has concluded' : "Our next three films of the season"
+bannerTitle = bannerFilms.length === 1 ? 'Our last film of the season' : bannerTitle;
+bannerTitle = bannerFilms.length === 2 ? 'The last two films of the season' : bannerTitle;
 ---
     <div class="row">
         <section class="col-lg-12">
-            <h3 class:list={[{ "d-none" : hasHeading }]}>{heading}</h3>
+            <h2>{bannerTitle}</h2>
+            <h3 class:list={[{ "d-none" : hasSubHeading }]}>Our new season starts in September</h3>
             <div class="row">
                 {
                     bannerFilms.map((film) => (
