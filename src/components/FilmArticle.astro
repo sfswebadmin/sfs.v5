@@ -1,4 +1,6 @@
 ---
+import {getDayOfWeekName, getMonthName} from '../js/utils.js';
+
 const {film, synopsisLink} = Astro.props;
 
 let viewYear = '';
@@ -10,49 +12,9 @@ let viewTime = '';
 if (film.viewingDate) {
     const filmDate = new Date(film.viewingDate);
     viewYear = filmDate.getUTCFullYear().toString();
+    viewMonth = getMonthName(filmDate.getUTCMonth());
     viewDay = filmDate.getUTCDate().toString();
-    switch(filmDate.getUTCDay()) {
-        case 0: viewDayOfMonth = 'Sunday';
-                break;
-        case 1: viewDayOfMonth = 'Monday';
-                break;
-        case 2: viewDayOfMonth = 'Tuesday';
-                break;
-        case 3: viewDayOfMonth = 'Wednesday';
-                break;
-        case 4: viewDayOfMonth = 'Thursday';
-                break;
-        case 5: viewDayOfMonth = 'Friday';
-                break;
-        case 6: viewDayOfMonth = 'Saturday';
-                break;
-    }
-    switch(filmDate.getUTCMonth()) {
-        case 0: viewMonth = 'January';
-                break;
-        case 1: viewMonth = 'Febuary';
-                break;
-        case 2: viewMonth = 'March';
-                break;
-        case 3: viewMonth = 'April';
-                break;
-        case 4: viewMonth = 'May';
-                break;
-        case 5: viewMonth = 'June';
-                break;
-        case 6: viewMonth = 'July';
-                break;
-        case 7: viewMonth = 'August';
-                break;
-        case 8: viewMonth = 'September';
-                break;
-        case 9: viewMonth = 'October';
-                break;
-        case 10: viewMonth = 'November';
-                break;
-        case 11: viewMonth = 'December';
-                break;
-    }
+    viewDayOfMonth = getDayOfWeekName(filmDate.getUTCDay());
     viewTime = filmDate.getUTCHours() + ':' + filmDate.getUTCMinutes();
 }
 ---
