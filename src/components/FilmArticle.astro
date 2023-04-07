@@ -3,6 +3,7 @@ const {film, synopsisLink} = Astro.props;
 
 let viewYear = '';
 let viewDay = '';
+let viewDayOfMonth = '';
 let viewMonth = '';
 let viewTime = '';
 
@@ -10,8 +11,23 @@ if (film.viewingDate) {
     const filmDate = new Date(film.viewingDate);
     viewYear = filmDate.getUTCFullYear().toString();
     viewDay = filmDate.getUTCDate().toString();
-    const monthOfFilm = filmDate.getUTCMonth();
-    switch(monthOfFilm) {
+    switch(filmDate.getUTCDay()) {
+        case 0: viewDayOfMonth = 'Sunday';
+                break;
+        case 1: viewDayOfMonth = 'Monday';
+                break;
+        case 2: viewDayOfMonth = 'Tuesday';
+                break;
+        case 3: viewDayOfMonth = 'Wednesday';
+                break;
+        case 4: viewDayOfMonth = 'Thursday';
+                break;
+        case 5: viewDayOfMonth = 'Friday';
+                break;
+        case 6: viewDayOfMonth = 'Saturday';
+                break;
+    }
+    switch(filmDate.getUTCMonth()) {
         case 0: viewMonth = 'January';
                 break;
         case 1: viewMonth = 'Febuary';
@@ -51,7 +67,7 @@ if (film.viewingDate) {
                 <h3>{film.title.toUpperCase()}</h3>
                 <p>
                     <strong>
-                        {viewDay} {viewMonth} {viewYear}, {viewTime}, {film.locationShowing}
+                        {viewDayOfMonth} {viewDay} {viewMonth} {viewYear}, {viewTime}, {film.locationShowing}
                     </strong>
                 </p>
                 <p class="film-article__info">
