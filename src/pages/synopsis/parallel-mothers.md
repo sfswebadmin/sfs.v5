@@ -7,7 +7,7 @@ releaseDate: 2021
 duration: 123 mins
 certificate: Cert 15
 viewingDate: 2022-10-12T00:00:00
-timeShowing: 7:45
+timeShowing: "7:45PM"
 locationShowing: Swindon Arts Centre
 trailerLink: https://www.youtube.com/watch?v=cL6JDYkRa2g
 reviewsLink: https://www.rottentomatoes.com/m/parallel_mothers

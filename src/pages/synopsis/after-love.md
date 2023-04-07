@@ -7,7 +7,7 @@ releaseDate: 2020
 duration: 89 mins
 certificate: Cert 12A
 viewingDate: 2022-09-07
-timeShowing: "7:45"
+timeShowing: "7:45PM"
 locationShowing: Swindon Arts Centre
 pdf: SFS_AFTERLOVE.pdf
 pdfLink: /documents/films/SFS_AFTERLOVE.pdf

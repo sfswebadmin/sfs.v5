@@ -7,7 +7,7 @@ releaseDate: 2019
 duration: 129 mins
 certificate: Cert 15
 viewingDate: 2022-09-14T00:00:00
-timeShowing: "7:45"
+timeShowing: "7:45PM"
 locationShowing: Swindon Arts Centre
 trailerLink: https://www.youtube.com/watch?v=BSciAozpnTA
 reviewsLink: https://www.rottentomatoes.com/m/martin_eden
