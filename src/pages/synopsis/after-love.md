@@ -7,7 +7,7 @@ releaseDate: 2020
 duration: 89 mins
 certificate: Cert 12A
 viewingDate: 2022-09-07
-timeShowing: 7:45
+timeShowing: "7:45"
 locationShowing: Swindon Arts Centre
 pdf: SFS_AFTERLOVE.pdf
 pdfLink: /documents/films/SFS_AFTERLOVE.pdf
@@ -21,18 +21,18 @@ trailerLink: https://www.youtube.com/watch?v=itL_GpBalA4
 reviewsLink: https://www.rottentomatoes.com/m/compartment_no_6
 filmImage: /img/films/afterlove.png
 posterImage: /img/films/afterloveposter.jpg
-attendance: 90
-returns: 87
-excellent: 32
-good: 39
-average: 14
-disappointing: 2
+attendance: 95
+returns: 92
+excellent: 25
+good: 49
+average: 17
+disappointing: 1
 awful: 0
-ratingsAverage: 80
-taglink: film32,
+ratingsAverage: 77
+taglink: 01
 dayShowing: Wednesday
-frontPageSnippet: As a train weaves its way up to the Arctic Circle, two strangers share a journey that will change their perspective on life.
-synopsis: Set in the port town of Dover in the South-East of England, Mary Hussain suddenly finds herself a widow following the unexpected death of her husband. A day after the burial, she discovers he has a secret family just twenty-one miles across the English Channel in Calais.
+frontPageSnippet: "A woman living in Dover suddenly finds herself a widow, but soon discovers her late husband had a secret just across the English Channel in Calais which she visits."
+synopsis: "Set in the port town of Dover in the South-East of England, Mary Hussain suddenly finds herself a widow following the unexpected death of her husband.  A day after the burial, she discovers he has a secret family just twenty-one miles across the English Channel in Calais."
 ---
 
 ![poster image for film After Love](/img/films/afterlove.png "poster image for film After Love")

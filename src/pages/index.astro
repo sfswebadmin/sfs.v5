@@ -6,6 +6,9 @@ import filmData from "../data/films.json";
 import PosterPanels from "../components/PosterPanels.astro";
 import FilmsListing from "../components/FilmsListing.astro";
 import HomepageFeedback from "../components/HomepageFeedback.astro";
+import Films from "../components/Films.astro";
+
+const filmsMD = await Astro.glob("./synopsis/*.md");
 
 const films = filmData.films;
 const bannerFilms = filmData.bannerFilms;
@@ -58,6 +61,8 @@ const keywords = "films,movies,foreign,uk,independent";
         </div>
         
         <PosterPanels bannerTitle={bannerTitle} bannerFilms={bannerFilms} />
+
+        <Films films={filmsMD} siteData={siteData} />
 
         <FilmsListing films={films} siteData={siteData} />
 

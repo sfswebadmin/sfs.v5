@@ -1,0 +1,78 @@
+---
+const {film, synopsisLink} = Astro.props;
+console.log(film);
+---
+
+        <article class="row mb-4 film-article">
+            <a id={film.taglink} />
+            <div class="col-lg-4">
+                <img class="img-fluid" src={film.filmImage} title="{ film.title } film screenshot"
+                    alt="{ film.title } film screenshot" />
+            </div>
+            <div class="col-lg-8">
+                <h3>{film.title.toUpperCase()}</h3>
+                <p>
+                    <strong>
+                        {film.dayShowing} {film.dateShowing}, {film.timeShowing}, {film.locationShowing}
+                    </strong>
+                </p>
+                <p class="film-article__info">
+                    {film.releaseDate} | {film.country} |{" "}
+                    {film.duration} | {film.certificate} |{" "}
+                    {film.genreName}
+                </p>
+                <div class="film-article__snippet">
+                    {" "}
+                    {film.frontPageSnippet}
+                </div>
+                <div class="row button-bar">
+                    <div class="col-lg-12 mt-2 front-page-buttons">
+                        <a href={film.trailerLink} role="button" class="btn btn-normal" target="_blank">
+                            Trailer
+                        </a>
+                        <a href={film.reviewsLink} role="button" class="btn btn-normal" target="_blank">
+                            Reviews
+                        </a>
+                        <a href={synopsisLink} role="button" class="btn btn-normal">
+                            Synopsis
+                        </a>
+                        <a href="/membership/" role="button" class:list={["btn", "btn-default", "btn-tickets", { "d-none": film.attendance !== 0 }]}>
+                            Tickets
+                        </a>
+                        <button class:list={["btn", "btn-normal", { "d-none": film.attendance === 0 }]} type="button" data-bs-toggle="collapse" data-bs-target={"#collapse" + film.taglink} aria-expanded="false" aria-controls={"collapse" + film.taglink}>
+                            Approval ({film.ratingsAverage}%)
+                        </button>
+                    </div>
+                </div>
+                <div class="collapse" id={"collapse" + film.taglink}>
+                    <div class="table-responsive mt-2">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Attendance</th>
+                                    <th>Returns</th>
+                                    <th>5 <i class="fa fa-star" aria-hidden="true"></i></th>
+                                    <th>4 <i class="fa fa-star" aria-hidden="true"></i></th>
+                                    <th>3 <i class="fa fa-star" aria-hidden="true"></i></th>
+                                    <th>2 <i class="fa fa-star" aria-hidden="true"></i></th>
+                                    <th>1 <i class="fa fa-star" aria-hidden="true"></i></th>
+                                    <th>Average</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>{film.attendance}</td>
+                                    <td>{film.returns}</td>
+                                    <td>{film.excellent}</td>
+                                    <td>{film.good}</td>
+                                    <td>{film.average}</td>
+                                    <td>{film.disappointing}</td>
+                                    <td>{film.awful} </td>
+                                    <td>{film.ratingsAverage}%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </article>
