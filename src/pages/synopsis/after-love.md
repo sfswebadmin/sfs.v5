@@ -14,8 +14,8 @@ directorsWriters: Aleem Khan
 directorsLink:
 cast: Joanna Scanlan (Mary), Nathalie Richard (Geneviève), Talid Ariss (Solomen)
 genreName: Drama
-trailerLink: https://www.youtube.com/watch?v=itL_GpBalA4
-reviewsLink: https://www.rottentomatoes.com/m/compartment_no_6
+trailerLink: https://www.youtube.com/watch?v=kW6gWNs6-zU
+reviewsLink: https://www.rottentomatoes.com/m/after_love_2020
 filmImage: /img/films/afterlove.png
 posterImage: /img/films/afterloveposter.jpg
 attendance: 95
