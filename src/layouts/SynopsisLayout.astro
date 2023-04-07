@@ -14,6 +14,7 @@ const {
     dateShowing,
     pdfLink,
     synopsis,
+    directorsWriters,
 } = frontmatter;
 ---
 
@@ -37,11 +38,10 @@ const {
                     >{"(" + filmOriginalTitle + ")"}</strong
                 ><br />
                 <strong>{country} ({releaseDate})</strong>
-                {duration}.<br />
-                <strong>Genre:</strong>{genreName}<br />
-                <strong>Directors/writers:</strong>
-                <strong>Cast:</strong>
-                {cast}
+                {duration}.<br>
+                <strong>Genre:</strong> {genreName}<br>
+                <strong>Directors/writers:</strong> {directorsWriters}<br>
+                <strong>Cast:</strong> {cast}
             </p>
             <h4 class="text-center">
                 Screening {dateShowing} at {locationShowing}
