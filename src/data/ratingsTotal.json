@@ -1,5 +1,4 @@
 {
-    "films": [],
     "ratingsTotal": {
         "attendance": 83,
         "returns": 81,
@@ -9,7 +8,5 @@
         "disappointing": 3,
         "awful": 1,
         "ratingsAverage": 77
-    },
-    "bannerFilms": [],
-    "bannerFilmsTitle": ""
+    }
 }
