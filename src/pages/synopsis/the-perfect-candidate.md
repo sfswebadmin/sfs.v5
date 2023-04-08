@@ -32,9 +32,11 @@ synopsis: "A young Saudi doctor stands for office in the local elections.  This 
 
 ![poster image for the film MOVIE NAME](/img/films/theperfectcandidate.png "poster image for the film MOVIE NAME")
 
-"The Perfect Candidate is a simple story, told without frills or even much in the way of nuance...",
-"The Saudi Arabia it shows us is a place where modernity rubs up against entrenched conservatism, and where even the most decadent Barbie Princess-inspired wedding still features a singer who croons, 'There is no God but Allah' ...",
-"The Perfect Candidate suggests that all it might take is for one bright, bold individual to put their shoulder to the wheel for the direction of travel to be altered, if only by a degree."
+The Perfect Candidate is a simple story, told without frills or even much in the way of nuance...
+
+The Saudi Arabia it shows us is a place where modernity rubs up against entrenched conservatism, and where even the most decadent Barbie Princess-inspired wedding still features a singer who croons, 'There is no God but Allah' ...
+
+The Perfect Candidate suggests that all it might take is for one bright, bold individual to put their shoulder to the wheel for the direction of travel to be altered, if only by a degree."
 
 <div class="review__author review__author--review1">
 Xan Brooks, The Guardian
