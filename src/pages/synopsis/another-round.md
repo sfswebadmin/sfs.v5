@@ -23,9 +23,8 @@ awful: 0
 ratingsAverage: 82
 genreName: Comedy/Drama
 taglink: 09
-synopsisPDFLink: /documents/films/SFS_ANOTHERROUND.pdf
+pdfLink: /documents/films/SFS_ANOTHERROUND.pdf
 directorsWriters: Thomas Vinterberg
-directorsLink: 
 cast: "Mads Mikkelsen (Martin), Thomas Bo Larsen (Tommy), Magnus Millang (Nikolaj), Lars Ranthe (Peter)"
 frontPageSnippet: "Four friends, all middle-aged teachers, embark on an experiment to see if a constant level of alcohol in their blood will help them find greater freedom and happiness.  However, simmering issues come to the surface."
 synopsis: "Four high-school teachers consume alcohol on a daily basis to see how it affects their social and professional lives.  A black comedy-drama film directed by Thomas Vinterberg, from a screenplay by Vinterberg and Tobias Lindholm.  An international co-production between Denmark, the Netherlands, and Sweden."

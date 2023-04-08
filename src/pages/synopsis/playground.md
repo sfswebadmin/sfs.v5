@@ -7,7 +7,6 @@ releaseDate: 2021
 duration: 72 mins 
 certificate: Cert 15 
 viewingDate: 2023-03-01T19:45:00
-timeShowing: 7:45
 locationShowing: Swindon Arts Centre
 trailerLink: https://www.youtube.com/watch?v=2aigDz3f5w0
 reviewsLink: https://www.rottentomatoes.com/m/playground_2021
@@ -25,7 +24,6 @@ genreName: Drama
 taglink: 12
 pdfLink: /documents/films/SFS_PLAYGROUND.pdf
 directorsWriters: Laura Wandel
-directorsLink: 
 cast: "Maya Vanderbeque (Nora), Gunter Duret (Abel), Karim Leklou (the father)"
 frontPageSnippet: "Nora witnesses Abel being bullied by other kids and rushes to protect him.  Caught in a conflict of loyalty, Nora tries to find her place, torn between both children's and adult's worlds."
 synopsis: "When 7-year-old Nora witnesses her older brother, Abel, being bullied by other children, she rushes to protect him.  Yet Abel forces her to remain silent.  This creates a dilemma for Nora who tries to find her place, torn between children's and adults' worlds."

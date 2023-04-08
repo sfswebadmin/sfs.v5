@@ -7,7 +7,6 @@ releaseDate: 1947
 duration: 96 mins
 certificate: Cert U
 viewingDate: 2022-12-14T19:45:00
-timeShowing: 7:45
 locationShowing: Swindon Arts Centre
 trailerLink: https://www.youtube.com/watch?v=LrQmDsDcYzk
 reviewsLink: https://www.rottentomatoes.com/m/miracle_on_34th_street
@@ -24,11 +23,10 @@ awful: 0
 ratingsAverage: 93
 genreName: Comedy/Drama
 taglink: 07
-frontPageSnippet: "After a divorced New York mother hires a nice old man to play Santa Claus at Macy's, she is startled by his claim to be the genuine article."
 pdfLink: /documents/films/SFS_MIRACLEON34THSTREET.pdf
 directorsWriters: George Seaton
-directorsLink: 
 cast: "Edmund Gwenn (Kris Kringle), Maureen O'Hara (Doris Walker), Natalie Wood (Susan Walker), John Payne (Fred Gailey)"
+frontPageSnippet: "After a divorced New York mother hires a nice old man to play Santa Claus at Macy's, she is startled by his claim to be the genuine article."
 synopsis: "Doris Walker, a no-nonsense Macy's executive, desperately searches for a new store Santa Claus.  She hires Kris Kringle who insists that he's the real thing.  But he has many sceptics like her and her six-year-old daughter, Susan.  So, he goes to court to try and prove it.  Is he the real Santa Claus?"
 ---
 

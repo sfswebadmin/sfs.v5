@@ -22,7 +22,7 @@ disappointing: 0
 awful: 0
 ratingsAverage: 91
 genreName: Drama/War
-taglink: film38
+taglink: 10
 pdfLink: /documents/films/SFS_QUOVADISAIDA.pdf
 directorsWriters: Jasmila Žbanić
 directorsLink: 

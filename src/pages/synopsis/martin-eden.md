@@ -26,7 +26,6 @@ genreName: Romance/Drama
 taglink: 02
 pdfLink: /documents/films/SFS_MARTINEDEN.pdf
 directorsWriters: Pietro Marcello
-directorsLink:
 cast: Luca Marinelli (Martin Eden) Jessica Cressy (Elena Orsini) Carlo Cecchi (Russ Brissenden)
 frontPageSnippet: "Martin Eden, a young ambitious writer struggling to rise above his poor circumstances, falls in love with the daughter of a wealthy family and aspires to rise above his situation."
 synopsis: "Martin Eden, a young sailor, is welcomed with open arms into an industrial middle-class liberal family after rescuing the family's young heir, Arturo, from a violent attack.  In their home, Martin crosses paths with Arturo's enchanting sister Elena, and romance blossoms.  He then aspires to transcend his humble beginnings and succeed as a writer, all to be worthy of Elena’s hand."

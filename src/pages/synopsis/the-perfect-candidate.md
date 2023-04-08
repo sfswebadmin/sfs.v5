@@ -6,9 +6,7 @@ country: Saudi Arabia
 releaseDate: 2019
 duration: 104 mins
 certificate: Cert PG
-frontPageSnippet: "A young female Saudi doctor's run for office in the local city elections forces her family and community to accept their town's first female candidate."
 viewingDate: 2022-11-30T19:45:00
-timeShowing: 7:45
 locationShowing: Swindon Arts Centre
 trailerLink: https://www.youtube.com/watch?v=j4WdvsZLDtg
 reviewsLink: https://www.rottentomatoes.com/m/the_perfect_candidate
@@ -26,8 +24,8 @@ genreName: Comedy/Drama
 taglink: 06
 pdfLink: /documents/films/SFS_THEPERFECTCANDIDATE.pdf
 directorsWriters: Haifaa al-Mansour
-directorsLink: 
 cast: "Mila Al Zahrani, Hamad Almutaani, Mohammed Othman"
+frontPageSnippet: "A young female Saudi doctor's run for office in the local city elections forces her family and community to accept their town's first female candidate."
 synopsis: "A young Saudi doctor stands for office in the local elections.  This causes consternation in her family and community as they struggle to accept their town's first female candidate."
             
 ---

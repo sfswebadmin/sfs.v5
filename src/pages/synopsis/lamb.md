@@ -1,7 +1,7 @@
 ---
 layout: '../../layouts/SynopsisLayout.astro'
 title: Lamb
-filmOriginalTitle: null
+filmOriginalTitle: 
 country: Iceland
 releaseDate: 2021
 duration: 107 mins
@@ -24,7 +24,6 @@ genreName: Drama/Fantasy
 taglink: 11
 pdfLink: /documents/films/SFS_LAMB.pdf
 directorsWriters: Valdimar Jóhannsson
-directorsLink: 
 cast: "Noomi Rapace (María), Hilmir Snaer Guonason (Ingvar), Bjorn Hlynur Haraldsson (Petur)"
 frontPageSnippet: "A childless couple, María and Ingvar, discover a mysterious new-born on their farm in Iceland. The unexpected prospect of family life brings them much joy but they soon face the unexpected consequences of their actions."
 synopsis: "A childless couple, María and Ingvar, discover a mysterious new-born on their farm in Iceland.  The unexpected prospect of family life brings them much joy but they soon face the equally unexpected consequences of their actions."

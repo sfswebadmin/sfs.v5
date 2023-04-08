@@ -24,7 +24,6 @@ genreName: Comedy/Drama
 taglink: 13
 pdfLink: /documents/films/SFS_INEVERCRY.pdf
 directorsWriters: Piotr Domalewski
-directorsLink: 
 cast: "Zofia Stafiej (Olka), Kinga Preis (Olka’s mother), Cosmina Stratan (Sara), Shane Casey (Funeral home employee)"
 frontPageSnippet: "Ola, a seventeen-year-old Polish girl, sets off to Ireland on her own.  It turns out to be the trip of her lifetime, where she tries to reconnect with her estranged father, comes to know a different world and changes her approach to life."
 synopsis: "Strong-willed Olka is a 17-year-old from Poland whose top priority in life is passing her driving test and getting a car.  But when her father dies while working in Ireland, and her mother is forced to stay behind with her disabled brother, it is Olka who must travel there to bring his body home.  Armed with only a backpack and a dwindling pack of cigarettes, she arrives in Dublin to seek out information about her largely unknown father and battle the various layers of bureaucracy that stand in her way."

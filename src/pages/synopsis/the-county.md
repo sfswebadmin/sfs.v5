@@ -6,13 +6,10 @@ country: Iceland
 releaseDate: 2019
 duration: 92 mins
 certificate: Cert 12A
-frontPageSnippet: "A widowed farmer begins a new life on her own terms by fighting against corruption and injustice in her community."
 viewingDate: 2022-11-16T19:45:00
-timeShowing: 7:45
 locationShowing: Swindon Arts Centre
 trailerLink: https://www.youtube.com/watch?v=6xalJXBc82s
 reviewsLink: https://www.rottentomatoes.com/m/the_county
-synopsisLink: /synopsis/the-county
 filmImage: /img/films/thecounty.png
 posterImage: /img/films/thecountyposter.jpg
 attendance: 80
@@ -23,13 +20,12 @@ average: 29
 disappointing: 1
 awful: 0
 ratingsAverage: 70
-newVenue:
 genreName: Comedy/Drama
 taglink: 05
 pdfLink: /documents/films/SFS_THECOUNTY.pdf
 directorsWriters: Grimur Hakonarson
-directorsLink:
 cast: "Arndís Hrönn Egilsdóttir, Hinrik Ólafsson"
+frontPageSnippet: "A widowed farmer begins a new life on her own terms by fighting against corruption and injustice in her community."
 synopsis: "A widowed farmer begins a new life on her own terms by fighting against corruption and injustice in her community."
 ---
 

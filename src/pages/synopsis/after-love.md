@@ -11,8 +11,6 @@ locationShowing: Swindon Arts Centre
 pdfLink: /documents/films/SFS_AFTERLOVE.pdf
 filmImageLink: /img/films/afterlove.png
 directorsWriters: Aleem Khan
-directorsLink:
-cast: Joanna Scanlan (Mary), Nathalie Richard (Geneviève), Talid Ariss (Solomen)
 genreName: Drama
 trailerLink: https://www.youtube.com/watch?v=kW6gWNs6-zU
 reviewsLink: https://www.rottentomatoes.com/m/after_love_2020
@@ -27,6 +25,7 @@ disappointing: 1
 awful: 0
 ratingsAverage: 77
 taglink: 01
+cast: "Joanna Scanlan (Mary), Nathalie Richard (Geneviève), Talid Ariss (Solomen)"
 frontPageSnippet: "A woman living in Dover suddenly finds herself a widow, but soon discovers her late husband had a secret just across the English Channel in Calais which she visits."
 synopsis: "Set in the port town of Dover in the South-East of England, Mary Hussain suddenly finds herself a widow following the unexpected death of her husband.  A day after the burial, she discovers he has a secret family just twenty-one miles across the English Channel in Calais."
 ---
@@ -39,17 +38,17 @@ At its heart is a constrained yet wonderfully expressive performance by the vers
 
 By contrast, Richard speaks and gestures freely, while Ariss does a remarkable job of capturing both the anger (in one shocking scene, he spits in his mother’s face) and the anguish of a young man torn between his parents, his sexuality, his home.
 
-<div class="review__author review__author--review1">
+<p class="review__author review__author--review1">
 Mark Kermode, Observer Film Critic
-</div>
+</p>
 
 As the crow flies, only about 30 miles separate the port towns of Dover and Calais — a distance that, in many parts of the world, wouldn’t span any greater culture shift than a slight tweak in accent.  
 
 When those miles are filled with the English Channel, however, opposite coastlines represent opposite worlds, where everything from language to sexual mores are poles apart.  It’s a short but jolting journey, an exercise in social and geographic disorientation that British-Pakistani filmmaker Aleem Khan probes to layered, thoughtful effect in his auspicious first feature ‘After Love.’
 
-<div class="review__author">
+<p class="review__author">
 Guy Lodge, Variety
-</div>
+</p>
 
 ### Film Facts
 

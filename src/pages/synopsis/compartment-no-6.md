@@ -6,9 +6,7 @@ country: Finland
 releaseDate: 2021
 duration: 107 mins
 certificate: Cert 15
-frontPageSnippet: "As a train weaves its way up to the Arctic Circle, two strangers share a journey that will change their perspective on life."
 viewingDate: 2022-11-02T19:45:00
-timeShowing: 7:45
 locationShowing: Swindon Arts Centre
 trailerLink: https://www.youtube.com/watch?v=itL_GpBalA4
 reviewsLink: https://www.rottentomatoes.com/m/compartment_no_6
@@ -28,8 +26,8 @@ genreName: Romance/Drama
 taglink: 04
 pdfLink: /documents/films/SFS_COMPARTMENTNO6.pdf
 directorsWriters: Juho Kuosmanen
-directorsLink: 
 cast: "Yuriy Borisov (Ljoha), Seidi Haarla (Laura)"
+frontPageSnippet: "As a train weaves its way up to the Arctic Circle, two strangers share a journey that will change their perspective on life."
 synopsis: "A young Finish woman, Laura, takes a train in Moscow for Murmansk in order to study petroglyphs at an archaeological site in the Arctic sea.  During this trip she shares a compartment with Ljoha, a Russian fellow-traveller.  Despite being opposite characters, the journey will get them closer."
 
 ---

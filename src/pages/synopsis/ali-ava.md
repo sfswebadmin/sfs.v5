@@ -1,13 +1,12 @@
 ---
 layout: '../../layouts/SynopsisLayout.astro'
 title: Ali & Ava
-filmOriginalTitle: null
+filmOriginalTitle:
 country: UK
 releaseDate: 2021
 duration: 95 mins
 certificate: Cert 15
 viewingDate: 2023-03-29T19:45:00
-timeShowing: 7:45
 locationShowing: Swindon Arts Centre
 trailerLink: https://www.youtube.com/watch?v=f1l6lg8Au_M
 reviewsLink: https://www.rottentomatoes.com/m/ali_and_ava
@@ -21,10 +20,10 @@ average: 17
 disappointing: 3
 awful: 0
 ratingsAverage: 75
-genreName: Romance/Drama
 taglink: 14
 pdfLink: /documents/films/SFS_ALI&AVA.pdf
 directorsWriters: Clio Barnard
+genreName: Romance/Drama
 directorsLink: 
 cast: "Adeel Akhtar (Ali), Claire Rushbrook (Ava),  Ellora Torchia (Runa)"
 frontPageSnippet: "Both lonely for different reasons, Ali and Ava meet through their shared affection for Sofia, the child of Ali's Slovakian tenants, whom Ava teaches.  Ali finds comfort in Ava's warmth and kindness and Ava finds Ali's complexity and humour irresistible.  Over a lunar month, sparks fly and a deep connection begins to grow."
