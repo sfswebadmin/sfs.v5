@@ -33,7 +33,7 @@ cast: "Arndís Hrönn Egilsdóttir, Hinrik Ólafsson"
 synopsis: "A widowed farmer begins a new life on her own terms by fighting against corruption and injustice in her community."
 ---
 
-![poster image for film The County](/img/films/thecounty.png "poster image for film The County")
+![poster image for the film The County](/img/films/thecounty.png "poster image for the film The County")
 
 "Rugged rural Iceland and organised crime don’t seem like natural bedfellows, but the third film from native director Grímur Hákonarson (Summerland, Rams) crafts a taut and enthralling drama out of one woman’s occasionally reckless attempt to take down a corrupt local co-operative.",
     "The County opens slowly, matching the grey, agricultural landscape. We see middle-aged Inga (Arndís Hrönn Egilsdóttir) and gruff husband Reynir (Hinrik Ólafsson) quietly going about their business of keeping the remote family dairy farm afloat. When Inga suggests that they purchase fertiliser from a cheaper supplier instead of the local co-operative, Reynir replies ominously: “We belong to the co-op.” He’s not exaggerating: like other farmers in the area, Inga and Reynir are only allowed to buy supplies from the co-op, and only allowed to sell their milk to it. Their business is also heavily in debt to… you’ve guessed it: the co-op. ",

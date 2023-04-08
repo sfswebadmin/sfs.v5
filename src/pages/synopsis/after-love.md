@@ -31,7 +31,7 @@ frontPageSnippet: "A woman living in Dover suddenly finds herself a widow, but s
 synopsis: "Set in the port town of Dover in the South-East of England, Mary Hussain suddenly finds herself a widow following the unexpected death of her husband.  A day after the burial, she discovers he has a secret family just twenty-one miles across the English Channel in Calais."
 ---
 
-![poster image for film After Love](/img/films/afterlove.png "poster image for film After Love")
+![poster image for the film After Love](/img/films/afterlove.png "poster image for film After Love")
 
 The debut feature from English-Pakistani film-maker Aleem Khan is a tale of secrets and lies, a portrait of people caught between identities and cultures.  
 

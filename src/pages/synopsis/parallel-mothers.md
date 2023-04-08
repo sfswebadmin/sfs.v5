@@ -30,7 +30,7 @@ synopsis: "Two women, Janis and Ana, meet in a hospital ward about to give birth
             
 ---
 
-![poster image for film Parallel Mothers](/img/films/parallelmothers.png "poster image for film Parallel Mothers")
+![poster image for the film Parallel Mothers](/img/films/parallelmothers.png "poster image for the film Parallel Mothers")
 
 Two heavily pregnant women – fortysomething photographer Janice (Penélope Cruz) and teenager Ana (Milena Smit) – share a room in a maternity hospital.  The brief moment of kinship, forged through shared confidences, sweat and pain as they puff through labour in tandem, will bond them in ways they could never imagine.  Meanwhile, Janice is dealing with the legacy of the Spanish Civil War, which scarred her family and that of many of her compatriots.  In other hands, this dual focus, which pulls us backwards and forwards, rooted in the past and driven to the future, might seem unwieldy.  But Pedro Almodóvar makes a light-footed dance of it, negotiating story threads that extend over decades and tie up in the present day.
 

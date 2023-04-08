@@ -33,7 +33,7 @@ synopsis: "Martin Eden, a young sailor, is welcomed with open arms into an indus
 
 ---
 
-![poster image for film Martin Eden](/img/films/martineden.png "poster image for film Martin Eden")
+![poster image for the film Martin Eden](/img/films/martineden.png "poster image for the film Martin Eden")
 
 The entirety of the 20th century — its promises, illusions and traumas — sweeps through the audacious and thrilling Martin Eden.  An ingenious adaptation of the Jack London novel, the film follows its title character, a humble young man as he embarks on a program of self-improvement.  Martin strives to change and advance and succeeds.  But his rags-to-riches path with its hard work, perseverance and bourgeois education, proves far more complicated and finally more shattering than most upward-mobility fairy tales…
 

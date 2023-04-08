@@ -32,7 +32,7 @@ frontPageSnippet: "A Korean American family moves to an Arkansas farm in search 
 synopsis: "A tender and sweeping story about what roots us, Minari follows a Korean-American family that moves to an Arkansas farm in search of their own American Dream.  The family home changes completely with the arrival of their sly, foul-mouthed, but incredibly loving grandmother.  Amidst the instability and challenges of this new life in the rugged Ozarks, Minari shows the undeniable resilience of family and what really makes a home."
 ---
 
-![poster image for film Minari](/img/films/minari.png "poster image for film Minari")
+![poster image for the film Minari](/img/films/minari.png "poster image for the film Minari")
 
 Part of Chung’s film has the gentle, hazy energy of a memory – set in the Eighties, it draws partially from his own childhood experiences. Lachlan Milne’s cinematography is drenched in golden rays, Emile Mosseri’s score twinkles like stars, and the narrative often focuses on Jacob and Monica’s endearing but mischievous son David (Alan Kim, who is impossible not to love). 
 

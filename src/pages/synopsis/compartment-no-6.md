@@ -34,7 +34,7 @@ synopsis: "A young Finish woman, Laura, takes a train in Moscow for Murmansk in 
 
 ---
 
-![poster image for film Compartment No. 6](/img/films/compartmentno6.png "poster image for film Compartment No. 6")
+![poster image for the film Compartment No. 6](/img/films/compartmentno6.png "poster image for the film Compartment No. 6")
 
 Part of what makes Compartment No. 6 engrossing and effective is how Kuosmanen plays with tone.  In Irina’s apartment, the naturalistic performances, loose camerawork, casual staging and Laura’s visible unease create a sense of intimacy as well as sympathy.  All of us have been the awkward guest somewhere.
 

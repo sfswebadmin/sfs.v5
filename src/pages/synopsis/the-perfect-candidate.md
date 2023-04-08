@@ -22,8 +22,6 @@ average: 14
 disappointing: 5
 awful: 0
 ratingsAverage: 73
-newVenue: null
-genreId: 14
 genreName: Comedy/Drama
 taglink: 06
 pdfLink: /documents/films/SFS_THEPERFECTCANDIDATE.pdf
@@ -34,7 +32,7 @@ synopsis: "A young Saudi doctor stands for office in the local elections.  This 
             
 ---
 
-![poster image for film MOVIE NAME](/img/films/theperfectcandidate.png "poster image for film MOVIE NAME")
+![poster image for the film MOVIE NAME](/img/films/theperfectcandidate.png "poster image for the film MOVIE NAME")
 
 "The Perfect Candidate is a simple story, told without frills or even much in the way of nuance...",
 "The Saudi Arabia it shows us is a place where modernity rubs up against entrenched conservatism, and where even the most decadent Barbie Princess-inspired wedding still features a singer who croons, 'There is no God but Allah' ...",

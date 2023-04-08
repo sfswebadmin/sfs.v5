@@ -31,7 +31,7 @@ frontPageSnippet: "Four friends, all middle-aged teachers, embark on an experime
 synopsis: "Four high-school teachers consume alcohol on a daily basis to see how it affects their social and professional lives.  A black comedy-drama film directed by Thomas Vinterberg, from a screenplay by Vinterberg and Tobias Lindholm.  An international co-production between Denmark, the Netherlands, and Sweden."
 ---
 
-![poster image for film Another Round](/img/films/anotherround.png "poster image for film Another Round")
+![poster image for the film Another Round](/img/films/anotherround.png "poster image for the film Another Round")
 
 Martin and three close friends embark on a reckless experiment: to see if daytime drinking can help them become better versions of themselves – to learn to live again.
 

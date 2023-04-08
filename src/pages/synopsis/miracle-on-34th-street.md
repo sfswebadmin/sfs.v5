@@ -32,7 +32,7 @@ cast: "Edmund Gwenn (Kris Kringle), Maureen O'Hara (Doris Walker), Natalie Wood 
 synopsis: "Doris Walker, a no-nonsense Macy's executive, desperately searches for a new store Santa Claus.  She hires Kris Kringle who insists that he's the real thing.  But he has many sceptics like her and her six-year-old daughter, Susan.  So, he goes to court to try and prove it.  Is he the real Santa Claus?"
 ---
 
-![poster image for film Miracle on 35th Street](/img/films/miracle34thstreet.png "poster image for film Miracle on 35th Street")
+![poster image for the film Miracle on 35th Street](/img/films/miracle34thstreet.png "poster image for the film Miracle on 35th Street")
 
 The story takes place between Thanksgiving Day and Christmas Day in New York City.
 
