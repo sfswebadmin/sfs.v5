@@ -3,14 +3,19 @@ import BaseLayout from '../layouts/Base.astro';
 import Reaction from '../components/Reaction.astro';
 
 import reactions from '../data/pastReactions.json';
-import filmData from '../data/films.json';
+import ratingsTotal from '../data/ratingsTotal.json';
 
-const films = filmData.films;
-const ratingsTotal = filmData.ratingsTotal;
+// get films and sort the list by viewing date
+const filmsMD = await Astro.glob("./synopsis/*.md");
+const sortedFilms = filmsMD.sort((a, b) => {
+    const aDate = new Date(a.frontmatter.viewingDate).getTime();
+    const bDate = new Date(b.frontmatter.viewingDate).getTime();
+    return aDate - bDate;
+});
 
 const title = "Audience Reactions";
-const description = "";
-const keywords = "";
+const description = "audience feedback for the films shown, both past and current seasons";
+const keywords = "audience, feedback, reaction, stars, rating";
 ---
 
 <BaseLayout title={title} description={description} keywords={keywords}>
@@ -46,31 +51,31 @@ const keywords = "";
                             </tr>
                         </thead>
                         <tbody>
-                            {films.map((film) => (
+                            {sortedFilms.map((film) => (
                             <tr>
-                                <td>{film.title}</td>
-                                <td>{film.attendance === 0 ? '' : film.attendance}</td>
-                                <td>{film.returns === 0 ? '' : film.returns}</td>
-                                <td>{film.excellent === 0 ? '' : film.excellent}</td>
-                                <td>{film.good === 0 ? '' : film.good}</td>
-                                <td>{film.average === 0 ? '' : film.average}</td>
-                                <td>{film.disappointing === 0 ? '' : film.disappointing}</td>
-                                <td>{film.awful === 0 ? '' : film.awful} </td>
-                                <td>{film.ratingsAverage === 0 ? '' : film.ratingsAverage + '%'}</td>
+                                <td>{film.frontmatter.title}</td>
+                                <td>{film.frontmatter.attendance === 0 ? '' : film.frontmatter.attendance}</td>
+                                <td>{film.frontmatter.returns === 0 ? '' : film.frontmatter.returns}</td>
+                                <td>{film.frontmatter.excellent === 0 ? '' : film.frontmatter.excellent}</td>
+                                <td>{film.frontmatter.good === 0 ? '' : film.frontmatter.good}</td>
+                                <td>{film.frontmatter.average === 0 ? '' : film.frontmatter.average}</td>
+                                <td>{film.frontmatter.disappointing === 0 ? '' : film.frontmatter.disappointing}</td>
+                                <td>{film.frontmatter.awful === 0 ? '' : film.frontmatter.awful} </td>
+                                <td>{film.frontmatter.ratingsAverage === 0 ? '' : film.frontmatter.ratingsAverage + '%'}</td>
                             </tr>
                             ))}
                         </tbody>
                         <tfoot>
                             <tr>
                                 <td><strong>Average</strong></td>
-                                <td>{ratingsTotal.attendance}</td>
-                                <td>{ratingsTotal.returns}</td>
-                                <td>{ratingsTotal.excellent}</td>
-                                <td>{ratingsTotal.good}</td>
-                                <td>{ratingsTotal.average}</td>
-                                <td>{ratingsTotal.disappointing}</td>
-                                <td>{ratingsTotal.awful}</td>
-                                <td>{ratingsTotal.ratingsAverage}%</td>
+                                <td>{ratingsTotal.ratingsTotal.attendance}</td>
+                                <td>{ratingsTotal.ratingsTotal.returns}</td>
+                                <td>{ratingsTotal.ratingsTotal.excellent}</td>
+                                <td>{ratingsTotal.ratingsTotal.good}</td>
+                                <td>{ratingsTotal.ratingsTotal.average}</td>
+                                <td>{ratingsTotal.ratingsTotal.disappointing}</td>
+                                <td>{ratingsTotal.ratingsTotal.awful}</td>
+                                <td>{ratingsTotal.ratingsTotal.ratingsAverage}%</td>
                             </tr>
                         </tfoot>
                     </table>

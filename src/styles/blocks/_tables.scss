@@ -23,4 +23,9 @@
         background-color: $clr-neutral-100;
         color: $clr-neutral-900;
     }
+
+    & tfoot tr td {
+        background: none;
+        font-weight: $fw-600;
+    }
 }

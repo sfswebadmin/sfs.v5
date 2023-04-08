@@ -1,18 +1,25 @@
 ---
+// import layout
 import BaseLayout from "../layouts/Base.astro";
 
+// import data
 import siteData from '../data/siteData.json';
-import filmData from "../data/films.json";
+import ratingsTotal from '../data/ratingsTotal.json';
+
+// import components
 import PosterPanels from "../components/PosterPanels.astro";
-import FilmsListing from "../components/FilmsListing.astro";
 import HomepageFeedback from "../components/HomepageFeedback.astro";
 import Films from "../components/Films.astro";
 
+// get films and sort the list by viewing date
 const filmsMD = await Astro.glob("./synopsis/*.md");
+const sortedFilms = filmsMD.sort((a, b) => {
+    const aDate = new Date(a.frontmatter.viewingDate).getTime();
+    const bDate = new Date(b.frontmatter.viewingDate).getTime();
+    return aDate - bDate;
+});
 
-const films = filmData.films;
-const bannerFilms = filmData.bannerFilms;
-const ratingsTotal = filmData.ratingsTotal;
+const bannerFilms = [];
 
 const title = 'Home'
 const description = "For the best in world cinema and UK independent cinema";
@@ -57,11 +64,9 @@ const keywords = "films,movies,foreign,uk,independent";
         
         <PosterPanels bannerFilms={bannerFilms} />
 
-        <Films films={filmsMD} siteData={siteData} />
+        <Films films={sortedFilms} siteData={siteData} />
 
-        <FilmsListing films={films} siteData={siteData} />
-
-        <HomepageFeedback ratingsTotal={ratingsTotal} />
+        <HomepageFeedback ratingsTotal={ratingsTotal.ratingsTotal} />
    
     </div>
 </BaseLayout>

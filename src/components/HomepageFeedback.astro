@@ -1,5 +1,13 @@
 ---
-const { ratingsTotal} = Astro.props;
+const { ratingsTotal } = Astro.props;
+const { attendance, 
+        returns, 
+        excellent, 
+        good, 
+        average, 
+        disappointing, 
+        awful, 
+        ratingsAverage } = ratingsTotal;
 ---
     <div class="row">
     <section class="col-lg-8 offset-lg-4 ">
@@ -24,14 +32,14 @@ const { ratingsTotal} = Astro.props;
                 </thead>
                 <tbody>
                     <tr>
-                        <td>{ratingsTotal.attendance}</td>
-                        <td>{ratingsTotal.returns}</td>
-                        <td>{ratingsTotal.excellent}</td>
-                        <td>{ratingsTotal.good}</td>
-                        <td>{ratingsTotal.average}</td>
-                        <td>{ratingsTotal.disappointing}</td>
-                        <td>{ratingsTotal.awful}</td>
-                        <td>{ratingsTotal.ratingsAverage}%</td>
+                        <td>{attendance}</td>
+                        <td>{returns}</td>
+                        <td>{excellent}</td>
+                        <td>{good}</td>
+                        <td>{average}</td>
+                        <td>{disappointing}</td>
+                        <td>{awful}</td>
+                        <td>{ratingsAverage}%</td>
                     </tr>
                 </tbody>
             </table>
