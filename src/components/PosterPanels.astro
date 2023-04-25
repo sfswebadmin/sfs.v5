@@ -1,11 +1,41 @@
 ---
-const {bannerFilms} = Astro.props;
+const {films} = Astro.props;
 
-const hasSubHeading = bannerFilms.length === 0 ? false : true;
+// sort the films by viewing date
+const sortedFilms = films.sort((a, b) => {
+    const aDate = new Date(a.frontmatter.viewingDate).getTime();
+    const bDate = new Date(b.frontmatter.viewingDate).getTime();
+    return aDate - bDate;
+});
 
-let bannerTitle = bannerFilms.length === 0 ? 'Our current film season has concluded' : "Our next three films of the season"
-bannerTitle = bannerFilms.length === 1 ? 'Our last film of the season' : bannerTitle;
-bannerTitle = bannerFilms.length === 2 ? 'The last two films of the season' : bannerTitle;
+// filter the films that are equal to or newer than today's date
+const filteredFilms = sortedFilms;
+
+// set the variables for the heading and sub-heading
+let hasSubHeading = true;
+let bannerTitle = "The next three films in our season";
+
+if (filteredFilms.length === films.length) {
+ bannerTitle = "The first three films in our season";
+}
+
+// get the next three films in the season
+const bannerFilms = filteredFilms.slice(0,3);
+
+if (bannerFilms.length == 2) {
+    bannerTitle = "The last two films in our season";
+}
+
+if (bannerFilms.length == 1) {
+    bannerTitle = "The last film of our season";
+}
+
+if (bannerFilms.length == 0) {
+    bannerTitle = "Our current film season has concluded";
+    hasSubHeading = false;
+}
+
+
 ---
     <div class="row">
         <section class="col-lg-12">
@@ -16,22 +46,18 @@ bannerTitle = bannerFilms.length === 2 ? 'The last two films of the season' : ba
                     bannerFilms.map((film) => (
                         <div class="col-lg-4">
                             <div class="poster-box">
-                                <div class="row poster-box-date">
-                                    <div class="col-lg-12 text-center">
-                                        Showing: {film.dateShowing}
-                                    </div>
-                                </div>
+                                <p>
+                                    Showing: {new Date(film.frontmatter.viewingDate).toDateString()}
+                                </p>
                                 <img
-                                    src={film.posterImage}
-                                    alt={film.title + " film poster"}
+                                    src={film.frontmatter.posterImage}
+                                    alt={film.frontmatter.title + " film poster"}
                                     class="img-responsive"
                                 />
-                                <div class="row poster-box-link">
-                                    <div class="col-lg-12 text-center">
-                                        <a href={"#" + film.taglink}>
-                                            More Info...
-                                        </a>
-                                    </div>
+                                <div class="poster-box-link">
+                                    <a href={"#" + film.frontmatter.taglink}>
+                                        More Info...
+                                    </a>
                                 </div>
                             </div>
                         </div>

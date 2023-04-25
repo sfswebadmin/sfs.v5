@@ -2,6 +2,12 @@
 import FilmArticle from './FilmArticle.astro';
 
 const {films, siteData} = Astro.props;
+
+const sortedFilms = films.sort((a, b) => {
+    const aDate = new Date(a.frontmatter.viewingDate).getTime();
+    const bDate = new Date(b.frontmatter.viewingDate).getTime();
+    return aDate - bDate;
+});
 ---
 
 <div class="row mt-3">
@@ -14,7 +20,7 @@ const {films, siteData} = Astro.props;
             time to get your ticket and seat.
         </p>
         {
-            films.map((film) => (
+            sortedFilms.map((film) => (
                 <FilmArticle film={film.frontmatter} synopsisLink={film.url} />
             ))
         }
