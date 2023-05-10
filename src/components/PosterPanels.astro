@@ -9,7 +9,11 @@ const sortedFilms = films.sort((a, b) => {
 });
 
 // filter the films that are equal to or newer than today's date
-const filteredFilms = sortedFilms;
+const today = Date.now();
+const filteredFilms = sortedFilms.filter((film) => {
+    const viewingDate = new Date(film.frontmatter.viewingDate).getTime();
+    return viewingDate > today;
+});
 
 // set the variables for the heading and sub-heading
 let hasSubHeading = true;
