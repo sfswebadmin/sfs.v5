@@ -1,6 +1,6 @@
 ---
 layout: '../../layouts/SynopsisLayout.astro'
-title: "LUNANA: A YAK IN THE CLASSROOM"
+title: "Lunana: A Yak in the Classroom"
 filmOriginalTitle:
 country: Bhutan
 releaseDate: "2019"
