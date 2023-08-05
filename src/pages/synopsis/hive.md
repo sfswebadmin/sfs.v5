@@ -6,7 +6,7 @@ country: Albania
 releaseDate: 2021
 duration: 84 mins
 certificate: Cert 15
-viewingDate: 2023-11-01T9:45:00
+viewingDate: 2023-11-01T19:45:00
 locationShowing: Swindon Arts Centre
 trailerLink: 
 reviewsLink: 

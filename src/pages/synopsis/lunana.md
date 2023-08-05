@@ -6,7 +6,7 @@ country: Bhutan
 releaseDate: "2019"
 duration: 110 mins
 certificate: Cert PG
-viewingDate: 2023-09-06T9:45:00
+viewingDate: 2023-09-06T19:45:00
 locationShowing: Swindon Arts Centre
 trailerLink: 
 reviewsLink: 

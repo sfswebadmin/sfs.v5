@@ -6,7 +6,7 @@ country: Bolivia
 releaseDate: 2022
 duration: 87 mins
 certificate: Cert 12A
-viewingDate: 2023-10-04T9:45:00
+viewingDate: 2023-10-04T19:45:00
 locationShowing: Swindon Arts Centre
 trailerLink: 
 reviewsLink: 

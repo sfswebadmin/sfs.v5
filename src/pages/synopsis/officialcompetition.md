@@ -6,7 +6,7 @@ country: Argentina/Spain
 releaseDate: 2021
 duration: 114 mins
 certificate: Cert 15
-viewingDate: 2023-11-22T9:45:00
+viewingDate: 2023-11-22T19:45:00
 locationShowing: Swindon Arts Centre
 trailerLink: 
 reviewsLink: 

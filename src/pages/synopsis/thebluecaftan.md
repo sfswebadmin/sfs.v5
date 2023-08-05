@@ -5,8 +5,8 @@ filmOriginalTitle:
 country: Morocco
 releaseDate: 2022
 duration: 122 mins
-certificate: Cert U
-viewingDate: 2023-10-25T9:45:00
+certificate: Cert 12A
+viewingDate: 2023-10-25T19:45:00
 locationShowing: Swindon Arts Centre
 trailerLink: 
 reviewsLink: 
