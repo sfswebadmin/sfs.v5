@@ -28,7 +28,7 @@ cast: "Sherab Dorji (Ugyen Dorji), Ugyen Norbu Lhendup (Michen), Kunzang Wangdi 
 frontPageSnippet: "A trainee teacher’s dreams of becoming a singer are interrupted when he is posted to the world’s remotest school in the Himalayan Mountain village of Lunana." 
 synopsis: "Ugyen has completed four of his five mandatory years of training as a teacher for the government.  However, he does not enjoy teaching and wishes to move to Australia to become a singer.  When he is assigned to teach in the very remote Himalayan Mountain village of Lunana, he considers quitting his job, but his grandmother urges him to complete his teaching assignment."
 --- 
-![image for the film Miracle on 35th Street]( /img/films/lunana.png "alt text") 
+![image for the film Lunana]( /img/films/lunana.png ) 
 
 With its gently pacey narrative and a collection of vivid, often amusing characters, it's perhaps impossible not to fall in love with this movie.  Big themes are handled with an unusually light touch, avoiding both cliches and the story structure.  So, the focus falls refreshingly on interaction that continually breaks the surface.  Watching Ugyen blossom from a sullen urbanite into someone deeply connected with his culture and surroundings is unusually inspiring because the script never cheapens his journey.
 

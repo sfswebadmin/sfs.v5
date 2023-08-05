@@ -28,7 +28,7 @@ cast: "Catherine Clinch (Cáit), Carrie Crowley (Eibhlín Cinnsealach) Andrew Be
 frontPageSnippet: "Ireland, 1981.  A quiet, neglected girl is sent away from her dysfunctional family to live with distant relatives in County Waterford for the summer.  Living with a middle-aged farming couple, she discovers a new way of living."
 synopsis: "Rural Ireland 1981. A quiet, neglected girl is sent away from her dysfunctional family to live with foster parents for the summer.  She blossoms in their care, but in this house where there are meant to be no secrets, she discovers one."
 --- 
-![image for the film The Quiet Girl]( /img/films/thequietgirl.png "alt text") 
+![image for the film The Quiet Girl]( /img/films/thequietgirl.png ) 
 
 This beautiful and compassionate film from first-time feature director Colm Bairéad is a child’s-eye look at our fallen world; already it feels to me like a classic.  There’s a lovely scene in which the “quiet girl” of the title, 10-year-old Cáit (played by newcomer Catherine Clinch), is reading Heidi before bedtime, and this movie, for all its darkness and suppressed pain, has the solidity, clarity and storytelling gusto of that old-fashioned Alpine children’s tale – about the little girl sent away to live in a beautiful place with her grandfather.
 
