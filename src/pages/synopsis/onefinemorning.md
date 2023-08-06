@@ -1,15 +1,15 @@
 ---
 layout: '../../layouts/SynopsisLayout.astro'
 title: One Fine Morning
-filmOriginalTitle: 
+filmOriginalTitle: Un beau matin
 country: France
-releaseDate: 
+releaseDate: 2022
 duration: 112 mins
 certificate: Cert PG
 viewingDate: 2024-02-14T19:45:00
 locationShowing: Swindon Arts Centre
-trailerLink: 
-reviewsLink: 
+trailerLink: https://www.youtube.com/watch?v=VRI2_9IZEc8
+reviewsLink: https://www.rottentomatoes.com/m/one_fine_morning_2022
 filmImage: /img/films/onefinemorning.png
 posterImage: /img/films/onefinemorningposter.jpg
 attendance: 0

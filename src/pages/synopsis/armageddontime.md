@@ -3,13 +3,13 @@ layout: '../../layouts/SynopsisLayout.astro'
 title: Armageddon Time
 filmOriginalTitle: 
 country: USA
-releaseDate: 
-duration: 115 mins
+releaseDate: 2022
+duration: 114 mins
 certificate: Cert 15
 viewingDate: 2024-03-27T19:45:00
 locationShowing: Swindon Arts Centre
-trailerLink: 
-reviewsLink: 
+trailerLink: https://www.youtube.com/watch?v=ZKLu3t-G9Do
+reviewsLink: https://www.rottentomatoes.com/m/armageddon_time
 filmImage: /img/films/armageddontime.png
 posterImage: /img/films/armageddontimeposter.jpg
 attendance: 0

@@ -1,15 +1,15 @@
 ---
 layout: '../../layouts/SynopsisLayout.astro'
 title: Hive
-filmOriginalTitle: 
+filmOriginalTitle: Zgjoi
 country: Albania
 releaseDate: 2021
 duration: 84 mins
 certificate: Cert 15
 viewingDate: 2023-11-01T19:45:00
 locationShowing: Swindon Arts Centre
-trailerLink: 
-reviewsLink: 
+trailerLink: https://www.youtube.com/watch?v=_-kk17wIg7A
+reviewsLink: https://www.rottentomatoes.com/m/hive
 filmImage: /img/films/hive.png
 posterImage: /img/films/hiveposter.jpg
 attendance: 0

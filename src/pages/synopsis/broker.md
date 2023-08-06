@@ -1,15 +1,15 @@
 ---
 layout: '../../layouts/SynopsisLayout.astro'
 title: Broker
-filmOriginalTitle: 
+filmOriginalTitle: Beurokeo
 country: South Korea
-releaseDate: 
+releaseDate: 2022
 duration: 129 mins
 certificate: Cert 15
 viewingDate: 2024-01-31T19:45:00
 locationShowing: Swindon Arts Centre
-trailerLink: 
-reviewsLink: 
+trailerLink: https://www.youtube.com/watch?v=vm3B-fDc9Xw
+reviewsLink: https://www.rottentomatoes.com/m/broker
 filmImage: /img/films/broker.png
 posterImage: /img/films/brokerposter.jpg
 attendance: 0

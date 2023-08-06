@@ -1,15 +1,15 @@
 ---
 layout: '../../layouts/SynopsisLayout.astro'
 title: Cairo Conspiracy
-filmOriginalTitle: 
+filmOriginalTitle: Walad min al-Janna
 country: Egypt
-releaseDate: 
+releaseDate: 2022
 duration: 112 mins
 certificate: Cert 15
 viewingDate: 2024-02-28T19:45:00
 locationShowing: Swindon Arts Centre
-trailerLink: 
-reviewsLink: 
+trailerLink: https://www.youtube.com/watch?v=_9p-2k-EaGU
+reviewsLink: https://www.rottentomatoes.com/m/cairo_conspiracy
 filmImage: /img/films/cairoconspiracy.png
 posterImage: /img/films/cairoconspiracyposter.jpg
 attendance: 0

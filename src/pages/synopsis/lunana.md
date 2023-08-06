@@ -1,15 +1,15 @@
 ---
 layout: '../../layouts/SynopsisLayout.astro'
 title: "Lunana: A Yak in the Classroom"
-filmOriginalTitle:
+filmOriginalTitle: 
 country: Bhutan
-releaseDate: "2019"
+releaseDate: 2019
 duration: 110 mins
 certificate: Cert PG
 viewingDate: 2023-09-06T19:45:00
 locationShowing: Swindon Arts Centre
-trailerLink: 
-reviewsLink: 
+trailerLink: https://www.youtube.com/watch?v=22OOkMOZQ7g
+reviewsLink: https://www.rottentomatoes.com/m/lunana_a_yak_in_the_classroom
 filmImage: /img/films/lunana.png
 posterImage: /img/films/lunanaposter.jpg
 attendance: 0

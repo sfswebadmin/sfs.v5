@@ -1,15 +1,15 @@
 ---
 layout: '../../layouts/SynopsisLayout.astro'
 title: The Blue Caftan
-filmOriginalTitle: 
+filmOriginalTitle: Le bleu du caftan
 country: Morocco
 releaseDate: 2022
 duration: 122 mins
 certificate: Cert 12A
 viewingDate: 2023-10-25T19:45:00
 locationShowing: Swindon Arts Centre
-trailerLink: 
-reviewsLink: 
+trailerLink: https://www.youtube.com/watch?v=CRAHt9PFv0E
+reviewsLink: https://www.rottentomatoes.com/m/the_blue_caftan
 filmImage: /img/films/thebluecaftan.png
 posterImage: /img/films/thebluecaftanposter.jpg
 attendance: 0

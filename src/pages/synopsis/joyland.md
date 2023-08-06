@@ -3,13 +3,13 @@ layout: '../../layouts/SynopsisLayout.astro'
 title: Joyland
 filmOriginalTitle: 
 country: Pakistan
-releaseDate: 
+releaseDate: 2022
 duration: 126 mins
 certificate: Cert 15
 viewingDate: 2024-01-03T19:45:00
 locationShowing: Swindon Arts Centre
-trailerLink: 
-reviewsLink: 
+trailerLink: https://www.youtube.com/watch?v=InT99AHc8q4
+reviewsLink: https://www.rottentomatoes.com/m/joyland_2022
 filmImage: /img/films/joyland.png
 posterImage: /img/films/joylandposter.jpg
 attendance: 0

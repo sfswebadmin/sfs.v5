@@ -1,15 +1,15 @@
 ---
 layout: '../../layouts/SynopsisLayout.astro'
 title: The Quiet Girl
-filmOriginalTitle: 
+filmOriginalTitle: An Cailín Ciúin
 country: Ireland
 releaseDate: 2022
 duration: 94 mins
 certificate: Cert 12A
 viewingDate: 2023-09-20T19:45:00
 locationShowing: Swindon Arts Centre
-trailerLink: 
-reviewsLink: 
+trailerLink: https://www.youtube.com/watch?v=LGWyqty2m-A
+reviewsLink: https://www.rottentomatoes.com/m/the_quiet_girl
 filmImage: /img/films/thequietgirl.png
 posterImage: /img/films/thequietgirlposter.jpg
 attendance: 0

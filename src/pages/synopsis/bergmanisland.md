@@ -3,13 +3,13 @@ layout: '../../layouts/SynopsisLayout.astro'
 title: Bergman Island
 filmOriginalTitle: 
 country: France/USA
-releaseDate: 
+releaseDate: 2021
 duration: 113 mins
 certificate: Cert 15
 viewingDate: 2024-01-17T19:45:00
 locationShowing: Swindon Arts Centre
-trailerLink: 
-reviewsLink: 
+trailerLink: https://www.youtube.com/watch?v=nrlVHVid-20
+reviewsLink: https://www.rottentomatoes.com/m/bergman_island_2021
 filmImage: /img/films/bergmanisland.png
 posterImage: /img/films/bergmanislandposter.jpg
 attendance: 0

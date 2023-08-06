@@ -1,15 +1,15 @@
 ---
 layout: '../../layouts/SynopsisLayout.astro'
 title: The Night of the 12th
-filmOriginalTitle: 
+filmOriginalTitle: La nuit du 12
 country: France
-releaseDate: 
+releaseDate: 2022
 duration: 115 mins
 certificate: Cert 15
 viewingDate: 2024-03-13T19:45:00
 locationShowing: Swindon Arts Centre
-trailerLink: 
-reviewsLink: 
+trailerLink: https://www.youtube.com/watch?v=LJVGC6N-vuk
+reviewsLink: https://www.rottentomatoes.com/m/the_night_of_the_12th
 filmImage: /img/films/thenightofthe12th.png
 posterImage: /img/films/thenightofthe12thposter.jpg
 attendance: 0

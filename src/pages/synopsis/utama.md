@@ -8,8 +8,8 @@ duration: 87 mins
 certificate: Cert 12A
 viewingDate: 2023-10-04T19:45:00
 locationShowing: Swindon Arts Centre
-trailerLink: 
-reviewsLink: 
+trailerLink: https://www.youtube.com/watch?v=9qLJAtRDNoE
+reviewsLink: https://www.rottentomatoes.com/m/utama
 filmImage: /img/films/utama.png
 posterImage: /img/films/utamaposter.jpg
 attendance: 0

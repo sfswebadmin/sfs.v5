@@ -1,15 +1,15 @@
 ---
 layout: '../../layouts/SynopsisLayout.astro'
 title: Official Competition
-filmOriginalTitle: 
+filmOriginalTitle: Competencia oficial
 country: Argentina/Spain
 releaseDate: 2021
 duration: 114 mins
 certificate: Cert 15
 viewingDate: 2023-11-22T19:45:00
 locationShowing: Swindon Arts Centre
-trailerLink: 
-reviewsLink: 
+trailerLink: https://www.youtube.com/watch?v=3b0ZYBmST-U
+reviewsLink: https://www.rottentomatoes.com/m/official_competition
 filmImage: /img/films/officialcompetition.png
 posterImage: /img/films/officialcompetitionposter.jpg
 attendance: 0

@@ -3,13 +3,13 @@ layout: '../../layouts/SynopsisLayout.astro'
 title: Winners
 filmOriginalTitle: 
 country: Iran
-releaseDate: 2021
+releaseDate: 2022
 duration: 85 mins
 certificate: Cert 15
 viewingDate: 2023-12-13T19:45:00
 locationShowing: Swindon Arts Centre
-trailerLink: 
-reviewsLink: 
+trailerLink: https://www.youtube.com/watch?v=zzFNVvAXCww
+reviewsLink: https://www.rottentomatoes.com/m/winners_2022
 filmImage: /img/films/winners.png
 posterImage: /img/films/winnersposter.jpg
 attendance: 0
