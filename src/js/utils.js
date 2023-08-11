@@ -27,7 +27,7 @@ export function getMonthName(month) {
     switch(month) {
         case 0: monthName = 'January';
                 break;
-        case 1: monthName = 'Febuary';
+        case 1: monthName = 'February';
                 break;
         case 2: monthName = 'March';
                 break;
