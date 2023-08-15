@@ -11,7 +11,7 @@ $clr-neutral-600: #595959;
 $clr-neutral-800: #282727;
 $clr-neutral-900: #000000;
 
-$poster-box-bg: #ebf9fa;
+$poster-box-bg: $clr-neutral-200;
 
 $membership-box-bg: lighten($primary-bg, 15%);
 
