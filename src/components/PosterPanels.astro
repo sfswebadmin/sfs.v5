@@ -48,6 +48,7 @@ if (bannerFilms.length == 0) {
                 {
                     bannerFilms.map((film) => (
                         <div class="col-lg-4">
+                            <a href={"#" + film.frontmatter.taglink} class="poster-box-link">
                             <div class="poster-box">
                                 <p>
                                     Showing: {new Date(film.frontmatter.viewingDate).toDateString()}
@@ -55,14 +56,13 @@ if (bannerFilms.length == 0) {
                                 <img
                                     src={film.frontmatter.posterImage}
                                     alt={film.frontmatter.title + " film poster"}
-                                    class="img-responsive"
+                                    class="img-responsive poster-box__image"
+                                    width="206"
+                                    height="305"
                                 />
-                                <div class="poster-box-link">
-                                    <a href={"#" + film.frontmatter.taglink}>
-                                        More Info...
-                                    </a>
+                                <p class="poster-box__more-info"> More Info...  </p>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     ))
                 }
