@@ -1,5 +1,7 @@
 
 .film-article {
+    margin-bottom: 2.5rem;
+
     h3 {
         margin-top: 0;
     }
@@ -12,10 +14,6 @@
     & .film-article__date {
         font-weight: 700;
         margin-bottom: 0;
-    }
-
-    & .film-article__snippet {
-        padding-bottom: 15px;
     }
 
     & .front-page-buttons {

@@ -19,7 +19,7 @@ if (film.viewingDate) {
 }
 ---
 
-        <article class="row mb-4 film-article">
+        <article class="row film-article">
             <a id={film.taglink} />
             <div class="col-lg-4">
                 <img class="img-fluid" src={film.filmImage} title="{ film.title } film screenshot"
@@ -39,7 +39,7 @@ if (film.viewingDate) {
                     {film.frontPageSnippet}
                 </div>
                 <div class="row button-bar">
-                    <div class="col-lg-12 mt-2 front-page-buttons">
+                    <div class="col-lg-12 mt-3 front-page-buttons">
                         <a href={film.trailerLink} role="button" class="btn btn-normal" target="_blank">
                             Trailer
                         </a>
