@@ -27,10 +27,8 @@ if (film.viewingDate) {
             </div>
             <div class="col-lg-8">
                 <h3>{film.title.toUpperCase()}</h3>
-                <p>
-                    <strong>
-                        {viewDayOfMonth} {viewDay} {viewMonth} {viewYear}, {viewTime}, {film.locationShowing}
-                    </strong>
+                <p class="film-article__date">
+                    {viewDayOfMonth} {viewDay} {viewMonth} {viewYear}, {viewTime}, {film.locationShowing}
                 </p>
                 <p class="film-article__info">
                     {film.releaseDate} | {film.country} |{" "}
@@ -54,12 +52,9 @@ if (film.viewingDate) {
                         <a href="/membership/" role="button" class:list={["btn", "btn-default", "btn-tickets", { "d-none": film.attendance !== 0 }]}>
                             Tickets
                         </a>
-                        <button class:list={["btn", "btn-normal", { "d-none": film.attendance === 0 }]} type="button" data-bs-toggle="collapse" data-bs-target={"#collapse" + film.taglink} aria-expanded="false" aria-controls={"collapse" + film.taglink}>
-                            Approval ({film.ratingsAverage}%) <i class="fa fa-caret-down" aria-hidden="true"></i>
-                        </button>
                     </div>
                 </div>
-                <div class="collapse" id={"collapse" + film.taglink}>
+                <div class:list={[{ "d-none": film.attendance === 0 }]}>
                     <div class="table-responsive mt-2">
                         <table class="table">
                             <thead>
