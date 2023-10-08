@@ -11,7 +11,7 @@ locationShowing: Swindon Arts Centre
 trailerLink: https://www.youtube.com/watch?v=3b0ZYBmST-U
 reviewsLink: https://www.rottentomatoes.com/m/official_competition
 filmImage: /img/films/officialcompetition.png
-posterImage: /img/films/officialcompetitionposter.jpg
+posterImage: /img/films/officalcompetitionposter.jpg
 attendance: 0
 returns: 0
 excellent: 0
