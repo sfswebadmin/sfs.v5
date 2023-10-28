@@ -22,6 +22,15 @@ blockquote {
   font-size: 1.2em;
 }
 
+.btn-agm-reports {
+  background-color: #3b52a0;
+}
+
+.btn-agm-reports:hover,
+.btn-agm-reports:focus {
+  background-color: #5779e7;
+}
+
 @import 'blocks/navbar';
 @import 'blocks/sidenav';
 @import 'blocks/tables';

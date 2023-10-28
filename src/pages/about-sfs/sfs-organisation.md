@@ -89,6 +89,16 @@ The committee meets about once a month or less throughout the year. If you are i
             <td>Accounts Income and Expenditure</td>
             <td><a href="/documents/SFS_Financial_Report_2021-22.pdf">PDF</a></td>
         </tr>
+        <tr id="current-reports">
+            <td>2022-23</td>
+            <td>Annual Report</td>
+            <td><a href="/documents/SFS_Annual_Report_2022-23.pdf">PDF</a></td>
+        </tr>
+        <tr>
+            <td>2022-23</td>
+            <td>Accounts Income and Expenditure</td>
+            <td><a href="/documents/SFS_Financial_Report_2022-23.pdf">PDF</a></td>
+        </tr>
         <tr>
             <td>2020</td>
             <td>AGM Minutes</td>
