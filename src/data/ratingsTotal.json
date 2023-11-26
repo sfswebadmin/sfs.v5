@@ -1,12 +1,12 @@
 {
     "ratingsTotal": {
-        "attendance": 96,
-        "returns": 96,
-        "excellent": 33,
-        "good": 43,
-        "average": 18,
-        "disappointing": 2,
-        "awful": 0,
-        "ratingsAverage": 78
+        "attendance": 100,
+        "returns": 99,
+        "excellent": 34,
+        "good": 42,
+        "average": 20,
+        "disappointing": 3,
+        "awful": 1,
+        "ratingsAverage": 77
     }
 }
