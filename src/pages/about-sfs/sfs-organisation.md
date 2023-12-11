@@ -114,6 +114,11 @@ The committee meets about once a month or less throughout the year. If you are i
             <td>AGM Minutes</td>
             <td><a href="/documents/SFS_AGM_Minutes_2022-11-16.pdf">PDF</a></td>
         </tr>
+        <tr>
+            <td>2023</td>
+            <td>AGM Minutes</td>
+            <td><a href="/documents/SFS_AGM_Minutes_2023-11-01.pdf">PDF</a></td>
+        </tr>
     </tbody>
 </table>
 
