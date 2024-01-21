@@ -11,7 +11,7 @@ locationShowing: Swindon Arts Centre
 trailerLink: https://www.youtube.com/watch?v=_9p-2k-EaGU
 reviewsLink: https://www.rottentomatoes.com/m/cairo_conspiracy
 filmImage: /img/films/cairoconspiracy.png
-posterImage: /img/films/cairoconspiracyposter.jpg
+posterImage: /img/films/carioconspiracyposter.jpg
 attendance: 0
 returns: 0
 excellent: 0
