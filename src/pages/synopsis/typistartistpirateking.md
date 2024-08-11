@@ -19,7 +19,7 @@ good:
 average:
 disappointing:
 awful:
-ratingsAverage:
+ratingsAverage: 0
 genreName: Biopic/Comedy
 taglink: '12'
 pdfLink: /documents/films/TYPISTARTISTPIRATEKING.pdf

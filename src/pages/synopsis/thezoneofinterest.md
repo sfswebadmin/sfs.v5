@@ -19,7 +19,7 @@ good:
 average:
 disappointing:
 awful:
-ratingsAverage:
+ratingsAverage: 0
 genreName: History/War Drama
 taglink: '05'
 pdfLink: /documents/films/THEZONEOFINTEREST.pdf

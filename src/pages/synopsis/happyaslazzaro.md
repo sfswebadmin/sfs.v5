@@ -19,7 +19,7 @@ good:
 average:
 disappointing:
 awful:
-ratingsAverage:
+ratingsAverage: 0
 genreName: Fantasy/Drama
 taglink: '06'
 pdfLink: /documents/films/HAPPYASLAZZARO.pdf

@@ -19,7 +19,7 @@ good:
 average:
 disappointing:
 awful:
-ratingsAverage:
+ratingsAverage: 0
 genreName: 'Community Drama'
 taglink: '01'
 pdfLink: /documents/films/THEOLDOAK.pdf

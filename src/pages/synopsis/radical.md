@@ -19,7 +19,7 @@ good:
 average:
 disappointing:
 awful:
-ratingsAverage:
+ratingsAverage: 0
 genreName: Drama
 taglink: '14'
 pdfLink: /documents/films/RADICAL.pdf

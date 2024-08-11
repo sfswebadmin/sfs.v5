@@ -19,7 +19,7 @@ good:
 average:
 disappointing:
 awful:
-ratingsAverage:
+ratingsAverage: 0
 genreName: Comedy/Drama
 taglink: '07'
 pdfLink: /documents/films/HITTHEROAD.pdf

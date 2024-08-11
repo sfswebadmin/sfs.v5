@@ -19,7 +19,7 @@ good:
 average:
 disappointing:
 awful:
-ratingsAverage:
+ratingsAverage: 0
 genreName: Thriller/Drama
 taglink: '02'
 pdfLink: /documents/films/NOSTALGIA.pdf

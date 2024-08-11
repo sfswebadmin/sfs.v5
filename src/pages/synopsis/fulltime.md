@@ -19,7 +19,7 @@ good:
 average:
 disappointing:
 awful:
-ratingsAverage:
+ratingsAverage: 0
 genreName: Thriller/Drama
 taglink: '04'
 pdfLink: /documents/films/FULLTIME.pdf

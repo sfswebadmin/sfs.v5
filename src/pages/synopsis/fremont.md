@@ -19,7 +19,7 @@ good:
 average:
 disappointing:
 awful:
-ratingsAverage:
+ratingsAverage: 0
 genreName: Drama
 taglink: '10'
 pdfLink: /documents/films/FREMONT.pdf

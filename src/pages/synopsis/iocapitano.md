@@ -19,7 +19,7 @@ good:
 average:
 disappointing:
 awful:
-ratingsAverage:
+ratingsAverage: 0
 genreName: Social Drama
 taglink: '09'
 pdfLink: /documents/films/LOCAPITANO.pdf

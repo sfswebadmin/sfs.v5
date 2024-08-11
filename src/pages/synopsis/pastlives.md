@@ -19,7 +19,7 @@ good:
 average:
 disappointing:
 awful:
-ratingsAverage:
+ratingsAverage: 0
 genreName: Drama/Romance
 taglink: '08'
 pdfLink: /documents/films/PASTLIVES.pdf
