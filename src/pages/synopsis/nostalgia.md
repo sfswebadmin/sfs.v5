@@ -4,7 +4,7 @@ title: Nostalgia
 filmOriginalTitle:
 country: Italy
 releaseDate: 2022
-duration: 117 mins
+duration: 113 mins
 certificate: Cert 12
 viewingDate: 2024-09-18T19:45:00
 locationShowing: Swindon Arts Centre

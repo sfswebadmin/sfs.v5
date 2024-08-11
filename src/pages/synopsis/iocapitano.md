@@ -5,8 +5,8 @@ filmOriginalTitle:
 country: Italy
 releaseDate: 2023
 duration: 121 mins
-certificate: Cert 12A
-viewingDate: 2025-01-22229:45:00
+certificate: Cert 15
+viewingDate: 2025-01-22T19:45:00
 locationShowing: Swindon Arts Centre
 trailerLink: https://www.youtube.com/watch?v=Z6fLvLN2EqM
 reviewsLink: https://www.rottentomatoes.com/m/io_capitano

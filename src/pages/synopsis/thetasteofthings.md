@@ -6,7 +6,7 @@ country: France
 releaseDate: 2023
 duration: 135 mins
 certificate: Cert PG-13
-viewingDate: 2025-04-02T19:45:00
+viewingDate: 2025-03-19T19:45:00
 locationShowing: Swindon Arts Centre
 trailerLink: https://www.youtube.com/watch?v=cKKCGtoIOVY
 reviewsLink: https://www.rottentomatoes.com/m/the_taste_of_things
