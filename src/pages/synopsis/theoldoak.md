@@ -11,7 +11,7 @@ locationShowing: Swindon Arts Centre
 trailerLink: https://www.youtube.com/watch?v=Fwb0c5zqsyM
 reviewsLink: https://www.rottentomatoes.com/m/the_old_oak
 filmImage: /img/films/image.png
-posterImage: /img/films/poster.jpg
+posterImage: /img/films/theoldoakposter.jpg
 attendance: 0
 returns:
 excellent:
@@ -22,7 +22,7 @@ awful:
 ratingsAverage:
 genreName: 'Community Drama'
 taglink: '01'
-pdfLink: /documents/films/DOC.pdf
+pdfLink: /documents/films/THEOLDOAK.pdf
 directorsWriters: 'Ken Loach'
 cast: 'Dave Turner (TJ Ballantyne) Debbie Honeywood (Tania) Ebla Mari (Yara)'
 frontPageSnippet: 'The Old Oak is the last pub standing in a once thriving mining village in northern England.  A group of Syrian refugees move into the village, causing a rift with the community.  In an unlikely friendship TJ meets a young Syrian named Yara which helps the situation.'
