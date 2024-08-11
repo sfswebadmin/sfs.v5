@@ -10,7 +10,7 @@ viewingDate: 2024-10-23T19:45:00
 locationShowing: Swindon Arts Centre
 trailerLink: https://www.youtube.com/watch?v=K9u9aqVgMvI
 reviewsLink: https://www.rottentomatoes.com/m/full_time
-filmImage: /img/films/image.png
+filmImage: /img/films/fulltime.png
 posterImage: /img/films/fulltimeposter.jpg
 attendance: 0
 returns:
@@ -29,7 +29,7 @@ frontPageSnippet: 'Julie is a divorced working mother constantly torn between he
 synopsis: 'Single mother, Julie, works as a head chambermaid in a 5-star Parisian hotel.  She has to balance the demands of a daily commute from a remote suburb, tenuous childcare and a search for a new job more suited to her skills.  Constantly stressed, when she finally gets an interview for an appropriate job, she is faced with a national transport strike.'
 ---
 
-![image for the film Armageddon Time](/img/films/image.png)
+![image for the film Full Time](/img/films/fulltime.png)
 
 The notion of applying an action film feel to someone going about their daily routine may seem a bit precious, perhaps even contrived, but it is a conceit that Gravel is able to pay off effectively. From a technical standpoint, the construction of the film is very impressive as both Mathilde Van de Moortel’s editing and Irene Dresel’s score (both of whom received Cesar nominations for their efforts) give the film a sense of real tension right from the get-go and sustains it until the end—even the rare moments when Julie can steal a minute for herself are hardly a respite as we can sense how guilty she feels for even those all-too-brief bits of calm.
 

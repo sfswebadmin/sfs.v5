@@ -10,7 +10,7 @@ viewingDate: 2025-04-02T19:45:00
 locationShowing: Swindon Arts Centre
 trailerLink: https://www.youtube.com/watch?v=BXcGgvAKC1Q
 reviewsLink: https://www.rottentomatoes.com/m/radical
-filmImage: /img/films/image.png
+filmImage: /img/films/radical.png
 posterImage: /img/films/radicalposter.jpg
 attendance: 0
 returns:
@@ -29,7 +29,7 @@ frontPageSnippet: 'A true story of a teacher in a Mexican border town full of ne
 synopsis: 'Based on a true story, a teacher arrives in a Mexican school located in a border town full of neglect, corruption and violence. He tries a "radical" new method of unlocking his students'' interest, potential and, maybe, even their genius.'
 ---
 
-![image for the film Armageddon Time](/img/films/image.png)
+![image for the film Radical](/img/films/radical.png)
 
 ... The story of a wacky, unconventional teacher who inspires stubborn, disadvantaged students to succeed and excel isn’t anything new. It’s a great story that’s been done before on screen, but Zalla’s version is a lot of fun. Much of the film’s success must be credited to the cast, with great actors and characters that are equally easy to fall in love with. And let’s be honest here: what film hasn’t benefited greatly from Derbez’s potent chemistry alone? ...
 

@@ -10,7 +10,7 @@ viewingDate: 2024-09-18T19:45:00
 locationShowing: Swindon Arts Centre
 trailerLink: https://www.youtube.com/watch?v=9WkA62wrmpI
 reviewsLink: https://www.rottentomatoes.com/m/nostalgia_2022
-filmImage: /img/films/image.png
+filmImage: /img/films/nostalgia.png
 posterImage: /img/films/nostalgiaposter.jpg
 attendance: 0
 returns:
@@ -29,7 +29,7 @@ frontPageSnippet: 'Felice returns to his hometown of Naples after spending 40 ye
 synopsis: 'After 40 years of absence, Felice returns to his hometown, Naples.  He rediscovers the places, the codes of the city and a past that eats away at him.  However, does he only recall a more affectionate version of his memories and of what actually happened in the past?'
 ---
 
-![image for the film Armageddon Time](/img/films/image.png)
+![image for the film Nostalgia](/img/films/nostalgia.png)
 
 Naples’ violent crime syndicate, the Camorra, casts a large shadow in the city’s literature – and Mario Martone’s Nostalgia, based on a 2016 novel by Ermanno Rea, is full of ruthless moped-riding spectres. Felice returns to Naples after spending 40 years in Lebanon and Egypt to find that his mother has grown old and his home has become alien to him. He stumbles with the volcanic gutturals of the Neapolitan dialect, forgetting words and struggling to explain himself.
 

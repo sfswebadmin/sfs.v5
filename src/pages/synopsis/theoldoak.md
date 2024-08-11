@@ -10,7 +10,7 @@ viewingDate: 2024-09-04T19:45:00
 locationShowing: Swindon Arts Centre
 trailerLink: https://www.youtube.com/watch?v=Fwb0c5zqsyM
 reviewsLink: https://www.rottentomatoes.com/m/the_old_oak
-filmImage: /img/films/image.png
+filmImage: /img/films/theoldoak.png
 posterImage: /img/films/theoldoakposter.jpg
 attendance: 0
 returns:
@@ -29,7 +29,7 @@ frontPageSnippet: 'The Old Oak is the last pub standing in a once thriving minin
 synopsis: 'A pub landlord in a previously thriving mining community struggles to hold onto his pub. Meanwhile, tensions rise in the town when Syrian refugees are placed in the empty houses in the community.'
 ---
 
-![image for the film Armageddon Time](/img/films/image.png)
+![image for the film The Old Oak](/img/films/theoldoak.png)
 
 Loach has also sought out the painful and unfashionable subjects, marching to where the gunfire has been loudest. With I, Daniel Blake it was the vivisectional experiment of austerity; with Sorry We Missed You it was the serfdom of the gig economy. Now, in The Old Oak, it is that ugly phenomenon from which London’s liberal classes have turned away in sorrowing distaste: refugees housed in hostels all over the UK who are being abused and attacked by local people radicalised by social media.
 But Loach does not attack the “deplorables” of the white working class; on the contrary.

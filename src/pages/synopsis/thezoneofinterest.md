@@ -10,7 +10,7 @@ viewingDate: 2024-11-13T19:45:00
 locationShowing: Swindon Arts Centre
 trailerLink: https://www.youtube.com/watch?v=r-vfg3KkV54
 reviewsLink: https://www.rottentomatoes.com/m/the_zone_of_interest
-filmImage: /img/films/image.png
+filmImage: /img/films/thezoneofinterest.png
 posterImage: /img/films/thezoneofinterestposter.jpg
 attendance: 0
 returns:
@@ -29,7 +29,7 @@ frontPageSnippet: 'The year is 1943.  Commandant Rudolf Höss and his wife Hedwi
 synopsis: 'Rudolf, Hedwig and their family live the perfect suburban dream with their beautifully ordered house and garden.  But audible from behind the wall are the sounds of mechanised death, for Rudolf Höss is the commandant of Auschwitz.  Jonathan Glazer (Birth, Under the Skin) offers his most ambitious film yet, displacing the usual tropes of the Holocaust drama to depict the pampered life of executioners inhabiting the bubble of bourgeois denial, keeping the reality of genocide hermetically sealed on the outside.'
 ---
 
-![image for the film Armageddon Time](/img/films/armageddontime.png)
+![image for the film The Zone of Interest](/img/films/thezoneofinterest.png)
 
 In The Zone of Interest, Glazer doesn’t simply tell a story; in his use of art-film conventions he provides a specific frame through which to watch it. This is clearly part of its attraction as is the breathing space his approach creates: it is scary, but not too much.
 

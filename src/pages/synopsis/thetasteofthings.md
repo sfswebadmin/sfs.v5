@@ -10,7 +10,7 @@ viewingDate: 2025-04-02T19:45:00
 locationShowing: Swindon Arts Centre
 trailerLink: https://www.youtube.com/watch?v=cKKCGtoIOVY
 reviewsLink: https://www.rottentomatoes.com/m/the_taste_of_things
-filmImage: /img/films/image.png
+filmImage: /img/films/thetasteofthings.png
 posterImage: /img/films/thetasteofthingsposter.jpg
 attendance: 0
 returns:
@@ -29,7 +29,7 @@ frontPageSnippet: "A cook Eugenie, and her boss Dodin, grow fond of one another 
 synopsis: "Cook Eugénie and her boss Dodin, a fine gourmet chef, grow fond of one another over 20 years, and their romance gives rise to dishes that impress even the world's most illustrious chefs.  When Dodin is faced with Eugénie's reluctance to commit, he begins to cook for her…"
 ---
 
-![image for the film Armageddon Time](/img/films/image.png)
+![image for the film The Taste of Things](/img/films/thetasteofthings.png)
 
 The film season’s most exhilarating action sequence doesn’t feature bad guys and explosions but simmering sauce pans and delectably steaming plates of veal. In director Tran Ahn Hung’s sublime drama The Taste of Things, the long and elaborate preparation of an ornate meal on the fire stoves of a 19th century French kitchen proves to be as nourishing to watch as the food itself would be to eat.
 The cook, Eugénie, who may be a genius, and her two young assistants move about the sun-dappled kitchen with the precision of a crack military team and the grace of Balanchine dancers. They are aided by the château’s owner, Dodin Bouffant, a revered gourmand who declares, “The discovery of a new dish brings more joy to humanity than the discovery of a new star.”

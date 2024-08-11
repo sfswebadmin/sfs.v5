@@ -10,7 +10,7 @@ viewingDate: 2024-10-09T19:45:00
 locationShowing: Swindon Arts Centre
 trailerLink: https://www.youtube.com/watch?v=usReZGPdlsA
 reviewsLink: https://www.rottentomatoes.com/m/fallen_leaves
-filmImage: /img/films/image.png
+filmImage: /img/films/fallenleaves.png
 posterImage: /img/films/fallenleavesposter.png
 attendance: 0
 returns:
@@ -29,7 +29,7 @@ frontPageSnippet: 'An off-beat rom-com about two down-on-their-luck people, Ansa
 synopsis: 'In modern-day Helsinki, two lonely souls in search of love meet by chance in a karaoke bar.  However, their path to happiness is beset by obstacles - from lost phone numbers to mistaken addresses, alcoholism, and a charming stray dog.'
 ---
 
-![image for the film Armageddon Time](/img/films/image.png)
+![image for the film Fallen Leaves](/img/films/fallenleaves.png)
 
 Some might accuse Kaurismäki of coasting on style and repeating himself in this, his 20th feature, especially since elements of Fallen Leaves recall much of his earlier work, notably The Match Factory Girl and Drifting Clouds (1996), but the kind of casual mastery that he exhibits in his direction is very easy to take for granted. Fallen Leaves is shot and edited with flawless precision, with anything extraneous jettisoned, and Kaurismäki makes every moment of its 81 minutes count.
 

@@ -10,7 +10,7 @@ viewingDate: 2025-01-22229:45:00
 locationShowing: Swindon Arts Centre
 trailerLink: https://www.youtube.com/watch?v=Z6fLvLN2EqM
 reviewsLink: https://www.rottentomatoes.com/m/io_capitano
-filmImage: /img/films/image.png
+filmImage: /img/films/iocapitano.png
 posterImage: /img/films/iocapitanoposter.jpg
 attendance: 0
 returns:
@@ -29,7 +29,7 @@ frontPageSnippet: 'A Homeric tale that tells the adventurous journey of two youn
 synopsis: 'Two Senegalese teenage cousins take the perilous journey from Dakar in an attempt to find a better life in Italy.  They encounter people-smugglers, bandits, corrupt police, imprisonment and torture, they witness death among fellow would-be migrants, are separated but find each other.  The final leg of their gruelling journey finds Seydou having to be the helmsman (Capitano) of a ruinous ex-fishing boat crammed with people, trying to reach Europe.'
 ---
 
-![image for the film Armageddon Time](/img/films/image.png)
+![image for the film Io Capitano](/img/films/iocapitano.png)
 
 A 16-year-old boy wakes to morning light. The setting is Dakar, but the story will shortly move on. It is a portrait of economic migration, unfolding in microcosm through two teenagers: the boisterous Moussa and cousin Seydou. Neither are refugees.
 

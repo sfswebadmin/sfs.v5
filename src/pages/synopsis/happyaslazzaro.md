@@ -10,7 +10,7 @@ viewingDate: 2024-11-20T19:45:00
 locationShowing: Swindon Arts Centre
 trailerLink: https://www.youtube.com/watch?v=eNEtyax1wH8
 reviewsLink: https://www.rottentomatoes.com/m/happy_as_lazzaro
-filmImage: /img/films/image.png
+filmImage: /img/films/happyaslazzaro.png
 posterImage: /img/films/happyaslazzaroposter.jpg
 attendance: 0
 returns:
@@ -29,7 +29,7 @@ frontPageSnippet: 'An unceasingly kind Italian peasant named Lazzaro and his fam
 synopsis: "On an estate called Inviolata, isolated since 1977, 54 farmhands work on a tobacco farm in a share-cropping arrangement, where they are constantly in debt and thus unpaid.  The farm is run in a feudal manner by the notorious Marchioness Alfonsina De Luna, the 'Queen of Cigarettes'.  Lazzaro, an innocent young man, is a worker on the farm, helping the farmhands with their endless work…"
 ---
 
-![image for the film Armageddon Time](/img/films/image.png)
+![image for the film Happy as Lazzaro](/img/films/happyaslazzaro.png)
 
 This is the tale of a meeting between Lazzaro, a young peasant so good that he is often mistaken for being simple-minded, and Tancredi, a young nobleman cursed by his imagination.
 

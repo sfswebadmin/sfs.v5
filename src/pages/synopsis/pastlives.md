@@ -10,7 +10,7 @@ viewingDate: 2025-01-08T19:45:00
 locationShowing: Swindon Arts Centre
 trailerLink: https://www.youtube.com/watch?v=kA244xewjcI
 reviewsLink: https://www.rottentomatoes.com/m/past_lives
-filmImage: /img/films/image.png
+filmImage: /img/films/pastlives.png
 posterImage: /img/films/pastlivesposter.jpg
 attendance: 0
 returns:
@@ -29,7 +29,7 @@ frontPageSnippet: 'After losing touch, Nora and Hae Sung, two childhood classmat
 synopsis: 'As a child in South Korea, Na Young crushes on another boy in her class, Hae Sung.  Their relationship is just starting when her parents decide to move to Canada.  The two childhood friends drift apart as their lives move on in different countries.  Twelve years later, the pair reconnect over Facebook and they are soon waiting for each other’s regular calls…'
 ---
 
-![image for the film Armageddon Time](/img/films/image.png)
+![image for the film Past Lives](/img/films/pastlives.png)
 
 Past Lives is a wistful what-if story about two people, the children they were and the adults they become. The movie follows them through the years and across assorted reunions, separations and continents as well as milestones momentous and ordinary. It’s a tale of friendship, love, regret and what it means to truly live here and now. In a sense it is a time-travel movie, because even as the two characters keep moving forward, they remain inexorably tethered to the past, which means it’s also a story about everyday life.
 
