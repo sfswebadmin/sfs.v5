@@ -10,7 +10,7 @@ viewingDate: 2025-02-05T19:45:00
 locationShowing: Swindon Arts Centre
 trailerLink: https://www.youtube.com/watch?v=ObWrx064yzQ
 reviewsLink: https://www.rottentomatoes.com/m/fremont
-filmImage: /img/films/fremont.png
+filmImage: /img/films/fremont.webp
 posterImage: /img/films/fremontposter.jpg
 attendance: 0
 returns:
@@ -29,7 +29,7 @@ frontPageSnippet: 'Donya lives in Fremont, California after being evacuated from
 synopsis: 'Donya, a young Afghan woman who moved to Fremont, California after serving as a translator for the American army, spends her days working at a fortune-cookie factory and her nights wide awake battling between her desire to rebuild her life and the overbearing guilt she carries within.  In a bid to connect with the world, she sends an unconventional message through a fortune-cookie. '
 ---
 
-![image for the film Fremont](/img/films/fremont.png)
+![image for the film Fremont](/img/films/fremont.webp)
 
 Shot in misty black-and-white and co-scripted by Jalali and Carolina Cavalli with a straight-faced sense of humour, Fremont is a quasi-comedy that strikes a vibe akin to the films of Jim Jarmusch. The biggest achievement of Jalali here is the precise tone that he strikes with his mild-mannered movie: never cutesy (an especially impressive feat considering the film’s whimsically Sundance-y premise) and always several feet deeper in its themes and deliberations around human isolation than meets the eye.
 

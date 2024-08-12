@@ -10,7 +10,7 @@ viewingDate: 2024-12-11T19:45:00
 locationShowing: Swindon Arts Centre
 trailerLink: https://www.youtube.com/watch?v=fjF2A1j7Cwg
 reviewsLink: https://www.rottentomatoes.com/m/hit_the_road_2022
-filmImage: /img/films/hittheroad.png
+filmImage: /img/films/hittheroad.webp
 posterImage: /img/films/hittheroadposter.png
 attendance: 0
 returns:
@@ -32,7 +32,7 @@ frontPageSnippet: 'A chaotic, tender family is on a road-trip to the Turkish bor
 synopsis: 'Hit the Road is a different type of ''road-movie'', it is about an Iranian family leaving Iran by driving to the Turkish border.  The reason for the trip - to smuggle the adult son from the country - is not defined, but the political and social imperatives behind the journey are evident.  None of the characters are named, which of itself may be significant.  There is both considerable humour and sadness beautifully portrayed by the four central actors: mother, father and two sons, one grown-up and the other, young and loveably cheeky.'
 ---
 
-![image for the film Hit the Road](/img/films/hittheroad.png)
+![image for the film Hit the Road](/img/films/hittheroad.webp)
 
 The masterful Hit the Road, the writer/director’s elegiac debut, traces a family on a mysterious road-trip from near Tehran and starts with a question asked by the story’s unnamed Mother. “We’re dead,” cheerily responds her younger son. We aren’t acquainted with his irresistibly witty ways yet, a disposition that often injects the picture with moments of comic relief that runs parallel to the movie’s melancholy.
 
