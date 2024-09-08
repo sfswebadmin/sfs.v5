@@ -12,14 +12,14 @@ trailerLink: https://www.youtube.com/watch?v=Fwb0c5zqsyM
 reviewsLink: https://www.rottentomatoes.com/m/the_old_oak
 filmImage: /img/films/theoldoak.webp
 posterImage: /img/films/theoldoakposter.jpg
-attendance: 0
-returns:
-excellent:
-good:
-average:
-disappointing:
-awful:
-ratingsAverage: 0
+attendance: 90
+returns: 90
+excellent: 52
+good: 23
+average: 12
+disappointing: 2
+awful: 0
+ratingsAverage: 84
 genreName: 'Community Drama'
 taglink: '01'
 pdfLink: /documents/films/THEOLDOAK.pdf
