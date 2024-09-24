@@ -12,14 +12,14 @@ trailerLink: https://www.youtube.com/watch?v=9WkA62wrmpI
 reviewsLink: https://www.rottentomatoes.com/m/nostalgia_2022
 filmImage: /img/films/nostalgia.webp
 posterImage: /img/films/nostalgiaposter.jpg
-attendance: 0
-returns:
-excellent:
-good:
-average:
-disappointing:
-awful:
-ratingsAverage: 0
+attendance: 75
+returns: 75
+excellent: 10
+good: 40
+average: 22
+disappointing: 2
+awful: 1
+ratingsAverage: 69
 genreName: Thriller/Drama
 taglink: '02'
 pdfLink: /documents/films/NOSTALGIA.pdf
