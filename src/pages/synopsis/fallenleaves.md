@@ -12,14 +12,14 @@ trailerLink: https://www.youtube.com/watch?v=usReZGPdlsA
 reviewsLink: https://www.rottentomatoes.com/m/fallen_leaves
 filmImage: /img/films/fallenleaves.webp
 posterImage: /img/films/fallenleavesposter.png
-attendance: 0
-returns:
-excellent:
-good:
-average:
-disappointing:
-awful:
-ratingsAverage: 0
+attendance: 109
+returns: 112
+excellent: 37
+good: 35
+average: 36
+disappointing: 4
+awful: 0
+ratingsAverage: 73
 genreName: Comedy/Romance
 taglink: '05'
 pdfLink: /documents/films/FALLENLEAVES.pdf
