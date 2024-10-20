@@ -21,7 +21,7 @@ disappointing:
 awful:
 ratingsAverage: 0
 genreName: Drama/Romance
-taglink: '13'
+taglink: '14'
 pdfLink: /documents/films/THETASTEOFTHINGS.pdf
 directorsWriters: 'Tran Anh Hung'
 cast: 'Juliette Binoche (Eugénie) Benoît Magimel (Dodin Bouffant)'

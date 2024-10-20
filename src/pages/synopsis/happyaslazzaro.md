@@ -21,7 +21,7 @@ disappointing:
 awful:
 ratingsAverage: 0
 genreName: Fantasy/Drama
-taglink: '06'
+taglink: '07'
 pdfLink: /documents/films/HAPPYASLAZZARO.pdf
 directorsWriters: 'Alice Rohrwacher'
 cast: 'Adriano Tardiolo (Lazzaro) Luca Chikovani (Young Tancredi) Nicoletta Braschi (Marchesa Alfonsina De Luna)'

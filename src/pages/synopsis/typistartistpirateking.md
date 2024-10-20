@@ -21,7 +21,7 @@ disappointing:
 awful:
 ratingsAverage: 0
 genreName: Biopic/Comedy
-taglink: '12'
+taglink: '13'
 pdfLink: /documents/films/TYPISTARTISTPIRATEKING.pdf
 directorsWriters: 'Carol Morley'
 cast: 'Monica Dolan (Audrey Amiss) Kelly Macdonald (Sandra Panza) Gina McKee (Dorothy)'

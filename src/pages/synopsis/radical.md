@@ -21,7 +21,7 @@ disappointing:
 awful:
 ratingsAverage: 0
 genreName: Drama
-taglink: '14'
+taglink: '15'
 pdfLink: /documents/films/RADICAL.pdf
 directorsWriters: 'Christopher Zalla'
 cast: 'Eugenio Derbez (Sergio) Daniel Haddad (Chucho) Gilberto Barraza (Papa Paloma)'

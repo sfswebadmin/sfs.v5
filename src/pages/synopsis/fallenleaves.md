@@ -21,7 +21,7 @@ disappointing: 4
 awful: 0
 ratingsAverage: 73
 genreName: Comedy/Romance
-taglink: '05'
+taglink: '03'
 pdfLink: /documents/films/FALLENLEAVES.pdf
 directorsWriters: 'Aki Kaurismäki'
 cast: 'Alma Pöysti (Ansa) Jussi Vatanen (Holappa) Janne Hyytiäinen (Hannes)'

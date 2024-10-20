@@ -21,7 +21,7 @@ disappointing:
 awful:
 ratingsAverage: 0
 genreName: Social Drama
-taglink: '09'
+taglink: '10'
 pdfLink: /documents/films/LOCAPITANO.pdf
 directorsWriters: 'Matteo Garrone'
 cast: 'Seydou Sarr (Seydou) Moustapha Fall (Moussa)'
