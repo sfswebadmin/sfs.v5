@@ -12,14 +12,14 @@ trailerLink: https://www.youtube.com/watch?v=K9u9aqVgMvI
 reviewsLink: https://www.rottentomatoes.com/m/full_time
 filmImage: /img/films/fulltime.webp
 posterImage: /img/films/fulltimeposter.jpg
-attendance: 0
-returns:
-excellent:
-good:
-average:
-disappointing:
-awful:
-ratingsAverage: 0
+attendance: 89
+returns: 88
+excellent: 18
+good: 32
+average: 32
+disappointing: 5
+awful: 1
+ratingsAverage: 67
 genreName: Thriller/Drama
 taglink: '04'
 pdfLink: /documents/films/FULLTIME.pdf

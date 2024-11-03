@@ -107,7 +107,12 @@ The committee meets about once a month or less throughout the year. If you are i
             <td>2023-24</td>
             <td>Annual Report</td>
             <td><a href="/documents/SFS_Annual_Report_2023-24.pdf">PDF</a></td>
-        </tr>
+         <tr>
+        <tr>
+            <td>2023-24</td>
+            <td>Accounts Income and Expenditure</td>
+            <td><a href="/documents/SFS_Financial_Report_2023-24.pdf">PDF</a></td>
+        </tr>       
         <tr>
             <td>2020</td>
             <td>AGM Minutes</td>
