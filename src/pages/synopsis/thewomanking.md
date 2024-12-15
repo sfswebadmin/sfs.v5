@@ -7,7 +7,7 @@ releaseDate: 2022
 duration: 135 mins
 certificate: Cert 15
 viewingDate: 2024-11-08T19:00:00
-locationShowing: Christchurch Community Centre
+locationShowing: CANCELLED
 trailerLink: https://www.youtube.com/watch?v=3RDaPV_rJ1Y
 reviewsLink: https://www.rottentomatoes.com/m/the_woman_king
 filmImage: /img/films/thewomanking.webp

@@ -12,14 +12,14 @@ trailerLink: https://www.youtube.com/watch?v=r-vfg3KkV54
 reviewsLink: https://www.rottentomatoes.com/m/the_zone_of_interest
 filmImage: /img/films/thezoneofinterest.webp
 posterImage: /img/films/thezoneofinterestposter.jpg
-attendance: 0
-returns:
-excellent:
-good:
-average:
-disappointing:
-awful:
-ratingsAverage: 0
+attendance: 76
+returns: 73
+excellent: 25
+good: 28
+average: 14
+disappointing: 2
+awful: 4
+ratingsAverage: 73
 genreName: History/War Drama
 taglink: '06'
 pdfLink: /documents/films/THEZONEOFINTEREST.pdf

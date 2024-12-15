@@ -12,14 +12,14 @@ trailerLink: https://www.youtube.com/watch?v=eNEtyax1wH8
 reviewsLink: https://www.rottentomatoes.com/m/happy_as_lazzaro
 filmImage: /img/films/happyaslazzaro.webp
 posterImage: /img/films/happyaslazzaroposter.jpg
-attendance: 0
-returns:
-excellent:
-good:
-average:
-disappointing:
-awful:
-ratingsAverage: 0
+attendance: 75
+returns: 76
+excellent: 18
+good: 30
+average: 20
+disappointing: 4
+awful: 4
+ratingsAverage: 68
 genreName: Fantasy/Drama
 taglink: '07'
 pdfLink: /documents/films/HAPPYASLAZZARO.pdf

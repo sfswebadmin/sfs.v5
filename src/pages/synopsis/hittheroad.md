@@ -11,15 +11,15 @@ locationShowing: Swindon Arts Centre
 trailerLink: https://www.youtube.com/watch?v=fjF2A1j7Cwg
 reviewsLink: https://www.rottentomatoes.com/m/hit_the_road_2022
 filmImage: /img/films/hittheroad.webp
-posterImage: /img/films/hittheroadposter.png
-attendance: 0
-returns:
-excellent:
-good:
-average:
-disappointing:
-awful:
-ratingsAverage: 0
+posterImage: /img/films/hittheroadposter.jpg
+attendance: 80
+returns: 76
+excellent: 7
+good: 31
+average: 20
+disappointing: 13
+awful: 5
+ratingsAverage: 57
 genreName: Comedy/Drama
 taglink: '08'
 pdfLink: /documents/films/HITTHEROAD.pdf
