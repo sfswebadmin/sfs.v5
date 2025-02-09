@@ -12,14 +12,14 @@ trailerLink: https://www.youtube.com/watch?v=ObWrx064yzQ
 reviewsLink: https://www.rottentomatoes.com/m/fremont
 filmImage: /img/films/fremont.webp
 posterImage: /img/films/fremontposter.jpg
-attendance: 0
-returns:
-excellent:
-good:
-average:
-disappointing:
-awful:
-ratingsAverage: 0
+attendance: 89
+returns: 87
+excellent: 22
+good: 42
+average: 20
+disappointing: 3
+awful: 0
+ratingsAverage: 74
 genreName: Drama
 taglink: '11'
 pdfLink: /documents/films/FREMONT.pdf

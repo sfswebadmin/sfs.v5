@@ -12,14 +12,14 @@ trailerLink: https://www.youtube.com/watch?v=kA244xewjcI
 reviewsLink: https://www.rottentomatoes.com/m/past_lives
 filmImage: /img/films/pastlives.webp
 posterImage: /img/films/pastlivesposter.jpg
-attendance: 0
-returns:
-excellent:
-good:
-average:
-disappointing:
-awful:
-ratingsAverage: 0
+attendance: 59
+returns: 55
+excellent: 30
+good: 17
+average: 8
+disappointing: 0
+awful: 0
+ratingsAverage: 85
 genreName: Drama/Romance
 taglink: '09'
 pdfLink: /documents/films/PASTLIVES.pdf

@@ -12,14 +12,14 @@ trailerLink: https://www.youtube.com/watch?v=Z6fLvLN2EqM
 reviewsLink: https://www.rottentomatoes.com/m/io_capitano
 filmImage: /img/films/iocapitano.webp
 posterImage: /img/films/iocapitanoposter.jpg
-attendance: 0
-returns:
-excellent:
-good:
-average:
-disappointing:
-awful:
-ratingsAverage: 0
+attendance: 60
+returns: 60
+excellent: 31
+good: 24
+average: 5
+disappointing: 0
+awful: 0
+ratingsAverage: 86
 genreName: Social Drama
 taglink: '10'
 pdfLink: /documents/films/LOCAPITANO.pdf
