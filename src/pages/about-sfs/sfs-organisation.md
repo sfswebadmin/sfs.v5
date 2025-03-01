@@ -31,17 +31,16 @@ Lyndy Griffin
 **Treasurer**  
 Rosemary Young
 
+**Marketing**  
+Sue Pycroft 
+
 **Web Developer**  
 Richard Turpin
-
-**Marketing**  
-To Be Confirmed
 
 **Front of House**  
 Roger Griffin  
 Patrick Aynie  
 Diane Miles  
-Lizzie Brown
 
 **Film Selection**  
 All
