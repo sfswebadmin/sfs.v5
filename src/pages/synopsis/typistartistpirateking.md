@@ -12,14 +12,14 @@ trailerLink: https://www.youtube.com/watch?v=Ilq_FiqQah4
 reviewsLink: https://www.rottentomatoes.com/m/typist_artist_pirate_king
 filmImage: /img/films/typistartistpirateking.webp
 posterImage: /img/films/typistartistpiratekingposter.jpg
-attendance: 0
-returns:
-excellent:
-good:
-average:
-disappointing:
-awful:
-ratingsAverage: 0
+attendance: 82
+returns: 83
+excellent: 32
+good: 26
+average: 16
+disappointing: 6
+awful: 3
+ratingsAverage: 73
 genreName: Biopic/Comedy
 taglink: '13'
 pdfLink: /documents/films/TYPISTARTISTPIRATEKING.pdf
