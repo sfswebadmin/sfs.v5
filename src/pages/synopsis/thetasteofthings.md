@@ -12,14 +12,14 @@ trailerLink: https://www.youtube.com/watch?v=cKKCGtoIOVY
 reviewsLink: https://www.rottentomatoes.com/m/the_taste_of_things
 filmImage: /img/films/thetasteofthings.webp
 posterImage: /img/films/thetasteofthingsposter.jpg
-attendance: 0
-returns:
-excellent:
-good:
-average:
-disappointing:
-awful:
-ratingsAverage: 0
+attendance: 82
+returns: 79
+excellent: 21
+good: 29
+average: 19
+disappointing: 7
+awful: 3
+ratingsAverage: 68
 genreName: Drama/Romance
 taglink: '14'
 pdfLink: /documents/films/THETASTEOFTHINGS.pdf
