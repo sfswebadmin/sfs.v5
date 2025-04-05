@@ -12,14 +12,14 @@ trailerLink: https://www.youtube.com/watch?v=BXcGgvAKC1Q
 reviewsLink: https://www.rottentomatoes.com/m/radical
 filmImage: /img/films/radical.webp
 posterImage: /img/films/radicalposter.jpg
-attendance: 0
-returns:
-excellent:
-good:
-average:
-disappointing:
-awful:
-ratingsAverage: 0
+attendance: 91
+returns: 88
+excellent: 68
+good: 18
+average: 1
+disappointing: 1
+awful: 0
+ratingsAverage: 93
 genreName: Drama
 taglink: '15'
 pdfLink: /documents/films/RADICAL.pdf
