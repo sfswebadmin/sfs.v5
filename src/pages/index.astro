@@ -12,7 +12,7 @@ import HomepageFeedback from "../components/HomepageFeedback.astro";
 import Films from "../components/Films.astro";
 
 // get films and sort the list by viewing date
-const filmsMD = await Astro.glob("./synopsis/*.md");
+const filmsMD = await Astro.glob("./synopsis/*.mdx");
 
 const title = 'Home'
 const description = "For the best in world cinema and UK independent cinema";
