@@ -1,16 +1,9 @@
 ---
 const {films} = Astro.props;
 
-// sort the films by viewing date
-const sortedFilms = films.sort((a, b) => {
-    const aDate = new Date(a.frontmatter.viewingDate).getTime();
-    const bDate = new Date(b.frontmatter.viewingDate).getTime();
-    return aDate - bDate;
-});
-
 // filter the films that are equal to or newer than today's date
 const today = Date.now();
-const filteredFilms = sortedFilms.filter((film) => {
+const filteredFilms = films.filter((film) => {
     const viewingDate = new Date(film.frontmatter.viewingDate).getTime();
     return viewingDate > today;
 });

@@ -1,14 +1,23 @@
 ---
 import FilmArticle from './FilmArticle.astro';
+import PosterPanels from "../components/PosterPanels.astro";
+import ratingsTotal from '../data/ratingsTotal.json';
 
-const {films, siteData} = Astro.props;
+// import components
+import HomepageFeedback from "../components/HomepageFeedback.astro";
 
-const sortedFilms = films.sort((a, b) => {
-    const aDate = new Date(a.frontmatter.viewingDate).getTime();
-    const bDate = new Date(b.frontmatter.viewingDate).getTime();
-    return aDate - bDate;
-});
+const {siteData} = Astro.props;
+
+const filmsSortedByDate = Object.values(import.meta.glob('../pages/synopsis/*.mdx', { eager: true }))
+    .map((film: any) => film)
+    .sort((a, b) => {
+        const aDate = new Date(a.frontmatter.viewingDate).getTime();
+        const bDate = new Date(b.frontmatter.viewingDate).getTime();
+        return aDate - bDate;
+    });
 ---
+
+<PosterPanels films={filmsSortedByDate} />
 
 <div class="row mt-3">
     <section class="col-lg-12">
@@ -21,10 +30,12 @@ const sortedFilms = films.sort((a, b) => {
             time to get your ticket and seat.
         </p>
         {
-            sortedFilms.map((film) => (
+            filmsSortedByDate.map((film) => (
                 <FilmArticle film={film.frontmatter} synopsisLink={film.url} />
             ))
         }
     </section>
     <!--End of film listing section-->
 </div>
+
+<HomepageFeedback ratingsTotal={ratingsTotal.ratingsTotal} />
