@@ -6,7 +6,7 @@ import reactions from '../data/pastReactions.json';
 import ratingsTotal from '../data/ratingsTotal.json';
 
 // get films and sort the list by viewing date
-const filmsMD = await Astro.glob("./synopsis/*.md");
+const filmsMD = await Astro.glob("./synopsis/*.mdx");
 const sortedFilms = filmsMD.sort((a, b) => {
     const aDate = new Date(a.frontmatter.viewingDate).getTime();
     const bDate = new Date(b.frontmatter.viewingDate).getTime();
@@ -61,7 +61,7 @@ const keywords = "audience, feedback, reaction, stars, rating";
                                 <td>{film.frontmatter.average === 0 ? '' : film.frontmatter.average}</td>
                                 <td>{film.frontmatter.disappointing === 0 ? '' : film.frontmatter.disappointing}</td>
                                 <td>{film.frontmatter.awful === 0 ? '' : film.frontmatter.awful} </td>
-                                <td>{film.frontmatter.ratingsAverage === 0 ? '' : film.frontmatter.ratingsAverage + '%'}</td>
+                                <td>{film.frontmatter.ratingsAverage === null ? '' : film.frontmatter.ratingsAverage + '%'}</td>
                             </tr>
                             ))}
                         </tbody>

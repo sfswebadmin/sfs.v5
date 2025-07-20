@@ -39,7 +39,7 @@ const { attendance,
                         <td>{average}</td>
                         <td>{disappointing}</td>
                         <td>{awful}</td>
-                        <td>{ratingsAverage}%</td>
+                        <td>{ratingsAverage != null ? '' + ratingsAverage + '%' : ''}</td>
                     </tr>
                 </tbody>
             </table>
