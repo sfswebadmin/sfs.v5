@@ -6,12 +6,14 @@ import reactions from '../data/pastReactions.json';
 import ratingsTotal from '../data/ratingsTotal.json';
 
 // get films and sort the list by viewing date
-const filmsMD = await Astro.glob("./synopsis/*.mdx");
-const sortedFilms = filmsMD.sort((a, b) => {
-    const aDate = new Date(a.frontmatter.viewingDate).getTime();
-    const bDate = new Date(b.frontmatter.viewingDate).getTime();
-    return aDate - bDate;
-});
+const films = Object.values(import.meta.glob('./synopsis/*.mdx', { eager: true }));
+const filmsData = films
+                    .map((film: any) => film.frontmatter)
+                    .sort((a, b) => {
+                        const aDate = new Date(a.viewingDate).getTime();
+                        const bDate = new Date(b.viewingDate).getTime();
+                        return aDate - bDate;
+                    });
 
 const title = "Audience Reactions";
 const description = "audience feedback for the films shown, both past and current seasons";
@@ -19,7 +21,7 @@ const keywords = "audience, feedback, reaction, stars, rating";
 ---
 
 <BaseLayout title={title} description={description} keywords={keywords}>
-    <div class="container">
+    <!-- <div class="container"> -->
         <div class="row">
             <div class="col-md-12">
                 <h1>Audience Feedback For The Current Season</h1>
@@ -51,17 +53,17 @@ const keywords = "audience, feedback, reaction, stars, rating";
                             </tr>
                         </thead>
                         <tbody>
-                            {sortedFilms.map((film) => (
+                            {filmsData.map((film) => (
                             <tr>
-                                <td>{film.frontmatter.title}</td>
-                                <td>{film.frontmatter.attendance === 0 ? '' : film.frontmatter.attendance}</td>
-                                <td>{film.frontmatter.returns === 0 ? '' : film.frontmatter.returns}</td>
-                                <td>{film.frontmatter.excellent === 0 ? '' : film.frontmatter.excellent}</td>
-                                <td>{film.frontmatter.good === 0 ? '' : film.frontmatter.good}</td>
-                                <td>{film.frontmatter.average === 0 ? '' : film.frontmatter.average}</td>
-                                <td>{film.frontmatter.disappointing === 0 ? '' : film.frontmatter.disappointing}</td>
-                                <td>{film.frontmatter.awful === 0 ? '' : film.frontmatter.awful} </td>
-                                <td>{film.frontmatter.ratingsAverage === null ? '' : film.frontmatter.ratingsAverage + '%'}</td>
+                                <td>{film.title}</td>
+                                <td>{film.attendance === null ? '' : film.attendance}</td>
+                                <td>{film.returns === null ? '' : film.returns}</td>
+                                <td>{film.excellent === null ? '' : film.excellent}</td>
+                                <td>{film.good === null ? '' : film.good}</td>
+                                <td>{film.average === null ? '' : film.average}</td>
+                                <td>{film.disappointing === null ? '' : film.disappointing}</td>
+                                <td>{film.awful === null ? '' : film.awful} </td>
+                                <td>{film.ratingsAverage === null ? '' : film.ratingsAverage + '%'}</td>
                             </tr>
                             ))}
                         </tbody>
