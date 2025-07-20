@@ -2,6 +2,7 @@
 import {getDayOfWeekName, getMonthName} from '../js/utils.js';
 
 const {film, synopsisLink} = Astro.props;
+const filmImagePath = "/img/films/" + film.filmImage;
 
 let viewYear = '';
 let viewDay = '';
@@ -22,7 +23,7 @@ if (film.viewingDate) {
         <article class="row film-article">
             <a id={film.taglink} />
             <div class="col-lg-4">
-                <img class="img-fluid" src={film.filmImage} title="{ film.title } film screenshot"
+                <img class="img-fluid" src={filmImagePath} title="{ film.title } film screenshot"
                     alt="{ film.title } film screenshot" />
             </div>
             <div class="col-lg-8">

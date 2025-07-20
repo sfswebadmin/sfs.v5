@@ -55,7 +55,7 @@ if (bannerFilms.length == 0) {
                                     Showing: {new Date(film.frontmatter.viewingDate).toDateString()}
                                 </p>
                                 <img
-                                    src={film.frontmatter.posterImage}
+                                    src={'/img/films/' + film.frontmatter.posterImage}
                                     alt={film.frontmatter.title + " film poster"}
                                     class="img-responsive poster-box__image"
                                     width="206"
