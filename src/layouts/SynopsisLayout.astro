@@ -20,6 +20,8 @@ const {
     viewingDate
 } = frontmatter;
 
+const documentPath = '/documents/films/' + pdfLink; 
+
 let viewYear = '';
 let viewDay = '';
 let viewMonth = '';
@@ -40,7 +42,7 @@ if (viewingDate) {
                     <h1>{title.toUpperCase()}</h1>
                 </div>
                 <div class="col-xs-12 col-md-2 text-center">
-                    <a href={'/documents/films/' + pdfLink} target="_blank">
+                    <a href={documentPath} target="_blank">
                         <i class="fa fa-file-pdf-o fa-3x" aria-hidden="true"
                         ></i><br />
                         <span class="text-center"> Download PDF</span>
