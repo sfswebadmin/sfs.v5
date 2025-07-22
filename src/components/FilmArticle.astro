@@ -1,8 +1,11 @@
 ---
 import {getDayOfWeekName, getMonthName} from '../js/utils.js';
+import type { ImageMetadata } from 'astro';
+import { Image } from 'astro:assets';
 
 const {film, synopsisLink} = Astro.props;
-const filmImagePath = "/img/films/" + film.filmImage;
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/images/films/*.{jpeg,jpg,png,gif,webp}');
+const imagePath = "/src/assets/images/films/" + film.filmImage;
 
 let viewYear = '';
 let viewDay = '';
@@ -23,8 +26,8 @@ if (film.viewingDate) {
         <article class="row film-article">
             <a id={film.taglink} />
             <div class="col-lg-4">
-                <img class="img-fluid" src={filmImagePath} title="{ film.title } film screenshot"
-                    alt="{ film.title } film screenshot" />
+                <Image src={images[imagePath]()} width="440" class="img-fluid"
+                    alt={`${film.title} film screenshot`} loading="lazy" />
             </div>
             <div class="col-lg-8">
                 <h3>{film.title.toUpperCase()}</h3>
