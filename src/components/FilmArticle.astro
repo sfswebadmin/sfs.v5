@@ -53,7 +53,7 @@ if (film.viewingDate) {
                         <a href={synopsisLink} role="button" class="btn btn-normal">
                             Synopsis
                         </a>
-                        <a href="/membership/" role="button" class:list={["btn", "btn-default", "btn-tickets", { "d-none": film.attendance !== 0 }]}>
+                        <a href="/membership/" role="button" class:list={["btn", "btn-default", "btn-tickets", { "d-none": film.attendance !== null }]}>
                             Tickets
                         </a>
                     </div>

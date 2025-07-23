@@ -10,7 +10,7 @@ const { attendance,
         ratingsAverage } = ratingsTotal;
 ---
     <div class="row">
-    <section class="col-lg-8 offset-lg-4 ">
+    <section class:list={[{ "d-none": attendance === 0}, "col-lg-8", "offset-lg-4"]}>
         <h3>Overall Audience Feedback</h3>
         <p>
             The table below represents the audience feedback, for all films
