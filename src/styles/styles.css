@@ -194,6 +194,8 @@ blockquote {
   width: 100%;
   max-width: 100%;
   height: auto;
+  margin-block-start: 0.5rem;
+  margin-block-end: 1rem;
 }
 .review .review__content {
   -moz-columns: unset;
