@@ -1,4 +1,7 @@
 ---
+import { ImageMetadata } from 'astro';
+import { Image } from 'astro:assets';
+
 const {films} = Astro.props;
 
 // filter the films that are equal to or newer than today's date
@@ -31,6 +34,16 @@ if (bannerFilms.length == 0) {
     bannerTitle = "Our current film season has concluded";
     hasSubHeading = false;
 }
+
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/images/posters/*.{jpeg,jpg,png,gif,webp}');
+const posters = bannerFilms.map(film => {
+    return {
+        taglink: film.frontmatter.taglink,
+        imagePosterPath: "/src/assets/images/posters/" + film.frontmatter.posterImage,
+        title: film.frontmatter.title,
+        viewingDate: new Date(film.frontmatter.viewingDate).toDateString(),
+}});
+console.log("Posters: ", posters);
 ---
     <div class="row">
         <section class="col-lg-12">
@@ -40,16 +53,16 @@ if (bannerFilms.length == 0) {
             <hr>
             <div class="row">
                 {
-                    bannerFilms.map((film) => (
+                    posters.map((film) => (
                         <div class="col-lg-4">
-                            <a href={"#" + film.frontmatter.taglink} class="poster-box-link">
+                            <a href={"#" + film.taglink} class="poster-box-link">
                             <div class="poster-box">
                                 <p>
-                                    Showing: {new Date(film.frontmatter.viewingDate).toDateString()}
+                                    Showing: {film.viewingDate}
                                 </p>
-                                <img
-                                    src={'/img/films/' + film.frontmatter.posterImage}
-                                    alt={film.frontmatter.title + " film poster"}
+                                <Image
+                                    src={images[film.imagePosterPath]()}
+                                    alt={film.title + " film poster"}
                                     class="img-responsive poster-box__image"
                                     width="206"
                                     height="305"
