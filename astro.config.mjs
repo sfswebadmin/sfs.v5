@@ -3,7 +3,7 @@ import mdx from "@astrojs/mdx";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'http://www.swindonfilm.org.uk',
+  site: 'https://www.swindonfilm.org.uk',
   vite: {
     build: {
       rollupOptions: {
