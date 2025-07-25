@@ -1,6 +1,5 @@
 ---
 import BaseLayout from '../layouts/Base.astro';
-import Reaction from '../components/Reaction.astro'
 
 import reactions from '../data/pastReactions.json';
 import ratingsTotal from '../data/ratingsTotal.json';
@@ -83,9 +82,9 @@ const keywords = "audience, feedback, reaction, stars, rating";
                     </table>
                 </div>
                 <h2>Audience Feedback To Films In Previous Seasons</h2>
-                {reactions.reactions.map((reaction) => (
-                <Reaction Films={reaction.films} SeasonTitle={reaction.title}></Reaction>
-                ))}
+                <!-- {reactions.reactions.map((reaction) => ( 
+                 <Reaction Films={reaction.films} SeasonTitle={reaction.title}></Reaction>
+                 ))} -->
             </div>
         </div>
     </div>
