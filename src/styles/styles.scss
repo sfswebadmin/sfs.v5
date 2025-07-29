@@ -1,6 +1,11 @@
 @import 'color';
 @import 'fonts';
 
+:root {
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
+}
+
 body {
   font-family: $ff-primary;
   font-weight: $fw-400;
@@ -29,6 +34,13 @@ blockquote {
 .btn-agm-reports:hover,
 .btn-agm-reports:focus {
   background-color: #5779e7;
+}
+
+.main-title {
+  font-size: 3.5rem;
+  letter-spacing: 1px;
+  color: $base-color;
+  font-weight: 700
 }
 
 @import 'blocks/navbar';

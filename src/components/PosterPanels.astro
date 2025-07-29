@@ -35,6 +35,7 @@ if (bannerFilms.length == 0) {
     hasSubHeading = false;
 }
 
+
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/images/posters/*.{jpeg,jpg,png,gif,webp}');
 const posters = bannerFilms.map(film => {
     return {
@@ -48,8 +49,6 @@ const posters = bannerFilms.map(film => {
         <section class="col-lg-12">
             <h2>{bannerTitle}</h2>
             <h3 class:list={[{ "d-none" : hasSubHeading }]}>Our new season starts in September</h3>
-            <h4>Note: More films to be added soon, this list is for 2025 films only.</h4>
-            <hr>
             <div class="row">
                 {
                     posters.map((film) => (
@@ -62,9 +61,10 @@ const posters = bannerFilms.map(film => {
                                 <Image
                                     src={images[film.imagePosterPath]()}
                                     alt={film.title + " film poster"}
-                                    class="img-responsive poster-box__image"
+                                    class="img-responsive poster-box__image animate__animated animate__fadeIn animate__slow"
                                     width="206"
                                     height="305"
+                                    format="webp"
                                 />
                                 <p class="poster-box__more-info"> More Info...  </p>
                                 </div>
@@ -73,6 +73,7 @@ const posters = bannerFilms.map(film => {
                     ))
                 }
             </div>
+            <hr>
         </section>
         <!-- end of banner section -->
     </div>

@@ -1,12 +1,17 @@
+---
+import { Image } from 'astro:assets';
+import brochureImage from '/src/assets/images/site/sfs_leaflet_cover.jpg';
+
+---
 <!-- Footer -->
 <footer class="footer">
     <div class="container">
         <div class="row">
             <div class="col-md-3">
                 <h4> Brochure</h4>
-                <a href="/documents/SFS_Leaflet.pdf" target="_blank">
-                    <img src="/img/sfs_leaflet_cover.jpg" title="SFS Brochure 2019-20 image" alt="SFS Brochure 2019-20 image"
-                        width="90" height="195" />
+                <a href="/documents/SFS_Leaflet.pdf" target="_blank" download="SFS_Leaflet.pdf">
+                    <Image src={brochureImage} alt="Swindon Film brochure image" class="img-responsive"
+                        width="90" height="195" format="webp" />
                 </a>
                 <p>
                     Click image to download brochure.

@@ -1,28 +1,17 @@
 ---
 import FilmArticle from './FilmArticle.astro';
-import PosterPanels from "../components/PosterPanels.astro";
+import HomepageFeedback from "../components/HomepageFeedback.astro";
 import ratingsTotal from '../data/ratingsTotal.json';
 
-// import components
-import HomepageFeedback from "../components/HomepageFeedback.astro";
+const {siteData, films} = Astro.props;
 
-const {siteData} = Astro.props;
-
-const filmsSortedByDate = Object.values(import.meta.glob('../pages/synopsis/*.mdx', { eager: true }))
-    .map((film: any) => film)
-    .sort((a, b) => {
-        const aDate = new Date(a.frontmatter.viewingDate).getTime();
-        const bDate = new Date(b.frontmatter.viewingDate).getTime();
-        return aDate - bDate;
-    });
 ---
-
-<PosterPanels films={filmsSortedByDate} />
 
 <div class="row mt-3">
     <section class="col-lg-12">
         <a id="sfsfilms"></a>
         <h2>Our film season for {siteData.filmseason}</h2>
+        <h3>Note: More films to be added soon, this list is for 2025 films only.</h4>
         <hr>
         <p class="mb-4">
             <strong>Doors open 30 minutes before a show.</strong>
@@ -30,7 +19,7 @@ const filmsSortedByDate = Object.values(import.meta.glob('../pages/synopsis/*.md
             time to get your ticket and seat.
         </p>
         {
-            filmsSortedByDate.map((film) => (
+            films.map((film) => (
                 <FilmArticle film={film.frontmatter} synopsisLink={film.url} />
             ))
         }

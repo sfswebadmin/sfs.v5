@@ -1,22 +1,44 @@
 ---
 // import layout
 import BaseLayout from "../layouts/Base.astro";
+import { Image } from 'astro:assets';
+import Films from "../components/Films.astro";
+import PosterPanels from "../components/PosterPanels.astro";
 
 // import data
 import siteData from '../data/siteData.json';
-// import films component
-import Films from "../components/Films.astro";
+import sfsLogo from '/src/assets/images/site/SFS-Web-Logo-Large.jpg';
 
 const title = 'Home'
 const description = "For the best in world cinema and UK independent cinema";
 const keywords = "films,movies,foreign,uk,independent";
+
+const filmsSortedByDate = Object.values(import.meta.glob('../pages/synopsis/*.mdx', { eager: true }))
+    .map((film: any) => film)
+    .sort((a, b) => {
+        const aDate = new Date(a.frontmatter.viewingDate).getTime();
+        const bDate = new Date(b.frontmatter.viewingDate).getTime();
+        return aDate - bDate;
+    });
 ---
 
 <BaseLayout title={title} description={description} keywords={keywords}>
     <div class="container">
         <div class="row">
+            <div class="col-lg-6">
+                <h1 class="main-title">Welcome to<br> Swindon Film</h1>
+            </div>
+            <div class="col-lg-6">
+                <Image src={sfsLogo} alt="Swindon Film Society Logo" class="img-responsive" width="565" height="151" format="webp" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <PosterPanels films={filmsSortedByDate} />
+            </div>
+        </div>
+        <div class="row">
             <div class="col-lg-9">
-                <h1>Welcome to Swindon Film</h1>
                 <p>
                     Swindon Film has been at the heart of entertainment in Old Town for more than 75 years!  
                     Every year we show the best and widest variety of films that international cinema has to offer.
@@ -48,7 +70,7 @@ const keywords = "films,movies,foreign,uk,independent";
             </div>
         </div>
         
-        <Films siteData={siteData} />
+        <Films siteData={siteData} films={filmsSortedByDate} />
 
     </div>
 </BaseLayout>
