@@ -24,11 +24,6 @@ const filmsSortedByDate = Object.values(import.meta.glob('../pages/synopsis/*.md
         <a id="sfsfilms"></a>
         <h2>Our film season for {siteData.filmseason}</h2>
         <hr>
-        <p class="mb-4">
-            <strong>Doors open 30 minutes before a show.</strong>
-            We don’t show any adverts, so please make sure to arrive in good
-            time to get your ticket and seat.
-        </p>
         {
             filmsSortedByDate.map((film) => (
                 <FilmArticle film={film.frontmatter} synopsisLink={film.url} />

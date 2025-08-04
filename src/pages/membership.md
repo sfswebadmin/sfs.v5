@@ -23,7 +23,7 @@ We offer two types of membership: Season Ticket and Pay As You Go (see below)
     <tbody>
         <tr>
             <td>Season Ticket Member</td>
-            <td>£70</td>
+            <td>£80</td>
             <td>FREE</td>
             <td>n/a</td>
         </tr>

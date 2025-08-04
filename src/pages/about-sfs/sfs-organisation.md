@@ -9,11 +9,14 @@ keywords:
 
 ## About Us
 
-Swindon Film Society, founded in February 1947 ([see our Origins](/about-sfs/sfs-origins/) page for more detail), aims to show a wide-ranging programme of international films which would not otherwise be seen locally.
 
-We are a voluntary organisation, run by a committee elected by the Society's members at our Annual General Meeting, generally held in October/November. Our constitution clearly states our aims and objectives, and [can be viewed here](/about-sfs/sfs-constitution).
+Swindon Film has been at the heart of entertainment in Old Town for more than 75 years! Every year we show the best and widest variety of films that international cinema has to offer.
 
-We usually hold our AGM in October/November - two or three films into new season. See the table below for a copy of our most recent annual report in PDF format.
+Swindon Film is a membership organisation. However, guests are welcome to come along, buy tickets on the door, and enjoy our films at highly competitive prices. Membership provides even lower ticket prices plus other benefits.
+
+We are members of the national charity ‘[Cinema for All](https://cinemaforall.org.uk/)’ that supports and develops community cinema across the country.
+
+Explore our website to find out about the films we are showing this year and learn more about how to [become a member](/membership). This is your chance to enjoy the world’s most interesting films, many of which are never shown at mainstream cinemas.
 
 ## Swindon Film Society Committee
 
