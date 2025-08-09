@@ -1,0 +1,49 @@
+{
+  "$ref": "#/definitions/ratingsTotal",
+  "definitions": {
+    "ratingsTotal": {
+      "type": "object",
+      "properties": {
+        "attendance": {
+          "type": "number"
+        },
+        "returns": {
+          "type": "number"
+        },
+        "excellent": {
+          "type": "number"
+        },
+        "good": {
+          "type": "number"
+        },
+        "average": {
+          "type": "number"
+        },
+        "disappointing": {
+          "type": "number"
+        },
+        "awful": {
+          "type": "number"
+        },
+        "ratingsAverage": {
+          "type": "number"
+        },
+        "$schema": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "attendance",
+        "returns",
+        "excellent",
+        "good",
+        "average",
+        "disappointing",
+        "awful",
+        "ratingsAverage"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

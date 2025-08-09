@@ -1,0 +1,69 @@
+{
+  "$ref": "#/definitions/pastRatings",
+  "definitions": {
+    "pastRatings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "films": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "attendance": {
+                  "type": "string"
+                },
+                "reactionsReturned": {
+                  "type": "string"
+                },
+                "fiveStars": {
+                  "type": "string"
+                },
+                "fourStars": {
+                  "type": "string"
+                },
+                "threeStars": {
+                  "type": "string"
+                },
+                "twoStars": {
+                  "type": "string"
+                },
+                "oneStars": {
+                  "type": "string"
+                },
+                "percentageTotal": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "attendance",
+                "reactionsReturned",
+                "fiveStars",
+                "fourStars",
+                "threeStars",
+                "twoStars",
+                "oneStars",
+                "percentageTotal"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "title",
+          "films"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}
