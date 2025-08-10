@@ -17,7 +17,7 @@ keywords:
 ****
 > E-mail address
 ****
-> Type of membership	Season Ticket Member (£70)  /  Pay As You Go Member (£5) - circle as appropriate
+> Type of membership	Season Ticket Member (£80)  /  Pay As You Go Member (£5) - circle as appropriate
 ****
 > How did you find out about SFS?
 ****
