@@ -110,16 +110,16 @@ The committee meets about once a month or less throughout the year. If you are i
             <td>Annual Report</td>
             <td><a href="/documents/SFS_Annual_Report_2023-24.pdf">PDF</a></td>
          <tr>
-        <tr id="current-reports">
-            <td>2024-25</td>
-            <td>Annual Report</td>
-            <td><a href="/documents/SFS_Annual_Report_2024-25.pdf">PDF</a></td>
-         <tr>
         <tr>
             <td>2023-24</td>
             <td>Accounts Income and Expenditure</td>
             <td><a href="/documents/SFS_Financial_Report_2023-24.pdf">PDF</a></td>
         </tr>       
+        <tr id="current-reports">
+            <td>2024-25</td>
+            <td>Annual Report</td>
+            <td><a href="/documents/SFS_Annual_Report_2024-25.pdf">PDF</a></td>
+         <tr>
         <tr>
             <td>2024-25</td>
             <td>Accounts Income and Expenditure</td>
@@ -149,6 +149,11 @@ The committee meets about once a month or less throughout the year. If you are i
             <td>2024</td>
             <td>AGM Minutes</td>
             <td><a href="/documents/SFS_AGM_Minutes_2024-10-23.pdf">PDF</a></td>
+        </tr>
+        <tr>
+            <td>2025</td>
+            <td>AGM Minutes</td>
+            <td><a href="/documents/SFS_AGM_Minutes_2025-10-22.pdf">PDF</a></td>
         </tr>
     </tbody>
 </table>
