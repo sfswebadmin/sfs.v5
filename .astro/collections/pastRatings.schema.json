@@ -2,66 +2,74 @@
   "$ref": "#/definitions/pastRatings",
   "definitions": {
     "pastRatings": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "title": {
-            "type": "string"
-          },
-          "films": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "title": {
-                  "type": "string"
+      "type": "object",
+      "properties": {
+        "$schema": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "films": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "type": "string"
+                  },
+                  "attendance": {
+                    "type": "string"
+                  },
+                  "reactionsReturned": {
+                    "type": "string"
+                  },
+                  "fiveStars": {
+                    "type": "string"
+                  },
+                  "fourStars": {
+                    "type": "string"
+                  },
+                  "threeStars": {
+                    "type": "string"
+                  },
+                  "twoStars": {
+                    "type": "string"
+                  },
+                  "oneStars": {
+                    "type": "string"
+                  },
+                  "percentageTotal": {
+                    "type": "string"
+                  }
                 },
-                "attendance": {
-                  "type": "string"
-                },
-                "reactionsReturned": {
-                  "type": "string"
-                },
-                "fiveStars": {
-                  "type": "string"
-                },
-                "fourStars": {
-                  "type": "string"
-                },
-                "threeStars": {
-                  "type": "string"
-                },
-                "twoStars": {
-                  "type": "string"
-                },
-                "oneStars": {
-                  "type": "string"
-                },
-                "percentageTotal": {
-                  "type": "string"
-                }
-              },
-              "required": [
-                "title",
-                "attendance",
-                "reactionsReturned",
-                "fiveStars",
-                "fourStars",
-                "threeStars",
-                "twoStars",
-                "oneStars",
-                "percentageTotal"
-              ],
-              "additionalProperties": false
+                "required": [
+                  "title",
+                  "attendance",
+                  "reactionsReturned",
+                  "fiveStars",
+                  "fourStars",
+                  "threeStars",
+                  "twoStars",
+                  "oneStars",
+                  "percentageTotal"
+                ],
+                "additionalProperties": false
+              }
             }
-          }
-        },
-        "required": [
-          "title",
-          "films"
-        ],
-        "additionalProperties": false
+          },
+          "required": [
+            "title",
+            "films"
+          ],
+          "additionalProperties": false
+        }
       }
     }
   },

@@ -1,0 +1,11 @@
+[
+  {
+    "label": "Start dev server",
+    "command": "npm",
+    "args": ["run", "dev"],
+    "reveal": "no_focus",
+    "reveal_target": "dock",
+    "hide": "always",
+    "cwd": "/Users/admin/Projects/sfs.v5"
+  }
+]
