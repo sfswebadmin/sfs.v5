@@ -6,6 +6,24 @@
     "reveal": "no_focus",
     "reveal_target": "dock",
     "hide": "always",
-    "cwd": "/Users/admin/Projects/sfs.v5"
-  }
+    "cwd": "$ZED_WORKTREE_ROOT",
+  },
+  {
+    "label": "Run build",
+    "command": "npm",
+    "args": ["run", "build"],
+    "reveal": "no_focus",
+    "reveal_target": "dock",
+    "hide": "never",
+    "cwd": "$ZED_WORKTREE_ROOT",
+  },
+  {
+    "label": "Run preview",
+    "command": "npm",
+    "args": ["run", "preview"],
+    "reveal": "no_focus",
+    "reveal_target": "dock",
+    "hide": "never",
+    "cwd": "$ZED_WORKTREE_ROOT",
+  },
 ]
