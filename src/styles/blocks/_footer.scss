@@ -1,20 +1,22 @@
+@use '../color';
+@use '../fonts';
+
 footer {
-  background-color: $primary-bg;
-  color: $clr-neutral-100;
+  background-color: color.$primary-bg;
+  color: color.$clr-neutral-100;
   font-size: 0.9rem;
-  font-weight: $fw-200;
+  font-weight: fonts.$fw-200;
   padding-block: 2rem;
 
   a {
     text-decoration: underline;
-    color: $clr-neutral-100;
+    color: color.$clr-neutral-100;
 
     &:hover,
     &:focus,
     &:active {
-      color: $clr-neutral-100;
-      font-weight: $fw-600;
+      color: color.$clr-neutral-100;
+      font-weight: fonts.$fw-600;
     }
   }
 }
-

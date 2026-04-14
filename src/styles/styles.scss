@@ -1,20 +1,30 @@
-@import 'color';
-@import 'fonts';
+@use 'color';
+@use 'fonts';
+
+@use 'blocks/navbar';
+@use 'blocks/sidenav';
+@use 'blocks/tables';
+@use 'blocks/buttons';
+@use 'blocks/synopsis';
+@use 'blocks/membership-box';
+@use 'blocks/poster-panels';
+@use 'blocks/film-article';
+@use 'blocks/footer';
 
 body {
-  font-family: $ff-primary;
-  font-weight: $fw-400;
+  font-family: fonts.$ff-primary;
+  font-weight: fonts.$fw-400;
 
-  background: $clr-neutral-100;
-  color: $clr-neutral-900;
+  background: color.$clr-neutral-100;
+  color: color.$clr-neutral-900;
 }
 
 main {
-  margin-block : 3rem;
+  margin-block: 3rem;
 }
 
 a {
-  color: $primary-clr;
+  color: color.$primary-clr;
 }
 
 blockquote {
@@ -30,13 +40,3 @@ blockquote {
 .btn-agm-reports:focus {
   background-color: #5779e7;
 }
-
-@import 'blocks/navbar';
-@import 'blocks/sidenav';
-@import 'blocks/tables';
-@import 'blocks/buttons';
-@import 'blocks/synopsis';
-@import 'blocks/membership-box';
-@import 'blocks/poster-panels';
-@import 'blocks/film-article';
-@import 'blocks/footer';

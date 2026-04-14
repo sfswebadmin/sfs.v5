@@ -1,37 +1,39 @@
+@use '../color';
+
 /* Top bar menu */
 .navbar {
-  background-color: $primary-bg;
-  border-color: $navbar-border-clr;
+  background-color: color.$primary-bg;
+  border-color: color.$navbar-border-clr;
   border-radius: 0;
 }
 
 .navbar-toggler {
-  border-color: $clr-neutral-100;
+  border-color: color.$clr-neutral-100;
 }
 
 .navbar-default .navbar-collapse {
-  background-color: $primary-bg;
+  background-color: color.$primary-bg;
 }
 
 .navbar-header {
-  background-color: $primary-bg;
+  background-color: color.$primary-bg;
 }
 
 .navbar-nav .nav-link {
-  color: $clr-neutral-100;
+  color: color.$clr-neutral-100;
 }
 
 .navbar-nav > .active > a,
 .navbar-nav > .active > a:focus,
 .navbar-nav > .active > a:hover {
-  background-color: $navbar-active;
-  color: $clr-neutral-100;
+  background-color: color.$navbar-active;
+  color: color.$clr-neutral-100;
 }
 
 .navbar-nav > li > a:focus,
 .navbar-nav > li > a:hover {
-  background-color: $navbar-hover;
-  color: $clr-neutral-100;
+  background-color: color.$navbar-hover;
+  color: color.$clr-neutral-100;
 }
 
 /* Hamburger icon, the stroke color is between the %28....%29 */

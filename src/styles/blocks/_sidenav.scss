@@ -1,6 +1,8 @@
+@use '../color';
+
 .aboutus-sidemenu {
   margin-top: 30px;
-  background-color: $clr-neutral-200;
-  border-color: $clr-neutral-300;
+  background-color: color.$clr-neutral-200;
+  border-color: color.$clr-neutral-300;
   border-radius: 4px;
 }

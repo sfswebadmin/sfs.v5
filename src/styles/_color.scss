@@ -1,3 +1,5 @@
+@use 'sass:color';
+
 $base-color: #3b52a0;
 
 $primary-bg: $base-color;
@@ -13,11 +15,11 @@ $clr-neutral-900: #000000;
 
 $poster-box-bg: $clr-neutral-200;
 
-$membership-box-bg: lighten($primary-bg, 15%);
+$membership-box-bg: color.adjust($primary-bg, $lightness: 15%);
 
 $navbar-hover: #5779e7;
 $navbar-active: #263566;
-$navbar-border-clr: darken($primary-bg, 10%);
+$navbar-border-clr: color.adjust($primary-bg, $lightness: -10%);
 
 /* all main buttons */
 $btn-primary-bg: #ffc107;
@@ -28,11 +30,11 @@ $btn-primary-clr-hover: $clr-neutral-900;
 /* ticket buttons */
 $btn-secondary-bg: $primary-bg;
 $btn-secondary-clr: $clr-neutral-100;
-$btn-secondary-bg-hover: lighten($primary-bg, 25%);
+$btn-secondary-bg-hover: color.adjust($primary-bg, $lightness: 25%);
 $btn-secondary-clr-hover: $clr-neutral-100;
 
 /* membership homepage cta button */
-$btn-tertiary-bg: darken($primary-bg, 15%);
+$btn-tertiary-bg: color.adjust($primary-bg, $lightness: -15%);
 $btn-tertiary-clr: $clr-neutral-100;
-$btn-tertiary-bg-hover: lighten($primary-bg, 35%);
+$btn-tertiary-bg-hover: color.adjust($primary-bg, $lightness: 35%);
 $btn-tertiary-clr-hover: $clr-neutral-900;

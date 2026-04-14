@@ -1,39 +1,41 @@
+@use '../color';
+
 .btn-normal {
-  background-color: $btn-primary-bg;
-  color: $btn-primary-clr;
+  background-color: color.$btn-primary-bg;
+  color: color.$btn-primary-clr;
 }
 
 .btn-normal:hover,
 .btn-normal:focus,
 .btn-normal:active {
-  background-color: $btn-primary-bg-hover;
-  color: $btn-primary-clr-hover;
+  background-color: color.$btn-primary-bg-hover;
+  color: color.$btn-primary-clr-hover;
 }
 
 .btn-tickets {
-  background-color: $btn-secondary-bg;
-  border-color: $btn-secondary-bg;
-  color: $btn-secondary-clr;
+  background-color: color.$btn-secondary-bg;
+  border-color: color.$btn-secondary-bg;
+  color: color.$btn-secondary-clr;
 }
 
 .btn-tickets:hover,
 .btn-tickets:focus,
 .btn-tickets:active {
-  background-color: $btn-secondary-bg-hover;
-  color: $btn-secondary-clr-hover;
+  background-color: color.$btn-secondary-bg-hover;
+  color: color.$btn-secondary-clr-hover;
 }
 
 .btn-membership {
-  background-color: $btn-tertiary-bg;
-  color: $btn-tertiary-clr;
+  background-color: color.$btn-tertiary-bg;
+  color: color.$btn-tertiary-clr;
   transition: all 0.4s ease;
 }
 
 .btn-membership:hover,
 .btn-membership:focus,
 .btn-membership:active {
-  background-color: $btn-tertiary-bg-hover;
-  color: $btn-tertiary-clr-hover;
+  background-color: color.$btn-tertiary-bg-hover;
+  color: color.$btn-tertiary-clr-hover;
 }
 
 .membership-box-button a:focus,
