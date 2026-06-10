@@ -1,8 +1,10 @@
 @use '../color';
 @use '../fonts';
 
-.film-article {
-  margin-bottom: 2.5rem;
+.film-list-grid {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.5rem;
 
   h3 {
     margin-top: 0;

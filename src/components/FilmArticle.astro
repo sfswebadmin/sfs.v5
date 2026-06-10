@@ -23,13 +23,13 @@ if (film.viewingDate) {
 }
 ---
 
-        <article class="row film-article">
-            <a id={film.taglink} />
-            <div class="col-lg-4">
+        <article class="film-list-grid">
+            <div>
+                <a id={film.taglink} />
                 <Image src={images[imagePath]()} width="440" class="img-fluid"
                     alt={`${film.title} film screenshot`} loading="lazy" />
             </div>
-            <div class="col-lg-8">
+            <div>
                 <h3>{film.title.toUpperCase()}</h3>
                 <p class="film-article__date">
                     {viewDayOfMonth} {viewDay} {viewMonth} {viewYear}, {viewTime}, {film.locationShowing}
@@ -42,8 +42,8 @@ if (film.viewingDate) {
                 <div class="film-article__snippet">
                     {film.frontPageSnippet}
                 </div>
-                <div class="row button-bar">
-                    <div class="col-lg-12 mt-3 front-page-buttons">
+                <div class="button-group">
+                    <div class="front-page-buttons">
                         <a href={film.trailerLink} role="button" class="btn btn-normal" target="_blank">
                             Trailer
                         </a>
@@ -59,7 +59,7 @@ if (film.viewingDate) {
                     </div>
                 </div>
                 <div class:list={[{ "d-none": film.attendance === null }]}>
-                    <div class="table-responsive mt-2">
+                    <div class="table-responsive">
                         <table class="table">
                             <thead>
                                 <tr>
