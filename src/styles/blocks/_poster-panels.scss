@@ -1,8 +1,16 @@
 @use '../color';
 @use '../fonts';
 
-.poster-box-link {
-  text-decoration: none;
+.poster-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.poster {
+  & .poster-box-link {
+    text-decoration: none;
+  }
 }
 
 .poster-box {

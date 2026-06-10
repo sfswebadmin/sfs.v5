@@ -33,7 +33,6 @@ const { title, description, keywords } = Astro.props;
   <link rel="icon" type="image/x-icon" href="/img/sfs.ico">
 
   <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/font-awesome.min.css">
   <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
   <style lang="scss"></style>
@@ -52,15 +51,12 @@ const { title, description, keywords } = Astro.props;
 
   <main>
     <div class="container">
-      <div class="row">
-        <slot />
-      </div>
+      <slot />
     </div>
   </main>
 
   <Footer></Footer>
 
-  <script src="/js/bootstrap.min.js" is:inline></script>
 </body>
 
 </html>

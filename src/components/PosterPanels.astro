@@ -44,15 +44,14 @@ const posters = bannerFilms.map(film => {
         viewingDate: new Date(film.frontmatter.viewingDate).toDateString(),
 }});
 ---
-    <div class="row">
-        <section class="col-lg-12">
+        <section>
             <h2>{bannerTitle}</h2>
             <h3 class:list={[{ "d-none" : hasSubHeading }]}>Our new season starts in September</h3>
             <hr>
-            <div class="row">
+            <div class="poster-grid">
                 {
                     posters.map((film) => (
-                        <div class="col-lg-4">
+                        <div class="poster">
                             <a href={"#" + film.taglink} class="poster-box-link">
                             <div class="poster-box">
                                 <p>
@@ -74,4 +73,3 @@ const posters = bannerFilms.map(film => {
             </div>
         </section>
         <!-- end of banner section -->
-    </div>

@@ -1,5 +1,77 @@
 @use '../color';
 
+// Variables
+$btn-primary: #0d6efd;
+$btn-secondary: #6c757d;
+$btn-success: #198754;
+$btn-danger: #dc3545;
+$btn-warning: #ffc107;
+$btn-info: #0dcaf0;
+
+// Mixin for button variants
+@mixin btn-variant($bg, $color: #fff) {
+  background-color: $bg;
+  border-color: $bg;
+  color: $color;
+  &:hover {
+    background-color: darken($bg, 10%);
+    border-color: darken($bg, 10%);
+  }
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.375rem;
+  border: 1px solid transparent;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+
+  &.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+  }
+  &.btn-lg {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+  }
+
+  &.btn-primary {
+    @include btn-variant($btn-primary);
+  }
+  &.btn-secondary {
+    @include btn-variant($btn-secondary);
+  }
+  &.btn-success {
+    @include btn-variant($btn-success);
+  }
+  &.btn-danger {
+    @include btn-variant($btn-danger);
+  }
+  &.btn-warning {
+    @include btn-variant($btn-warning, #000);
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
+  &:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+  &:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba($btn-primary, 0.5);
+  }
+}
+
 .btn-normal {
   background-color: color.$btn-primary-bg;
   color: color.$btn-primary-clr;

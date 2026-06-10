@@ -1,24 +1,38 @@
 @use '../color';
 
 /* Top bar menu */
-.navbar {
+.main-nav {
   background-color: color.$primary-bg;
   border-color: color.$navbar-border-clr;
   border-radius: 0;
 }
+.main-nav__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 
-.navbar-toggler {
-  border-color: color.$clr-neutral-100;
+  .main-nav__menu-item {
+    list-style-type: none;
+  }
+
+  .main-nav__menu-link {
+    display: inline-block;
+    padding-block: 1rem;
+    padding-inline: 0.25rem;
+    color: color.$clr-neutral-200;
+    text-decoration: none;
+  }
+
+  .main-nav__menu-link:hover,
+  .main-nav__menu-link:focus {
+    background-color: color.$navbar-hover;
+  }
 }
-
-.navbar-default .navbar-collapse {
-  background-color: color.$primary-bg;
-}
-
-.navbar-header {
-  background-color: color.$primary-bg;
-}
-
 .navbar-nav .nav-link {
   color: color.$clr-neutral-100;
 }
