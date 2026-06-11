@@ -1,19 +1,22 @@
+@use 'reset';
 @use 'color';
 @use 'fonts';
 
-@use 'blocks/navbar';
-@use 'blocks/sidenav';
-@use 'blocks/tables';
 @use 'blocks/buttons';
-@use 'blocks/synopsis';
-@use 'blocks/membership-box';
-@use 'blocks/poster-panels';
 @use 'blocks/film-article';
 @use 'blocks/footer';
+@use 'blocks/header';
+@use 'blocks/membership-box';
+@use 'blocks/navbar';
+@use 'blocks/poster-panels';
+@use 'blocks/sidenav';
+@use 'blocks/synopsis';
+@use 'blocks/tables';
 
 body {
   font-family: fonts.$ff-primary;
   font-weight: fonts.$fw-400;
+  line-height: 1.6;
 
   background: color.$clr-neutral-100;
   color: color.$clr-neutral-900;
@@ -55,4 +58,10 @@ blockquote {
 .btn-agm-reports:hover,
 .btn-agm-reports:focus {
   background-color: #5779e7;
+}
+
+.home-feedback-grid {
+  display: grid;
+  grid-template-columns: 440px 1fr;
+  gap: 1rem;
 }

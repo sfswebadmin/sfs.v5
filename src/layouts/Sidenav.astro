@@ -1,14 +1,16 @@
 ---
 import BaseLayout from "./Base.astro";
-import Sidenav from "../components/Sidebar.astro";
+import Sidebar from "../components/Sidebar.astro";
 const { content } = Astro.props;
 ---
 
 <BaseLayout title={content.title}>
-  <div class="col-sm-9">
-    <slot />
-  </div>
-  <div class="col-sm-3">
-    <Sidenav />
+  <div class="sidenav-grid">
+    <div>
+      <slot />
+    </div>
+    <div>
+      <Sidebar />
+    </div>
   </div>
 </BaseLayout>

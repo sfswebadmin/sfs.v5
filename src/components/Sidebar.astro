@@ -1,15 +1,15 @@
 ---
 import menuData from '../data/sideNav.json';
 ---
-    <h3>About Us Menu</h3>
+    <h3 class="sidenav-title">About Us Menu</h3>
     <nav aria-label="sidebar secondary navigation menu">
-        <ul class="nav flex-column">
-            {
-                menuData.map((item) => (
-                    <li class="nav-item">
-                        <a class="nav-link" href={item.url}>{item.title}</a>
-                    </li>
-                ))
-            }
+        <ul class="sidenav-menu">
+        {
+            menuData.map((item) => (
+                <li class="sidenav-menu__item">
+                    <a href={item.url} class="sidenav-menu__link">{item.title}</a>
+                </li>
+            ))
+        }
         </ul>
     </nav>

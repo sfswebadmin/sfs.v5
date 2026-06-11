@@ -1,9 +1,16 @@
 @use '../color';
 @use '../fonts';
 
+.table-responsive {
+  overflow-x: auto;
+}
+
 .table {
+  width: 100%;
   border: 1px solid color.$clr-neutral-900;
   margin-bottom: 10px;
+  caption-side: bottom;
+  border-collapse: collapse;
 
   & > :not(caption) > * > * {
     background-color: color.$primary-bg;

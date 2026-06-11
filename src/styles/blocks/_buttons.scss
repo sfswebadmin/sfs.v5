@@ -1,4 +1,5 @@
-@use '../color';
+@use 'sass:color';
+@use '../color' as theme;
 
 // Variables
 $btn-primary: #0d6efd;
@@ -14,8 +15,8 @@ $btn-info: #0dcaf0;
   border-color: $bg;
   color: $color;
   &:hover {
-    background-color: darken($bg, 10%);
-    border-color: darken($bg, 10%);
+    background-color: color.adjust($bg, $lightness: 10%);
+    border-color: color.adjust($bg, $lightness: 10%);
   }
 }
 
@@ -73,41 +74,41 @@ $btn-info: #0dcaf0;
 }
 
 .btn-normal {
-  background-color: color.$btn-primary-bg;
-  color: color.$btn-primary-clr;
+  background-color: theme.$btn-primary-bg;
+  color: theme.$btn-primary-clr;
 }
 
 .btn-normal:hover,
 .btn-normal:focus,
 .btn-normal:active {
-  background-color: color.$btn-primary-bg-hover;
-  color: color.$btn-primary-clr-hover;
+  background-color: theme.$btn-primary-bg-hover;
+  color: theme.$btn-primary-clr-hover;
 }
 
 .btn-tickets {
-  background-color: color.$btn-secondary-bg;
-  border-color: color.$btn-secondary-bg;
-  color: color.$btn-secondary-clr;
+  background-color: theme.$btn-secondary-bg;
+  border-color: theme.$btn-secondary-bg;
+  color: theme.$btn-secondary-clr;
 }
 
 .btn-tickets:hover,
 .btn-tickets:focus,
 .btn-tickets:active {
-  background-color: color.$btn-secondary-bg-hover;
-  color: color.$btn-secondary-clr-hover;
+  background-color: theme.$btn-secondary-bg-hover;
+  color: theme.$btn-secondary-clr-hover;
 }
 
 .btn-membership {
-  background-color: color.$btn-tertiary-bg;
-  color: color.$btn-tertiary-clr;
+  background-color: theme.$btn-tertiary-bg;
+  color: theme.$btn-tertiary-clr;
   transition: all 0.4s ease;
 }
 
 .btn-membership:hover,
 .btn-membership:focus,
 .btn-membership:active {
-  background-color: color.$btn-tertiary-bg-hover;
-  color: color.$btn-tertiary-clr-hover;
+  background-color: theme.$btn-tertiary-bg-hover;
+  color: theme.$btn-tertiary-clr-hover;
 }
 
 .membership-box-button a:focus,
