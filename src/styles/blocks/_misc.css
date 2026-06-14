@@ -1,0 +1,10 @@
+@import '../_color';
+
+.btn-agm-reports {
+  background-color: var(--primary-clr);
+}
+
+.btn-agm-reports:hover,
+.btn-agm-reports:focus {
+  background-color: var(--navbar-hover);
+}

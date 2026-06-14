@@ -1,0 +1,48 @@
+:root {
+  --gap-0: 0;
+  --gap-100: 0.25rem;
+  --gap-200: 0.5rem;
+  --gap-300: 0.75rem;
+  --gap-400: 1rem;
+  --gap-500: 1.25rem;
+  --gap-600: 1.5rem;
+  --gap-700: 1.75rem;
+  --gap-800: 2rem;
+}
+
+.welcome-grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: var(--gap-600);
+
+  > div {
+    align-self: start;
+  }
+}
+
+.home-feedback-grid {
+  display: grid;
+  grid-template-columns: 440px 1fr;
+  gap: var(--gap-400);
+}
+
+.footer {
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--gap-400);
+  }
+}
+
+.poster-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--gap-400);
+}
+
+.sidenav-grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: var(--gap-400);
+  align-items: start;
+}

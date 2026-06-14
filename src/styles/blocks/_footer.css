@@ -8,12 +8,6 @@ footer {
   font-weight: var(--fw-200);
   padding-block: 2rem;
 
-  .footer-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-  }
-
   a {
     text-decoration: underline;
     color: var(--clr-neutral-100);

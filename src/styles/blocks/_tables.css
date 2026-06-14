@@ -8,7 +8,7 @@
 .table {
   width: 100%;
   border: 1px solid var(--clr-neutral-900);
-  margin-bottom: 10px;
+  margin-block-end: 10px;
   caption-side: bottom;
   border-collapse: collapse;
 
