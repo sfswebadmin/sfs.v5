@@ -1,6 +1,11 @@
 @import '../_color';
 @import '../_typography';
 
+.synopsis-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
 /* synopsis */
 .synopsis-headings {
   border-block-start: 2px solid var(--clr-neutral-400);

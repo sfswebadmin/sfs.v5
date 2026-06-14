@@ -36,12 +36,14 @@ if (viewingDate) {
 
 <BaseLayout title={title}>
     <section>
-        <h1>{title.toUpperCase()}</h1>
-        <a href={documentPath} target="_blank">
-            <i class="fa fa-file-pdf-o fa-3x" aria-hidden="true"
-            ></i><br />
-            <span class="text-center"> Download PDF</span>
-        </a>
+        <div class="synopsis-header">
+            <h1>{title.toUpperCase()}</h1>
+            <a href={documentPath} target="_blank" class="text-center">
+                <i class="fa fa-file-pdf-o fa-3x" aria-hidden="true"></i>
+                <br />
+                <span> Download PDF</span>
+            </a>
+        </div>
         <p>
             <strong class:list={[{ "d-none": filmOriginalTitle === null }]}
                 >{"(Original Title: " + filmOriginalTitle + ")"}</strong

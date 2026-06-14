@@ -49,3 +49,15 @@ p {
   margin-block-start: 0px;
   margin-block-end: 1rem;
 }
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
