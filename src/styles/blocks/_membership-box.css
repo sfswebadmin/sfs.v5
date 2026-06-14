@@ -1,4 +1,4 @@
-@use '../color';
+@import '../_color';
 
 .membership-box {
   display: flex;
@@ -6,8 +6,8 @@
   align-items: center;
   margin-bottom: 1rem;
   padding: 10px;
-  background-color: color.$membership-box-bg;
-  color: color.$clr-neutral-100;
+  background-color: var(--membership-box-bg);
+  color: var(--clr-neutral-100);
   box-shadow: 3px 3px 13px -1px rgba(0, 0, 0, 0.75);
 }
 

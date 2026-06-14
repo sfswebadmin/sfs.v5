@@ -1,0 +1,51 @@
+/* Define variables for sizes */
+:root {
+  --size-h1: calc(1.375rem + 1.5vw);
+  --size-h2: calc(1.325rem + 0.9vw);
+  --size-h3: calc(1.3rem + 0.6vw);
+  --size-h4: calc(1.275rem + 0.3vw);
+  --size-h5: 1.25rem;
+  --size-h6: 1rem;
+
+  --font-family:
+    system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-size-400: 1rem;
+  --font-weight-200: 200;
+  --font-weight-400: 400;
+  --font-weight-600: 600;
+  --font-weight-700: 700;
+
+  --line-height-400: 1.5;
+}
+
+/* Loop using postcss-each */
+@each $h, $size in (h1: --size-h1, h2: --size-h2, h3: --size-h3, h4: --size-h4, h5: --size-h5, h6: --size-h6) {
+  $(h) {
+    font-size: var($(size));
+    line-height: 1.2;
+  }
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 1rem;
+}

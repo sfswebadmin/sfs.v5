@@ -1,0 +1,46 @@
+/* Color variables stored as CSS custom properties */
+:root {
+  --base-color: #3b52a0;
+
+  --primary-bg: var(--base-color);
+  --primary-clr: var(--base-color);
+
+  --clr-neutral-100: #ffffff;
+  --clr-neutral-200: #f8f8f8;
+  --clr-neutral-300: #e7e7e7;
+  --clr-neutral-400: #808080;
+  --clr-neutral-600: #595959;
+  --clr-neutral-800: #282727;
+  --clr-neutral-900: #000000;
+
+  --body-color: #212529;
+  --poster-box-bg: var(--clr-neutral-200);
+
+  --navbar-hover: #5779e7;
+  --navbar-active: #263566;
+  --navbar-border-clr: #2d3f7b;
+
+  --btn-primary-bg: #ffc107;
+  --btn-primary-clr: var(--clr-neutral-900);
+  --btn-primary-bg-hover: #f8ce52;
+  --btn-primary-clr-hover: var(--clr-neutral-900);
+
+  --btn-secondary-bg: var(--primary-bg);
+  --btn-secondary-clr: var(--clr-neutral-100);
+  --btn-secondary-clr-hover: var(--clr-neutral-100);
+
+  --btn-tertiary-clr: var(--clr-neutral-100);
+  --btn-tertiary-clr-hover: var(--clr-neutral-900);
+
+  /* Base HSL values for #3b52a0: 228, 46%, 43% */
+  --base-h: 228;
+  --base-s: 46%;
+  --base-l: 43%;
+
+  /* Calculated adjustments */
+  --membership-box-bg: hsl(var(--base-h), var(--base-s), calc(var(--base-l) + 15%));
+  --navbar-border-clr: hsl(var(--base-h), var(--base-s), calc(var(--base-l) - 10%));
+  --btn-secondary-bg-hover: hsl(var(--base-h), var(--base-s), calc(var(--base-l) + 25%));
+  --btn-tertiary-bg: hsl(var(--base-h), var(--base-s), calc(var(--base-l) - 15%));
+  --btn-tertiary-bg-hover: hsl(var(--base-h), var(--base-s), calc(var(--base-l) + 35%));
+}

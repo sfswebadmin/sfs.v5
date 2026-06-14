@@ -1,9 +1,9 @@
-@use '../color';
+@import '../_color';
 
 /* Top bar menu */
 .main-nav {
-  background-color: color.$primary-bg;
-  border-color: color.$navbar-border-clr;
+  background-color: var(--primary-bg);
+  border-color: var(--navbar-border-clr);
   border-radius: 0;
 }
 .main-nav__menu {
@@ -23,30 +23,30 @@
     display: inline-block;
     padding-block: 1rem;
     padding-inline: 0.5rem;
-    color: color.$clr-neutral-200;
+    color: var(--clr-neutral-200);
     text-decoration: none;
   }
 
   .main-nav__menu-link:hover,
   .main-nav__menu-link:focus {
-    background-color: color.$navbar-hover;
+    background-color: var(--navbar-hover);
   }
 }
 .navbar-nav .nav-link {
-  color: color.$clr-neutral-100;
+  color: var(--clr-neutral-100);
 }
 
 .navbar-nav > .active > a,
 .navbar-nav > .active > a:focus,
 .navbar-nav > .active > a:hover {
-  background-color: color.$navbar-active;
-  color: color.$clr-neutral-100;
+  background-color: var(--navbar-active);
+  color: var(--clr-neutral-100);
 }
 
 .navbar-nav > li > a:focus,
 .navbar-nav > li > a:hover {
-  background-color: color.$navbar-hover;
-  color: color.$clr-neutral-100;
+  background-color: var(--navbar-hover);
+  color: var(--clr-neutral-100);
 }
 
 /* Hamburger icon, the stroke color is between the %28....%29 */

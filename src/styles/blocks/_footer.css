@@ -1,0 +1,28 @@
+@import '../_color';
+@import '../_typography';
+
+footer {
+  background-color: var(--primary-bg);
+  color: var(--clr-neutral-100);
+  font-size: 0.9rem;
+  font-weight: var(--fw-200);
+  padding-block: 2rem;
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+
+  a {
+    text-decoration: underline;
+    color: var(--clr-neutral-100);
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: var(--clr-neutral-100);
+      font-weight: var(--fw-600);
+    }
+  }
+}
