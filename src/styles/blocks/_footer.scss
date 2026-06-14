@@ -1,11 +1,11 @@
 @use '../color';
-@use '../fonts';
+@use '../typography';
 
 footer {
   background-color: color.$primary-bg;
   color: color.$clr-neutral-100;
   font-size: 0.9rem;
-  font-weight: fonts.$fw-200;
+  font-weight: typography.$fw-200;
   padding-block: 2rem;
 
   .footer-grid {
@@ -22,7 +22,7 @@ footer {
     &:focus,
     &:active {
       color: color.$clr-neutral-100;
-      font-weight: fonts.$fw-600;
+      font-weight: typography.$fw-600;
     }
   }
 }

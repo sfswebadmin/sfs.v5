@@ -1,0 +1,70 @@
+$ff-primary:
+  system-ui,
+  -apple-system,
+  'Segoe UI',
+  Roboto,
+  'Helvetica Neue',
+  'Noto Sans',
+  'Liberation Sans',
+  Arial,
+  sans-serif,
+  'Apple Color Emoji',
+  'Segoe UI Emoji',
+  'Segoe UI Symbol',
+  'Noto Color Emoji';
+
+$font-size: 1rem;
+
+$fw-200: 200;
+$fw-400: 400;
+$fw-600: 600;
+$fw-700: 700;
+
+$line-height: 1.5;
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+$font-size-h1: 2.5rem;
+$font-size-h2: 2rem;
+$font-size-h3: 1.75rem;
+$font-size-h4: 1.5rem;
+$font-size-h5: 1.25rem;
+$font-size-h6: 1rem;
+
+$headings: (
+  h1: $font-size-h1,
+  h2: $font-size-h2,
+  h3: $font-size-h3,
+  h4: $font-size-h4,
+  h5: $font-size-h5,
+  h6: $font-size-h6,
+);
+
+// The loop that creates the CSS
+@each $name, $size in $headings {
+  #{$name} {
+    font-size: $size;
+    line-height: 1.2; // Usually a fixed ratio for headings
+  }
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 1rem;
+}

@@ -1,5 +1,5 @@
 @use '../color';
-@use '../fonts';
+@use '../typography';
 
 .poster-grid {
   display: grid;
@@ -23,7 +23,7 @@
   background-color: color.$poster-box-bg;
   border-radius: 5px;
   color: color.$clr-neutral-800;
-  font-weight: fonts.$fw-700;
+  font-weight: typography.$fw-700;
   cursor: pointer;
   transition: all 0.4s ease;
 

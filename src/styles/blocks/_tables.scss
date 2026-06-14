@@ -1,5 +1,5 @@
 @use '../color';
-@use '../fonts';
+@use '../typography';
 
 .table-responsive {
   overflow-x: auto;
@@ -34,6 +34,6 @@
 
   & tfoot tr td {
     background: none;
-    font-weight: fonts.$fw-600;
+    font-weight: typography.$fw-600;
   }
 }

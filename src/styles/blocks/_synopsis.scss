@@ -1,5 +1,5 @@
 @use '../color';
-@use '../fonts';
+@use '../typography';
 
 /* synopsis */
 .synopsis-headings {
@@ -24,7 +24,7 @@
 
 .synopsis-sfs-title {
   text-align: center;
-  font-weight: fonts.$fw-700;
+  font-weight: typography.$fw-700;
 }
 
 .synopsis-image-full-page {

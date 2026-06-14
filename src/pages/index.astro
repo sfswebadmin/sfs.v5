@@ -13,43 +13,41 @@ const keywords = "films,movies,foreign,uk,independent";
 ---
 
 <BaseLayout title={title} description={description} keywords={keywords}>
-    <div class="container">
-        <h1>Welcome to Swindon Film</h1>
-        <div class="welcome-grid">
-            <div>
-                <p>
-                    We show some of the best films that international cinema has to offer &ndash; in the heart of
-                    Swindon's Old Town, on a large screen,
-                    with tiered seating, refreshments &ndash; and at a highly competitive price!
-                </p>
-                <p>
-                    For the lowest prices, sign up to be a full member &ndash; you'll see 14 films between September
-                    2025 and April 2026 for just over £5 a film.
-                </p>
-                <p>
-                    Or try associate membership &ndash; just pay a one-off fee of £5 and then it's £8 per film (£7 for
-                    concessions). Visitors pay £10 a film.
-                </p>
-                <p>
-                    <strong>Doors open 30 minutes before a show. We don't show any pre-film adverts, so please make sure
-                        to arrive in good time to get your ticket, grab any refreshments and take your seat.</strong>
-                </p>
-                <p>
-                    Look below for the great selection of films we've got this year…
-                </p>
-            </div>
-            <div>
-                <div class="membership-box">
-                    <h2 class="text-center">Become a member</h2>
-                    <div class="membership-box-button">
-                        <a href="/membership/" role="button" class="btn btn-membership">
-                            Membership and Tickets
-                        </a>
-                    </div>
+    <h1>Welcome to Swindon Film</h1>
+    <div class="welcome-grid">
+        <div>
+            <p>
+                We show some of the best films that international cinema has to offer &ndash; in the heart of
+                Swindon's Old Town, on a large screen,
+                with tiered seating, refreshments &ndash; and at a highly competitive price!
+            </p>
+            <p>
+                For the lowest prices, sign up to be a full member &ndash; you'll see 14 films between September
+                2025 and April 2026 for just over £5 a film.
+            </p>
+            <p>
+                Or try associate membership &ndash; just pay a one-off fee of £5 and then it's £8 per film (£7 for
+                concessions). Visitors pay £10 a film.
+            </p>
+            <p>
+                <strong>Doors open 30 minutes before a show. We don't show any pre-film adverts, so please make sure
+                    to arrive in good time to get your ticket, grab any refreshments and take your seat.</strong>
+            </p>
+            <p>
+                Look below for the great selection of films we've got this year…
+            </p>
+        </div>
+        <div>
+            <div class="membership-box">
+                <h2 class="text-center">Become a member</h2>
+                <div class="membership-box-button">
+                    <a href="/membership/" role="button" class="btn btn-membership">
+                        Membership and Tickets
+                    </a>
                 </div>
             </div>
         </div>
-        <Films siteData={siteData} />
-
     </div>
+    <Films siteData={siteData} />
+
 </BaseLayout>
