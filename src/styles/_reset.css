@@ -4,10 +4,8 @@
   box-sizing: border-box;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+hmtl {
+  text-size-adjust: none;
 }
 
 body,
@@ -17,6 +15,55 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+figure,
+blockquote,
+dl,
+dd {
   margin: 0;
+}
+
+[role='list'] {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-block-size: 100vh;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+button,
+input,
+label {
+  line-height: 1.1;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
+}
+
+p,
+li {
+  text-wrap: pretty;
+}
+
+img,
+picture {
+  display: block;
+  max-inline-size: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
 }
