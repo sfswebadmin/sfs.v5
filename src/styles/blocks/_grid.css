@@ -18,12 +18,20 @@
   > div {
     align-self: start;
   }
+
+  @media (width < 576px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .home-feedback-grid {
   display: grid;
   grid-template-columns: 440px 1fr;
   gap: var(--gap-400);
+
+  @media (width < 576px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .footer {
@@ -31,6 +39,10 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: var(--gap-400);
+
+    @media (width < 576px) {
+      grid-template-columns: 1fr;
+    }
   }
 }
 
@@ -38,6 +50,10 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: var(--gap-400);
+
+  @media (width < 576px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .sidenav-grid {
@@ -45,4 +61,12 @@
   grid-template-columns: 3fr 1fr;
   gap: var(--gap-400);
   align-items: start;
+
+  @media (width < 576px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.min-width-0 {
+  min-width: 0;
 }
