@@ -1,7 +1,7 @@
 ---
 layout: '../layouts/Standard.astro'
 title: Membership
-description: 
+description:
 keywords:
 ---
 
@@ -23,15 +23,15 @@ We offer two types of membership: Season Ticket and Pay As You Go (see below)
     <tbody>
         <tr>
             <td>Season Ticket Member</td>
-            <td>£80</td>
+            <td>£85</td>
             <td>FREE</td>
             <td>n/a</td>
         </tr>
         <tr>
             <td>Pay As You Go Member</td>
             <td>£5</td>
+            <td>£9</td>
             <td>£8</td>
-            <td>£7</td>
         </tr>
         <tr>
             <td>Guest</td>
@@ -47,27 +47,28 @@ This covers one season of 14 films at Swindon Arts Centre (running from Septembe
 
 Concessionary rate applies to:
 
-* People in receipt of state retirement pension
-* People whose only income is other state benefits, e.g. job seekers allowance, disability benefits
+- People in receipt of state retirement pension
+- People whose only income is other state benefits, e.g. job seekers allowance, disability benefits
 
 ## Methods of Payment
-1) Pay online, and send us an email to <a href="mailto:membership@swindonfilm.org.uk">membership@swindonfilm.org.uk</a> about your payment.
+
+1. Pay online, and send us an email to <a href="mailto:membership@swindonfilm.org.uk">membership@swindonfilm.org.uk</a> about your payment.
 
 > SFS bank account: Co-operative Bank  
 > Sort code : 08-92-99  
-> Account number: 65593112  
+> Account number: 65593112
 
-2) Alternatively, you can now pay your membership by card if you join at the Arts Centre
+2. Alternatively, you can now pay your membership by card if you join at the Arts Centre
 
-3) Or, click on the link below, and print the page, then bring the completed application form with you on a film night.
+3. Or, click on the link below, and print the page, then bring the completed application form with you on a film night.
 
 > <a href="/membership-form/" target="_blank"><strong>Click for membership form</strong></a>
 
-4) Send us the form with a cheque payable to “Swindon Film Society”, at the following address:
+4. Send us the form with a cheque payable to “Swindon Film Society”, at the following address:
 
 > Membership Secretary  
 > 37 Belle Vue Road  
-> Swindon SN1 3HN  
+> Swindon SN1 3HN
 
 Your membership card will be available for you when you come to your first film.
 
