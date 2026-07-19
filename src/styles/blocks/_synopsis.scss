@@ -62,9 +62,9 @@
   & .review__author {
     text-align: end;
     font-style: italic;
+    margin-block-end: 1rem;
 
     &.review__author--review1 {
-      margin-block-end: 1rem;
       break-after: always;
     }
   }
