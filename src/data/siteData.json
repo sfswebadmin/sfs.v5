@@ -1,5 +1,7 @@
 {
   "author": "Swindon Film Society",
   "description": "For the best in world cinema",
-  "filmseason": "2026-2027"
+  "filmseason": "2026-2027",
+  "fullMembershipCost": "85",
+  "paygMembershipCost": "5"
 }
