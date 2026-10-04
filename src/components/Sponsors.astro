@@ -1,0 +1,29 @@
+---
+import { Image } from "astro:assets";
+
+import bfiLogo from "../assets/images/sponsors/bfionelottery.png";
+import deaconsLogo from "../assets/images/sponsors/deacons.png";
+import hainesLogo from "../assets/images/sponsors/haineswatts.jpg";
+import sfhLogo from "../assets/images/sponsors/storiesofhome.png";
+
+---
+
+  <section class="sponsors">
+    <div class="container">
+      <h2 class="sponsors__heading">Our Sponsors</h2>
+      <div class="sponsors__grid">
+        <a href="https://www.bfi.org.uk/" class="sponsor__link">
+          <Image src={bfiLogo} alt="British Film Institute" class="sponsor__image" />
+        </a>
+        <a href="https://www.deacons-jewellers.com/" class="sponsor__link">
+          <Image src={deaconsLogo} alt="Deacons" class="sponsor__image" />
+        </a>
+        <a href="https://www.hwca.com/" class="sponsor__link">
+          <Image src={hainesLogo} alt="Haines Watts" class="sponsor__image" />
+        </a>
+        <a href="https://createstudios.org.uk/blog/stories-of-home/" class="sponsor__link">
+          <Image src={sfhLogo} alt="Stories from Home Project" class="sponsor__image" />
+        </a>
+      </div>
+    </div>
+  </section>

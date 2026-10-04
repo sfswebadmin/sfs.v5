@@ -10,6 +10,7 @@
 @use 'blocks/poster-panels';
 @use 'blocks/film-article';
 @use 'blocks/footer';
+@use 'blocks/sponsors';
 
 body {
   font-family: fonts.$ff-primary;

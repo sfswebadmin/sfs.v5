@@ -1,0 +1,40 @@
+@use '../color';
+
+.sponsors {
+  padding-block: 1.5rem;
+  background-color: color.$sponsor-background;
+  border-top-color: color.$primary-bg;
+  border-top-width: 5px;
+  border-top-style: solid;
+}
+
+.sponsors__heading {
+  color: color.$sponsor-text-color;
+}
+
+.sponsors__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.sponsor__link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+.sponsor__image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .sponsors__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

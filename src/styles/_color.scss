@@ -13,6 +13,8 @@ $clr-neutral-600: #595959;
 $clr-neutral-800: #282727;
 $clr-neutral-900: #000000;
 
+$clr-blue-400: #4169e1;
+
 $poster-box-bg: $clr-neutral-200;
 
 $membership-box-bg: color.adjust($primary-bg, $lightness: 15%);
@@ -38,3 +40,8 @@ $btn-tertiary-bg: color.adjust($primary-bg, $lightness: -15%);
 $btn-tertiary-clr: $clr-neutral-100;
 $btn-tertiary-bg-hover: color.adjust($primary-bg, $lightness: 35%);
 $btn-tertiary-clr-hover: $clr-neutral-900;
+
+/* Sponsors */
+$sponsor-background: $clr-blue-400;
+$sponsor-text-color: $clr-neutral-200;
+$sponsor-section-border: color.adjust($clr-blue-400, $lightness: -25%);
