@@ -23,6 +23,11 @@ const filmsSortedByDate = Object.values(import.meta.glob('../pages/synopsis/*.md
     <section class="col-lg-12">
         <a id="sfsfilms"></a>
         <h2>Our film season for {siteData.filmseason}</h2>
+        <p>
+            These screenings are part of Stories of Home, a cross-community project supported 
+            by BFI and National Lottery funding, which aims to bring connection and community 
+            through film in Swindon, Wiltshire and Gloucestershire.
+        </p>
         <hr>
         {
             filmsSortedByDate.map((film) => (
