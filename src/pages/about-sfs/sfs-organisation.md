@@ -9,7 +9,6 @@ keywords:
 
 ## About Us
 
-
 Swindon Film has been at the heart of entertainment in Old Town for more than 75 years! Every year we show the best and widest variety of films that international cinema has to offer.
 
 Swindon Film is a membership organisation. However, guests are welcome to come along, buy tickets on the door, and enjoy our films at highly competitive prices. Membership provides even lower ticket prices plus other benefits.
@@ -35,7 +34,7 @@ Lyndy Griffin
 Rosemary Young
 
 **Marketing**  
-Sue Pycroft 
+Sue Pycroft
 
 **Web Developer**  
 Richard Turpin
@@ -43,7 +42,7 @@ Richard Turpin
 **Front of House**  
 Roger Griffin  
 Patrick Aynie  
-Diane Miles  
+Diane Miles
 
 **Film Selection**  
 All
@@ -115,7 +114,7 @@ The committee meets about once a month or less throughout the year. If you are i
             <td>Accounts Income and Expenditure</td>
             <td><a href="/documents/SFS_Financial_Report_2023-24.pdf">PDF</a></td>
         </tr>       
-        <tr id="current-reports">
+        <tr>
             <td>2024-25</td>
             <td>Annual Report</td>
             <td><a href="/documents/SFS_Annual_Report_2024-25.pdf">PDF</a></td>
@@ -124,6 +123,16 @@ The committee meets about once a month or less throughout the year. If you are i
             <td>2024-25</td>
             <td>Accounts Income and Expenditure</td>
             <td><a href="/documents/SFS_Financial_Report_2024-25.pdf">PDF</a></td>
+        </tr>       
+        <tr id="current-reports">
+            <td>2025-26</td>
+            <td>Annual Report</td>
+            <td><a href="/documents/SFS_Annual_Report_2025-26.pdf">PDF</a></td>
+         <tr>
+        <tr>
+            <td>2025-26</td>
+            <td>Accounts Income and Expenditure</td>
+            <td><a href="/documents/SFS_Financial_Report_2025-26.pdf">PDF</a></td>
         </tr>       
         <tr>
             <td>2020</td>
