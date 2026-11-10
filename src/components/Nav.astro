@@ -31,3 +31,54 @@ import navLinks from '../data/mainNav.json';
     </div>
   </div>
 </nav>
+
+<style>
+  .navbar {
+    background-color: var(--primary-bg);
+    border-color: var(--navbar-border-clr);
+    border-radius: 0;
+  }
+
+  .navbar-toggler {
+    border-color: var(--clr-neutral-100);
+  }
+
+  .navbar-default .navbar-collapse {
+    background-color: var(--primary-bg);
+  }
+
+  .navbar-header {
+    background-color: var(--primary-bg);
+  }
+
+  .navbar-nav .nav-link {
+    color: var(--clr-neutral-100);
+  }
+
+  .navbar-nav > .active > a,
+  .navbar-nav > .active > a:focus,
+  .navbar-nav > .active > a:hover {
+    background-color: var(--navbar-active);
+    color: var(--clr-neutral-100);
+  }
+
+  .navbar-nav > li > a:focus,
+  .navbar-nav > li > a:hover {
+    background-color: var(--navbar-hover);
+    color: var(--clr-neutral-100);
+  }
+
+  /* Hamburger icon, the stroke color is between the %28....%29 */
+  .navbar-light.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.85%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+
+  @media screen and (min-width: 992px) {
+    .navbar {
+      padding-block: 0;
+    }
+    .navbar-nav .nav-link {
+      padding-block: 1rem;
+    }
+  }
+</style>
