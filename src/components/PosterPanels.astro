@@ -2,76 +2,117 @@
 import { ImageMetadata } from 'astro';
 import { Image } from 'astro:assets';
 
-const {films} = Astro.props;
+const { films } = Astro.props;
 
 // filter the films that are equal to or newer than today's date
 const today = Date.now();
 const filteredFilms = films.filter((film) => {
-    const viewingDate = new Date(film.frontmatter.viewingDate).getTime();
-    return viewingDate > today;
+  const viewingDate = new Date(film.frontmatter.viewingDate).getTime();
+  return viewingDate > today;
 });
 
 // set the variables for the heading and sub-heading
 let hasSubHeading = true;
-let bannerTitle = "The next three films in our season";
+let bannerTitle = 'The next three films in our season';
 
 if (filteredFilms.length === films.length) {
- bannerTitle = "The first three films in our season";
+  bannerTitle = 'The first three films in our season';
 }
 
 // get the next three films in the season
-const bannerFilms = filteredFilms.slice(0,3);
+const bannerFilms = filteredFilms.slice(0, 3);
 
 if (bannerFilms.length == 2) {
-    bannerTitle = "The last two films in our season";
+  bannerTitle = 'The last two films in our season';
 }
 
 if (bannerFilms.length == 1) {
-    bannerTitle = "The last film of our season";
+  bannerTitle = 'The last film of our season';
 }
 
 if (bannerFilms.length == 0) {
-    bannerTitle = "Our current film season has concluded";
-    hasSubHeading = false;
+  bannerTitle = 'Our current film season has concluded';
+  hasSubHeading = false;
 }
 
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/images/posters/*.{jpeg,jpg,png,gif,webp}');
-const posters = bannerFilms.map(film => {
-    return {
-        taglink: film.frontmatter.taglink,
-        imagePosterPath: "/src/assets/images/posters/" + film.frontmatter.posterImage,
-        title: film.frontmatter.title,
-        viewingDate: new Date(film.frontmatter.viewingDate).toDateString(),
-}});
+const posters = bannerFilms.map((film) => {
+  return {
+    taglink: film.frontmatter.taglink,
+    imagePosterPath: '/src/assets/images/posters/' + film.frontmatter.posterImage,
+    title: film.frontmatter.title,
+    viewingDate: new Date(film.frontmatter.viewingDate).toDateString(),
+  };
+});
 ---
-    <div class="row">
-        <section class="col-lg-12">
-            <h2>{bannerTitle}</h2>
-            <h3 class:list={[{ "d-none" : hasSubHeading }]}>Our new season starts in September</h3>
-            <hr>
-            <div class="row">
-                {
-                    posters.map((film) => (
-                        <div class="col-lg-4">
-                            <a href={"#" + film.taglink} class="poster-box-link">
-                            <div class="poster-box">
-                                <p>
-                                    Showing: {film.viewingDate}
-                                </p>
-                                <Image
-                                    src={images[film.imagePosterPath]()}
-                                    alt={film.title + " film poster"}
-                                    class="img-responsive poster-box__image"
-                                    width="206"
-                                    height="305"
-                                />
-                                <p class="poster-box__more-info"> More Info...  </p>
-                                </div>
-                            </a>
-                        </div>
-                    ))
-                }
-            </div>
-        </section>
-        <!-- end of banner section -->
+
+<div class='row'>
+  <section class='col-lg-12'>
+    <h2>{bannerTitle}</h2>
+    <h3 class:list={[{ 'd-none': hasSubHeading }]}>Our new season starts in September</h3>
+    <hr />
+    <div class='row'>
+      {
+        posters.map((film) => (
+          <div class='col-lg-4'>
+            <a href={'#' + film.taglink} class='poster-box-link'>
+              <div class='poster-box'>
+                <p>Showing: {film.viewingDate}</p>
+                <Image
+                  src={images[film.imagePosterPath]()}
+                  alt={film.title + ' film poster'}
+                  class='img-responsive poster-box__image'
+                  width='206'
+                  height='305'
+                />
+                <p class='poster-box__more-info'> More Info... </p>
+              </div>
+            </a>
+          </div>
+        ))
+      }
     </div>
+  </section>
+  <!-- end of banner section -->
+</div>
+
+<style>
+  .poster-box-link {
+    text-decoration: none;
+  }
+
+  .poster-box {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--poster-box-bg);
+    border-radius: 5px;
+    color: var(--clr-neutral-800);
+    font-weight: var(--fw-700);
+    cursor: pointer;
+    transition: all 0.4s ease;
+
+    & .poster-box-date {
+      padding-top: 3px;
+      padding-bottom: 3px;
+    }
+
+    & .poster-box__image {
+      margin: 0 auto;
+      width: 206px;
+    }
+
+    & .poster-box__more-info {
+      margin-bottom: 0;
+      padding-block: 0.5rem 1rem;
+    }
+  }
+
+  .poster-box:hover .poster-box__more-info,
+  .poster-box:focus .poster-box__more-info {
+    text-decoration: underline;
+  }
+</style>

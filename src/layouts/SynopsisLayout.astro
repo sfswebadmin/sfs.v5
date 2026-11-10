@@ -1,76 +1,159 @@
 ---
-import BaseLayout from "./Base.astro";
+import BaseLayout from './Base.astro';
 
-import {getMonthName} from '../js/utils.js';
+import { getMonthName } from '../js/utils.js';
 
 const { frontmatter } = Astro.props;
 
 const {
-    title,
-    filmOriginalTitle,
-    country,
-    releaseDate,
-    duration,
-    genreName,
-    cast,
-    locationShowing,
-    pdfLink,
-    synopsis,
-    directorsWriters,
-    viewingDate
+  title,
+  filmOriginalTitle,
+  country,
+  releaseDate,
+  duration,
+  genreName,
+  cast,
+  locationShowing,
+  pdfLink,
+  synopsis,
+  directorsWriters,
+  viewingDate,
 } = frontmatter;
 
-const documentPath = '/documents/films/' + pdfLink; 
+const documentPath = '/documents/films/' + pdfLink;
 
 let viewYear = '';
 let viewDay = '';
 let viewMonth = '';
 
 if (viewingDate) {
-    const filmDate = new Date(viewingDate);
-    viewYear = filmDate.getUTCFullYear().toString();
-    viewDay = filmDate.getUTCDate().toString();
-    viewMonth = getMonthName(filmDate.getUTCMonth());
-} 
+  const filmDate = new Date(viewingDate);
+  viewYear = filmDate.getUTCFullYear().toString();
+  viewDay = filmDate.getUTCDate().toString();
+  viewMonth = getMonthName(filmDate.getUTCMonth());
+}
 ---
 
 <BaseLayout title={title}>
-    <div class="col-md-9">
-        <section>
-            <div class="row">
-                <div class="col-xs-12 col-md-10">
-                    <h1>{title.toUpperCase()}</h1>
-                </div>
-                <div class="col-xs-12 col-md-2 text-center">
-                    <a href={documentPath} target="_blank">
-                        <i class="fa fa-file-pdf-o fa-3x" aria-hidden="true"
-                        ></i><br />
-                        <span class="text-center"> Download PDF</span>
-                    </a>
-                </div>
-            </div>
-            <p>
-                <strong class:list={[{ "d-none": filmOriginalTitle === null }]}
-                    >{"(Original Title: " + filmOriginalTitle + ")"}</strong
-                ><br />
-                <strong>{country} ({releaseDate})</strong> {duration}.<br>
-                <strong>Genre:</strong> {genreName}<br>
-                <strong>Directors/writers:</strong> {directorsWriters}<br>
-                <strong>Cast:</strong> {cast}
-            </p>
-            <h4 class="text-center">
-                Screening {viewDay} {viewMonth} {viewYear} at {locationShowing}
-            </h4>
-        </section>
-        <section class="review">
-            <h2>Synopsis</h2>
-            <p>
-                {synopsis}
-            </p>
-            <h2>Reviews</h2>
-            <div class="review__content">
-                <slot />
-            </div>
-        </section>
-    </div>
+  <div class='col-md-9'>
+    <section>
+      <div class='row'>
+        <div class='col-xs-12 col-md-10'>
+          <h1>{title.toUpperCase()}</h1>
+        </div>
+        <div class='col-xs-12 col-md-2 text-center'>
+          <a href={documentPath} target='_blank'>
+            <i class='fa fa-file-pdf-o fa-3x' aria-hidden='true'></i><br />
+            <span class='text-center'> Download PDF</span>
+          </a>
+        </div>
+      </div>
+      <p>
+        <strong class:list={[{ 'd-none': filmOriginalTitle === null }]}>{'(Original Title: ' + filmOriginalTitle + ')'}</strong><br />
+        <strong>{country} ({releaseDate})</strong>
+        {duration}.<br />
+        <strong>Genre:</strong>
+        {genreName}<br />
+        <strong>Directors/writers:</strong>
+        {directorsWriters}<br />
+        <strong>Cast:</strong>
+        {cast}
+      </p>
+      <h4 class='text-center'>
+        Screening {viewDay}
+        {viewMonth}
+        {viewYear} at {locationShowing}
+      </h4>
+    </section>
+    <section class='review'>
+      <h2>Synopsis</h2>
+      <p>
+        {synopsis}
+      </p>
+      <h2>Reviews</h2>
+      <div class='review__content'>
+        <slot />
+      </div>
+    </section>
+  </div>
 </BaseLayout>
+
+<style>
+  .synopsis-headings {
+    border-top: 2px solid var(--clr-neutral-400);
+    border-bottom: 2px solid var(--clr-neutral-400);
+    margin-top: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+
+  .synopsis-review-heading {
+    border-top: 2px solid var(--clr-neutral-400);
+    border-bottom: 2px solid var(--clr-neutral-400);
+    margin-top: 5px;
+    padding-top: 3px;
+  }
+
+  .synopsis-screening-date {
+    text-align: center;
+    font-style: italic;
+  }
+
+  .synopsis-sfs-title {
+    text-align: center;
+    font-weight: var(--fw-700);
+  }
+
+  .synopsis-image-full-page {
+    margin-bottom: 15px;
+  }
+
+  .main-programme > div > img {
+    margin-top: 10px;
+  }
+
+  .review {
+    text-align: start;
+
+    h2,
+    h3 {
+      border-bottom: 2px solid grey;
+      border-top: 2px solid grey;
+      margin-top: 0.4rem;
+      padding-block: 0.25rem;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      object-fit: cover;
+      padding-block-start: 0.5rem;
+      padding-block-end: 1rem;
+    }
+
+    & .review__content {
+      columns: unset;
+    }
+
+    & .review__author {
+      text-align: end;
+      font-style: italic;
+      margin-block-end: 1rem;
+
+      &.review__author--review1 {
+        break-after: always;
+      }
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    .review {
+      & .review__content {
+        column-count: 2;
+        column-width: auto;
+        column-gap: 2rem;
+      }
+    }
+  }
+</style>
