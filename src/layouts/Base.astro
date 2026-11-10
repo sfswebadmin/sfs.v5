@@ -1,76 +1,79 @@
 ---
 import Header from '../components/Header.astro';
 import Nav from '../components/Nav.astro';
-import Sponsors from "../components/Sponsors.astro";
+import Sponsors from '../components/Sponsors.astro';
 import Footer from '../components/Footer.astro';
 
-import '../styles/styles.scss';
-
 const { title, description, keywords } = Astro.props;
-
 ---
 
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SFS - {title}</title>
 
-  <title>SFS - {title}</title>
+    <meta name='description' content={description} />
+    <meta name='keywords' content={keywords} />
+    <meta name='author' content='Swindon Film Society' />
 
-  <meta name="description" content={description}>
-  <meta name="keywords" content={keywords}>
-  <meta name="author" content="Swindon Film Society">
+    <!-- Google Tag Manager -->
+    <script is:inline>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-55TGQTV');
+    </script>
+    <!-- End Google Tag Manager -->
 
-  <!-- Google Tag Manager -->
-  <script is:inline>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-55TGQTV');</script>
-  <!-- End Google Tag Manager -->
+    <link rel='icon' type='image/x-icon' href='/img/sfs.ico' />
 
-  <link rel="icon" type="image/x-icon" href="/img/sfs.ico">
+    <!-- Latest compiled and minified CSS -->
+    <link rel='stylesheet' href='/css/bootstrap.min.css' />
+    <link rel='stylesheet' href='/css/font-awesome.min.css' />
+    <link href='//cdn-images.mailchimp.com/embedcode/classic-061523.css' rel='stylesheet' type='text/css' />
+    <style lang='scss'></style>
+  </head>
 
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/css/font-awesome.min.css">
-  <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
-  <style lang="scss"></style>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-55TGQTV' height='0' width='0' style='display:none;visibility:hidden'
+      ></iframe></noscript
+    >
+    <!-- End Google Tag Manager (noscript) -->
 
-</head>
+    <Header />
 
-<body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-55TGQTV"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
+    <Nav />
 
-  <Header></Header>
-
-  <Nav></Nav>
-
-  <main>
-    <div class="container">
-      <div class="row">
-        <slot />
+    <main>
+      <div class='container'>
+        <div class='row'>
+          <slot />
+        </div>
       </div>
-    </div>
-  </main>
+    </main>
 
-  <Sponsors></Sponsors>
+    <Sponsors />
 
-  <Footer></Footer>
+    <Footer />
 
-  <script src="/js/bootstrap.min.js" is:inline></script>
-</body>
-
+    <script src='/js/bootstrap.min.js' is:inline></script>
+  </body>
 </html>
 
 <style is:global>
   :root {
-      --base-color: #3b52a0;
+    --base-color: #3b52a0;
 
     --primary-bg: var(--base-color);
     --primary-clr: var(--base-color);
@@ -117,12 +120,73 @@ const { title, description, keywords } = Astro.props;
     --sponsor-section-border: color-mix(in srgb, var(--clr-blue-400) 50%, black);
 
     /* Fonts */
-    --ff-primary: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif,
-      'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    --ff-primary:
+      system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji',
+      'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 
     --fw-200: 200;
     --fw-400: 400;
     --fw-600: 600;
-    --fw-700: 700;  
+    --fw-700: 700;
+  }
+
+  body {
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-400);
+
+    background: var(--clr-neutral-100);
+    color: var(--clr-neutral-900);
+  }
+
+  main {
+    margin-block: 3rem;
+  }
+
+  a {
+    color: var(--primary-clr);
+  }
+
+  blockquote {
+    border-left: none;
+    font-size: 1.2em;
+  }
+
+  .btn-agm-reports {
+    background-color: #3b52a0;
+  }
+
+  .btn-agm-reports:hover,
+  .btn-agm-reports:focus {
+    background-color: #5779e7;
+  }
+
+  .table {
+    border: 1px solid var(--clr-neutral-900);
+    margin-bottom: 10px;
+
+    & > :not(caption) > * > * {
+      background-color: var(--primary-bg);
+    }
+
+    & thead tr th,
+    & tbody tr td {
+      padding: 7px;
+      border: 1px solid var(--clr-neutral-900);
+    }
+
+    & thead tr th {
+      background-color: var(--primary-clr);
+      color: var(--clr-neutral-100);
+    }
+
+    & tbody tr td {
+      background-color: var(--clr-neutral-100);
+      color: var(--clr-neutral-900);
+    }
+
+    & tfoot tr td {
+      background: none;
+      font-weight: var(--fw-600);
+    }
   }
 </style>

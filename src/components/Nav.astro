@@ -1,19 +1,33 @@
 ---
 import navLinks from '../data/mainNav.json';
-import NavLink from './NavLink.astro';
 ---
+
 <!-- Nav -->
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-light navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          {navLinks.map(link => (
-            <NavLink title={link.title} url={link.url} />
-          ))}
-        </ul>
-      </div>
+<nav class='navbar navbar-expand-lg bg-body-tertiary'>
+  <div class='container'>
+    <button
+      class='navbar-toggler'
+      type='button'
+      data-bs-toggle='collapse'
+      data-bs-target='#navbarSupportedContent'
+      aria-controls='navbarSupportedContent'
+      aria-expanded='false'
+      aria-label='Toggle navigation'
+    >
+      <span class='navbar-light navbar-toggler-icon'></span>
+    </button>
+    <div class='collapse navbar-collapse' id='navbarSupportedContent'>
+      <ul class='navbar-nav me-auto mb-2 mb-lg-0'>
+        {
+          navLinks.map((link) => (
+            <li class='nav-item'>
+              <a class='nav-link' href={link.url}>
+                {link.title}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
