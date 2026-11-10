@@ -1,55 +1,75 @@
 ---
 // import layout
-import BaseLayout from "../layouts/Base.astro";
+import BaseLayout from '../layouts/Base.astro';
 
 // import data
 import siteData from '../data/siteData.json';
 // import films component
-import Films from "../components/Films.astro";
+import Films from '../components/Films.astro';
 
-const title = 'Home'
-const description = "For the best in world cinema and UK independent cinema";
-const keywords = "films,movies,foreign,uk,independent";
+const title = 'Home';
+const description = 'For the best in world cinema and UK independent cinema';
+const keywords = 'films,movies,foreign,uk,independent';
 ---
 
 <BaseLayout title={title} description={description} keywords={keywords}>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-9">
-                <h1>Welcome to Swindon Film</h1>
-                <p>
-                    We show some of the best films that international cinema has to offer &ndash; in the heart of
-                    Swindon's Old Town, on a large screen,
-                    with tiered seating, refreshments &ndash; and at a highly competitive price!
-                </p>
-                <p>
-                    For the lowest prices, sign up to be a full member &ndash; you'll see 14 films for just under 
-                    £6 a film.
-                </p>
-                <p>
-                    Or try associate membership &ndash; just pay a one-off fee of £5 and then it's £9 per film (£8 for
-                    concessions). Visitors pay £10 a film.
-                </p>
-                <p>
-                    <strong>Doors open 30 minutes before a show. We don't show any pre-film adverts, so please make sure
-                        to arrive in good time to get your ticket, grab any refreshments and take your seat.</strong>
-                </p>
-                <p>
-                    Look below for the great selection of films we've got this year…
-                </p>
-            </div>
-            <div class="col-lg-3">
-                <div class="membership-box">
-                    <h2 class="text-center">Become a member</h2>
-                    <div class="membership-box-button">
-                        <a href="/membership/" role="button" class="btn btn-membership">
-                            Membership and Tickets
-                        </a>
-                    </div>
-                </div>
-            </div>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-lg-9'>
+        <h1>Welcome to Swindon Film</h1>
+        <p>
+          We show some of the best films that international cinema has to offer &ndash; in the heart of Swindon's Old Town, on a large screen, with
+          tiered seating, refreshments &ndash; and at a highly competitive price!
+        </p>
+        <p>For the lowest prices, sign up to be a full member &ndash; you'll see 14 films for just under £6 a film.</p>
+        <p>
+          Or try associate membership &ndash; just pay a one-off fee of £5 and then it's £9 per film (£8 for concessions). Visitors pay £10 a film.
+        </p>
+        <p>
+          <strong
+            >Doors open 30 minutes before a show. We don't show any pre-film adverts, so please make sure to arrive in good time to get your ticket,
+            grab any refreshments and take your seat.</strong
+          >
+        </p>
+        <p>Look below for the great selection of films we've got this year…</p>
+      </div>
+      <div class='col-lg-3'>
+        <div class='membership-box'>
+          <h2 class='text-center'>Become a member</h2>
+          <div class='membership-box-button'>
+            <a href='/membership/' role='button' class='btn btn-membership'> Membership and Tickets </a>
+          </div>
         </div>
-        <Films siteData={siteData} />
-
+      </div>
     </div>
+    <Films siteData={siteData} />
+  </div>
 </BaseLayout>
+
+<style>
+  .membership-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 10px;
+    background-color: var(--membership-box-bg);
+    color: var(--clr-neutral-100);
+    box-shadow: 3px 3px 13px -1px rgba(0, 0, 0, 0.75);
+  }
+
+  .membership-box h3 {
+    margin-bottom: 1.4rem;
+  }
+
+  .membership-box-button {
+    padding-bottom: 10px;
+  }
+
+  @media screen and (min-width: 992px) {
+    .membership-box {
+      margin-top: 55px;
+      margin-bottom: 0;
+    }
+  }
+</style>
