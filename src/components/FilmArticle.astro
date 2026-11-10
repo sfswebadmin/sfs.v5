@@ -1,11 +1,11 @@
 ---
-import {getDayOfWeekName, getMonthName} from '../js/utils.js';
+import { getDayOfWeekName, getMonthName } from '../js/utils.js';
 import type { ImageMetadata } from 'astro';
 import { Image } from 'astro:assets';
 
-const {film, synopsisLink} = Astro.props;
+const { film, synopsisLink } = Astro.props;
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/images/films/*.{jpeg,jpg,png,gif,webp}');
-const imagePath = "/src/assets/images/films/" + film.filmImage;
+const imagePath = '/src/assets/images/films/' + film.filmImage;
 
 let viewYear = '';
 let viewDay = '';
@@ -14,79 +14,110 @@ let viewMonth = '';
 let viewTime = '';
 
 if (film.viewingDate) {
-    const filmDate = new Date(film.viewingDate);
-    viewYear = filmDate.getUTCFullYear().toString();
-    viewMonth = getMonthName(filmDate.getUTCMonth());
-    viewDay = filmDate.getUTCDate().toString();
-    viewDayOfMonth = getDayOfWeekName(filmDate.getUTCDay());
-    viewTime = filmDate.getUTCHours() + ':' + filmDate.getUTCMinutes();
+  const filmDate = new Date(film.viewingDate);
+  viewYear = filmDate.getUTCFullYear().toString();
+  viewMonth = getMonthName(filmDate.getUTCMonth());
+  viewDay = filmDate.getUTCDate().toString();
+  viewDayOfMonth = getDayOfWeekName(filmDate.getUTCDay());
+  viewTime = filmDate.getUTCHours() + ':' + filmDate.getUTCMinutes();
 }
 ---
 
-        <article class="row film-article">
-            <a id={film.taglink} />
-            <div class="col-lg-4">
-                <Image src={images[imagePath]()} width="440" class="img-fluid"
-                    alt={`${film.title} film screenshot`} loading="lazy" />
-            </div>
-            <div class="col-lg-8">
-                <h3>{film.title.toUpperCase()}</h3>
-                <p class="film-article__date">
-                    {viewDayOfMonth} {viewDay} {viewMonth} {viewYear}, {viewTime}, {film.locationShowing}
-                </p>
-                <p class="film-article__info">
-                    {film.releaseDate} | {film.country} |{" "}
-                    {film.duration} | {film.certificate} |{" "}
-                    {film.genreName}
-                </p>
-                <div class="film-article__snippet">
-                    {film.frontPageSnippet}
-                </div>
-                <div class="row button-bar">
-                    <div class="col-lg-12 mt-3 front-page-buttons">
-                        <a href={film.trailerLink} role="button" class="btn btn-normal" target="_blank">
-                            Trailer
-                        </a>
-                        <a href={film.reviewsLink} role="button" class="btn btn-normal" target="_blank">
-                            Reviews
-                        </a>
-                        <a href={synopsisLink} role="button" class="btn btn-normal">
-                            Synopsis
-                        </a>
-                        <a href="/membership/" role="button" class:list={["btn", "btn-default", "btn-tickets", { "d-none": film.attendance !== null }]}>
-                            Tickets
-                        </a>
-                    </div>
-                </div>
-                <div class:list={[{ "d-none": film.attendance === null }]}>
-                    <div class="table-responsive mt-2">
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th>Attendance</th>
-                                    <th>Returns</th>
-                                    <th>5 <i class="fa fa-star" aria-hidden="true"></i></th>
-                                    <th>4 <i class="fa fa-star" aria-hidden="true"></i></th>
-                                    <th>3 <i class="fa fa-star" aria-hidden="true"></i></th>
-                                    <th>2 <i class="fa fa-star" aria-hidden="true"></i></th>
-                                    <th>1 <i class="fa fa-star" aria-hidden="true"></i></th>
-                                    <th>Average</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>{film.attendance}</td>
-                                    <td>{film.returns}</td>
-                                    <td>{film.excellent}</td>
-                                    <td>{film.good}</td>
-                                    <td>{film.average}</td>
-                                    <td>{film.disappointing}</td>
-                                    <td>{film.awful} </td>
-                                    <td>{film.ratingsAverage}%</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </article>
+<article class='row film-article'>
+  <a id={film.taglink}></a>
+  <div class='col-lg-4'>
+    <Image src={images[imagePath]()} width='440' class='img-fluid' alt={`${film.title} film screenshot`} loading='lazy' />
+  </div>
+  <div class='col-lg-8'>
+    <h3>{film.title.toUpperCase()}</h3>
+    <p class='film-article__date'>
+      {viewDayOfMonth}
+      {viewDay}
+      {viewMonth}
+      {viewYear}, {viewTime}, {film.locationShowing}
+    </p>
+    <p class='film-article__info'>
+      {film.releaseDate} | {film.country} |{' '}
+      {film.duration} | {film.certificate} |{' '}
+      {film.genreName}
+    </p>
+    <div class='film-article__snippet'>
+      {film.frontPageSnippet}
+    </div>
+    <div class='row button-bar'>
+      <div class='col-lg-12 mt-3 front-page-buttons'>
+        <a href={film.trailerLink} role='button' class='btn btn-normal' target='_blank'> Trailer </a>
+        <a href={film.reviewsLink} role='button' class='btn btn-normal' target='_blank'> Reviews </a>
+        <a href={synopsisLink} role='button' class='btn btn-normal'> Synopsis </a>
+        <a href='/membership/' role='button' class:list={['btn', 'btn-default', 'btn-tickets', { 'd-none': film.attendance !== null }]}> Tickets </a>
+      </div>
+    </div>
+    <div class:list={[{ 'd-none': film.attendance === null }]}>
+      <div class='table-responsive mt-2'>
+        <table class='table'>
+          <thead>
+            <tr>
+              <th>Attendance</th>
+              <th>Returns</th>
+              <th>5 <i class='fa fa-star' aria-hidden='true'></i></th>
+              <th>4 <i class='fa fa-star' aria-hidden='true'></i></th>
+              <th>3 <i class='fa fa-star' aria-hidden='true'></i></th>
+              <th>2 <i class='fa fa-star' aria-hidden='true'></i></th>
+              <th>1 <i class='fa fa-star' aria-hidden='true'></i></th>
+              <th>Average</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>{film.attendance}</td>
+              <td>{film.returns}</td>
+              <td>{film.excellent}</td>
+              <td>{film.good}</td>
+              <td>{film.average}</td>
+              <td>{film.disappointing}</td>
+              <td>{film.awful} </td>
+              <td>{film.ratingsAverage}%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</article>
+
+<style>
+  .film-article {
+    margin-bottom: 2.5rem;
+
+    h3 {
+      margin-top: 0;
+    }
+
+    & .film-article__info {
+      color: var(--primary-clr);
+      font-weight: var(--fw-700);
+    }
+
+    & .film-article__date {
+      font-weight: var(--fw-700);
+      margin-bottom: 0;
+    }
+
+    & .front-page-buttons {
+      display: flex;
+      flex-direction: row;
+      gap: 0.25rem;
+      justify-content: flex-start;
+    }
+
+    & .front-page-buttons > a {
+      flex: 0 1 100%;
+    }
+
+    @media screen and (min-width: 1100px) {
+      & .front-page-buttons > a {
+        flex-basis: 20%;
+      }
+    }
+  }
+</style>
