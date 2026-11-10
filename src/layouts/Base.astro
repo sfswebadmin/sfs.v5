@@ -67,3 +67,62 @@ const { title, description, keywords } = Astro.props;
 </body>
 
 </html>
+
+<style is:global>
+  :root {
+      --base-color: #3b52a0;
+
+    --primary-bg: var(--base-color);
+    --primary-clr: var(--base-color);
+
+    --clr-neutral-100: #ffffff;
+    --clr-neutral-200: #f8f8f8;
+    --clr-neutral-300: #e7e7e7;
+    --clr-neutral-400: #808080;
+    --clr-neutral-600: #595959;
+    --clr-neutral-800: #282727;
+    --clr-neutral-900: #000000;
+
+    --clr-blue-400: #4169e1;
+
+    --poster-box-bg: var(--clr-neutral-200);
+
+    --membership-box-bg: color-mix(in srgb, var(--primary-bg) 70%, white);
+
+    --navbar-hover: #5779e7;
+    --navbar-active: #263566;
+    --navbar-border-clr: color-mix(in srgb, var(--primary-bg) 80%, black);
+
+    /* all main buttons */
+    --btn-primary-bg: #ffc107;
+    --btn-primary-clr: var(--clr-neutral-900);
+    --btn-primary-bg-hover: #f8ce52;
+    --btn-primary-clr-hover: var(--clr-neutral-900);
+
+    /* ticket buttons */
+    --btn-secondary-bg: var(--primary-bg);
+    --btn-secondary-clr: var(--clr-neutral-100);
+    --btn-secondary-bg-hover: color-mix(in srgb, var(--primary-bg) 50%, white);
+    --btn-secondary-clr-hover: var(--clr-neutral-100);
+
+    /* membership homepage cta button */
+    --btn-tertiary-bg: color-mix(in srgb, var(--primary-bg) 70%, black);
+    --btn-tertiary-clr: var(--clr-neutral-100);
+    --btn-tertiary-bg-hover: color-mix(in srgb, var(--primary-bg) 30%, white);
+    --btn-tertiary-clr-hover: var(--clr-neutral-900);
+
+    /* Sponsors */
+    --sponsor-background: var(--clr-blue-400);
+    --sponsor-text-color: var(--clr-neutral-200);
+    --sponsor-section-border: color-mix(in srgb, var(--clr-blue-400) 50%, black);
+
+    /* Fonts */
+    --ff-primary: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif,
+      'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+    --fw-200: 200;
+    --fw-400: 400;
+    --fw-600: 600;
+    --fw-700: 700;  
+  }
+</style>
