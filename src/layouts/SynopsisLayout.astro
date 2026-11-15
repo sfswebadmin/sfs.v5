@@ -50,17 +50,13 @@ if (viewingDate) {
       </div>
       <p>
         <strong class:list={[{ 'd-none': filmOriginalTitle === null }]}>{'(Original Title: ' + filmOriginalTitle + ')'}</strong><br />
-        <strong>{country} ({releaseDate})</strong>
-        {duration}.<br />
-        <strong>Genre:</strong>
-        {genreName}<br />
-        <strong>Directors/writers:</strong>
-        {directorsWriters}<br />
-        <strong>Cast:</strong>
-        {cast}
+        <strong>{country} ({releaseDate})</strong> {duration}.<br />
+        <strong>Genre:</strong> {genreName}<br />
+        <strong>Directors/writers:</strong> {directorsWriters}<br />
+        <strong>Cast:</strong> {cast}
       </p>
       <h4 class='text-center'>
-        Screening {viewDay}, {viewMonth} {viewYear} at {locationShowing}
+        Screening {viewDay} {viewMonth} {viewYear} at {locationShowing}
       </h4>
     </section>
     <section class='review'>
