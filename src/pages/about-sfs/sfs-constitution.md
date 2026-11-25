@@ -46,7 +46,8 @@ keywords:
 
    4.7. The Committee shall appoint an independent person to inspect the Society’s annual accounts which shall be presented to the membership at the AGM.
 
-   4.8. The Society shall not be run for the private profit of a Member or Members. Any balance at the end of the year shall be carried over and devoted to the Objects of The Society.  
+   4.8. The Society shall not be run for the private profit of a Member or Members. Any balance at the end of the year shall be carried over and devoted to the Objects of The Society.
+
    4.9. No Members, or Committee Members, shall receive payment directly or indirectly for their services or for anything other than legitimate expenses incurred in work for The Society.
 
    4.10. The Society shall not be wound up except by a resolution of three-quarters of those present at a Special General Meeting called for that purpose. In the event of a winding up, the remaining funds of The Society shall not be distributed among members but be passed to a charitable organisation or organisations with objects similar to those of The Society. Such organisation(s) shall be chosen by the Committee in consultation with the British Federation of Film Societies or its equivalent body.
